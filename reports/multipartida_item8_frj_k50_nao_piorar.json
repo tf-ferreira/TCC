@@ -1,0 +1,143 @@
+{
+  "categoria": "frj",
+  "artefato": "rede_frj.pt",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle",
+    "semente": 0,
+    "gama_contextual": false
+  },
+  "hierarquia": "nao_piorar",
+  "n_pares": 12,
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "amostra": {
+    "tipo": "todas",
+    "n": 4022
+  },
+  "k": 50,
+  "resultados": [
+    {
+      "objetivo": "margem",
+      "k": 50,
+      "semente_partidas": 0,
+      "metodo": "SLSQP",
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_partidas_descartadas": 0.0,
+      "pct_solves_com_reserva": 1.1536548980606662,
+      "tempo_total_s": 950.2792715860205,
+      "tempo_por_celula_s": {
+        "mediana": 0.11580064650024724,
+        "p10": 0.07850892090000343,
+        "p90": 0.604870571099673,
+        "media": 0.2362703310755894
+      },
+      "ganho_pct_agregado_melhor": 21.920210553518316,
+      "melhoria_sobre_a_historica_pct": {
+        "mediana": 1.9114156968313978e-05,
+        "p10": 5.967457155087175e-06,
+        "p90": 0.001322914778145724,
+        "media": 0.05069176587374283
+      },
+      "pct_celulas_em_que_a_historica_JA_era_a_melhor": 9.995027349577326,
+      "dispersao_relativa_entre_partidas": {
+        "mediana": 5.539815101584042e-07,
+        "p10": 2.892490423241383e-07,
+        "p90": 0.006782465890898313,
+        "media": 0.0022576007682645763
+      },
+      "n_bacias_por_celula": {
+        "mediana": 2.0,
+        "p10": 1.0,
+        "p90": 3.0,
+        "media": 1.8873694679264048
+      },
+      "pct_celulas_com_uma_bacia_so": 45.59920437593237,
+      "interior_do_melhor_por_celula": {
+        "mediana": 5.0,
+        "p10": 2.0,
+        "p90": 8.0,
+        "media": 5.27473893585281
+      },
+      "pct_coord_interior_do_melhor": 26.373694679264048,
+      "desvio_do_interior_entre_partidas": {
+        "mediana": 1.7783700180083768,
+        "p10": 0.0,
+        "p90": 4.820111986727057,
+        "media": 2.060871357653021
+      }
+    },
+    {
+      "objetivo": "receita",
+      "k": 50,
+      "semente_partidas": 0,
+      "metodo": "SLSQP",
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_partidas_descartadas": 0.0,
+      "pct_solves_com_reserva": 7.631029338637494,
+      "tempo_total_s": 2039.9828922789738,
+      "tempo_por_celula_s": {
+        "mediana": 0.34756652100031715,
+        "p10": 0.04082259639999393,
+        "p90": 1.2476286455002996,
+        "media": 0.5072060895770696
+      },
+      "ganho_pct_agregado_melhor": 42.69441991487728,
+      "melhoria_sobre_a_historica_pct": {
+        "mediana": 0.014627249386567343,
+        "p10": 8.711214667389555e-06,
+        "p90": 4.375547619981679,
+        "media": 1.2335304464428325
+      },
+      "pct_celulas_em_que_a_historica_JA_era_a_melhor": 8.030830432620586,
+      "dispersao_relativa_entre_partidas": {
+        "mediana": 0.014112913484898782,
+        "p10": 4.2119505624909035e-06,
+        "p90": 0.061750802358247744,
+        "media": 0.022871697458852747
+      },
+      "n_bacias_por_celula": {
+        "mediana": 6.0,
+        "p10": 2.0,
+        "p90": 12.0,
+        "media": 6.5661362506215815
+      },
+      "pct_celulas_com_uma_bacia_so": 5.345599204375932,
+      "interior_do_melhor_por_celula": {
+        "mediana": 1.0,
+        "p10": 0.0,
+        "p90": 4.0,
+        "media": 2.4139731476877175
+      },
+      "pct_coord_interior_do_melhor": 12.069865738438589,
+      "desvio_do_interior_entre_partidas": {
+        "mediana": 3.752998796324243,
+        "p10": 0.5620315325054366,
+        "p90": 7.680885351330819,
+        "media": 3.961206878512848
+      }
+    }
+  ]
+}

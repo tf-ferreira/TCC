@@ -1,0 +1,458 @@
+{
+  "categoria": "frj",
+  "hierarquia": "nao_piorar",
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle"
+  },
+  "parte1": {
+    "elast_agregada": {
+      "media": -2.3214193391799927,
+      "desvio": 0.06073936891232803,
+      "erro_padrao": 0.008589843928579704,
+      "min": -2.4500463008880615,
+      "max": -2.136857032775879,
+      "amplitude": 0.3131892681121826,
+      "n": 50,
+      "ic95_media": [
+        -2.338255433280009,
+        -2.3045832450799764
+      ],
+      "faixa_entre_sementes": [
+        -2.4500463008880615,
+        -2.136857032775879
+      ],
+      "cruza_menos_um": false,
+      "alguma_semente_cruza_menos_um": false
+    },
+    "propria_ponderada": {
+      "media": -2.4198304319381716,
+      "desvio": 0.03206181199160278,
+      "erro_padrao": 0.004534224935278099,
+      "min": -2.5072004795074463,
+      "max": -2.3500001430511475,
+      "amplitude": 0.15720033645629883,
+      "n": 50
+    },
+    "pct_violacao_identidade": {
+      "media": 35.268523330688474,
+      "desvio": 10.278531255013787,
+      "erro_padrao": 1.4536038302116248,
+      "min": 14.02287483215332,
+      "max": 58.3789176940918,
+      "amplitude": 44.35604286193848,
+      "n": 50
+    },
+    "por_semente": [
+      {
+        "semente": 0,
+        "elast_agregada": -2.4042022228240967,
+        "propria_ponderada": -2.4256057739257812,
+        "pct_violacao": 48.93088150024414
+      },
+      {
+        "semente": 1,
+        "elast_agregada": -2.388824701309204,
+        "propria_ponderada": -2.400944471359253,
+        "pct_violacao": 52.11337661743164
+      },
+      {
+        "semente": 2,
+        "elast_agregada": -2.372603416442871,
+        "propria_ponderada": -2.446135997772217,
+        "pct_violacao": 41.32272720336914
+      },
+      {
+        "semente": 3,
+        "elast_agregada": -2.420447587966919,
+        "propria_ponderada": -2.3938097953796387,
+        "pct_violacao": 55.39532470703125
+      },
+      {
+        "semente": 4,
+        "elast_agregada": -2.231997013092041,
+        "propria_ponderada": -2.3565759658813477,
+        "pct_violacao": 31.551467895507812
+      },
+      {
+        "semente": 5,
+        "elast_agregada": -2.3532207012176514,
+        "propria_ponderada": -2.458911895751953,
+        "pct_violacao": 34.336151123046875
+      },
+      {
+        "semente": 6,
+        "elast_agregada": -2.36305570602417,
+        "propria_ponderada": -2.3995351791381836,
+        "pct_violacao": 44.679264068603516
+      },
+      {
+        "semente": 7,
+        "elast_agregada": -2.371509075164795,
+        "propria_ponderada": -2.418797016143799,
+        "pct_violacao": 43.58528137207031
+      },
+      {
+        "semente": 8,
+        "elast_agregada": -2.4500463008880615,
+        "propria_ponderada": -2.3998284339904785,
+        "pct_violacao": 58.3789176940918
+      },
+      {
+        "semente": 9,
+        "elast_agregada": -2.3347020149230957,
+        "propria_ponderada": -2.3586339950561523,
+        "pct_violacao": 48.483341217041016
+      },
+      {
+        "semente": 10,
+        "elast_agregada": -2.2789666652679443,
+        "propria_ponderada": -2.4017655849456787,
+        "pct_violacao": 29.438091278076172
+      },
+      {
+        "semente": 11,
+        "elast_agregada": -2.376213312149048,
+        "propria_ponderada": -2.426997661590576,
+        "pct_violacao": 42.565887451171875
+      },
+      {
+        "semente": 12,
+        "elast_agregada": -2.360853910446167,
+        "propria_ponderada": -2.4259066581726074,
+        "pct_violacao": 38.4385871887207
+      },
+      {
+        "semente": 13,
+        "elast_agregada": -2.297182321548462,
+        "propria_ponderada": -2.3801629543304443,
+        "pct_violacao": 37.84186935424805
+      },
+      {
+        "semente": 14,
+        "elast_agregada": -2.2676734924316406,
+        "propria_ponderada": -2.3813655376434326,
+        "pct_violacao": 34.261558532714844
+      },
+      {
+        "semente": 15,
+        "elast_agregada": -2.358927011489868,
+        "propria_ponderada": -2.443481922149658,
+        "pct_violacao": 39.582298278808594
+      },
+      {
+        "semente": 16,
+        "elast_agregada": -2.363646984100342,
+        "propria_ponderada": -2.427032947540283,
+        "pct_violacao": 41.2978630065918
+      },
+      {
+        "semente": 17,
+        "elast_agregada": -2.4042458534240723,
+        "propria_ponderada": -2.385054588317871,
+        "pct_violacao": 55.54450607299805
+      },
+      {
+        "semente": 18,
+        "elast_agregada": -2.383958101272583,
+        "propria_ponderada": -2.4807119369506836,
+        "pct_violacao": 34.535057067871094
+      },
+      {
+        "semente": 19,
+        "elast_agregada": -2.311224937438965,
+        "propria_ponderada": -2.4262137413024902,
+        "pct_violacao": 25.584285736083984
+      },
+      {
+        "semente": 20,
+        "elast_agregada": -2.2771995067596436,
+        "propria_ponderada": -2.424553632736206,
+        "pct_violacao": 27.94629669189453
+      },
+      {
+        "semente": 21,
+        "elast_agregada": -2.2723464965820312,
+        "propria_ponderada": -2.4317541122436523,
+        "pct_violacao": 27.72252655029297
+      },
+      {
+        "semente": 22,
+        "elast_agregada": -2.263427257537842,
+        "propria_ponderada": -2.3751256465911865,
+        "pct_violacao": 36.22575759887695
+      },
+      {
+        "semente": 23,
+        "elast_agregada": -2.3964197635650635,
+        "propria_ponderada": -2.455801010131836,
+        "pct_violacao": 38.88612747192383
+      },
+      {
+        "semente": 24,
+        "elast_agregada": -2.271818161010742,
+        "propria_ponderada": -2.4151649475097656,
+        "pct_violacao": 30.681251525878906
+      },
+      {
+        "semente": 25,
+        "elast_agregada": -2.3505465984344482,
+        "propria_ponderada": -2.414639711380005,
+        "pct_violacao": 41.37245178222656
+      },
+      {
+        "semente": 26,
+        "elast_agregada": -2.219648838043213,
+        "propria_ponderada": -2.4437060356140137,
+        "pct_violacao": 14.02287483215332
+      },
+      {
+        "semente": 27,
+        "elast_agregada": -2.3515071868896484,
+        "propria_ponderada": -2.4383816719055176,
+        "pct_violacao": 38.83639907836914
+      },
+      {
+        "semente": 28,
+        "elast_agregada": -2.2637431621551514,
+        "propria_ponderada": -2.393010139465332,
+        "pct_violacao": 25.261064529418945
+      },
+      {
+        "semente": 29,
+        "elast_agregada": -2.297945499420166,
+        "propria_ponderada": -2.4225168228149414,
+        "pct_violacao": 30.855295181274414
+      },
+      {
+        "semente": 30,
+        "elast_agregada": -2.298659563064575,
+        "propria_ponderada": -2.426349639892578,
+        "pct_violacao": 27.821979522705078
+      },
+      {
+        "semente": 31,
+        "elast_agregada": -2.3485026359558105,
+        "propria_ponderada": -2.4470551013946533,
+        "pct_violacao": 36.82247543334961
+      },
+      {
+        "semente": 32,
+        "elast_agregada": -2.352384328842163,
+        "propria_ponderada": -2.4164159297943115,
+        "pct_violacao": 34.70909881591797
+      },
+      {
+        "semente": 33,
+        "elast_agregada": -2.136857032775879,
+        "propria_ponderada": -2.3500001430511475,
+        "pct_violacao": 19.791149139404297
+      },
+      {
+        "semente": 34,
+        "elast_agregada": -2.4131710529327393,
+        "propria_ponderada": -2.427739381790161,
+        "pct_violacao": 51.690704345703125
+      },
+      {
+        "semente": 35,
+        "elast_agregada": -2.2841553688049316,
+        "propria_ponderada": -2.4233551025390625,
+        "pct_violacao": 26.926902770996094
+      },
+      {
+        "semente": 36,
+        "elast_agregada": -2.34230375289917,
+        "propria_ponderada": -2.419100284576416,
+        "pct_violacao": 36.101444244384766
+      },
+      {
+        "semente": 37,
+        "elast_agregada": -2.277975559234619,
+        "propria_ponderada": -2.4524950981140137,
+        "pct_violacao": 20.959720611572266
+      },
+      {
+        "semente": 38,
+        "elast_agregada": -2.3248298168182373,
+        "propria_ponderada": -2.434704065322876,
+        "pct_violacao": 33.59025573730469
+      },
+      {
+        "semente": 39,
+        "elast_agregada": -2.3144004344940186,
+        "propria_ponderada": -2.4493203163146973,
+        "pct_violacao": 29.761310577392578
+      },
+      {
+        "semente": 40,
+        "elast_agregada": -2.2781291007995605,
+        "propria_ponderada": -2.3726372718811035,
+        "pct_violacao": 37.54351043701172
+      },
+      {
+        "semente": 41,
+        "elast_agregada": -2.3296899795532227,
+        "propria_ponderada": -2.417263984680176,
+        "pct_violacao": 36.84733963012695
+      },
+      {
+        "semente": 42,
+        "elast_agregada": -2.350290298461914,
+        "propria_ponderada": -2.4383645057678223,
+        "pct_violacao": 37.170562744140625
+      },
+      {
+        "semente": 43,
+        "elast_agregada": -2.2612106800079346,
+        "propria_ponderada": -2.4445221424102783,
+        "pct_violacao": 18.324216842651367
+      },
+      {
+        "semente": 44,
+        "elast_agregada": -2.2711071968078613,
+        "propria_ponderada": -2.432415008544922,
+        "pct_violacao": 28.66733169555664
+      },
+      {
+        "semente": 45,
+        "elast_agregada": -2.2368035316467285,
+        "propria_ponderada": -2.4719386100769043,
+        "pct_violacao": 17.976131439208984
+      },
+      {
+        "semente": 46,
+        "elast_agregada": -2.3235714435577393,
+        "propria_ponderada": -2.5072004795074463,
+        "pct_violacao": 20.387866973876953
+      },
+      {
+        "semente": 47,
+        "elast_agregada": -2.2426226139068604,
+        "propria_ponderada": -2.413966178894043,
+        "pct_violacao": 21.481849670410156
+      },
+      {
+        "semente": 48,
+        "elast_agregada": -2.2995128631591797,
+        "propria_ponderada": -2.3681938648223877,
+        "pct_violacao": 39.4331169128418
+      },
+      {
+        "semente": 49,
+        "elast_agregada": -2.326685905456543,
+        "propria_ponderada": -2.426358699798584,
+        "pct_violacao": 37.74241638183594
+      }
+    ]
+  },
+  "parte2": {
+    "lambdas": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5
+    ],
+    "linhas": [
+      {
+        "lambda": 0.5,
+        "margem": {
+          "ganho_pct_agregado": 22.395178630690225,
+          "pct_coord_interior": 8.582794629537544,
+          "variacao_log_preco_media": 0.10780899457172707,
+          "pct_celulas_que_SOBEM_preco": 100.0
+        },
+        "receita": {
+          "ganho_pct_agregado": 11.313844116427617,
+          "pct_coord_interior": 16.633515663848833,
+          "variacao_log_preco_media": -0.029945180991319553,
+          "pct_celulas_que_SOBEM_preco": 8.627548483341622
+        }
+      },
+      {
+        "lambda": 0.75,
+        "margem": {
+          "ganho_pct_agregado": 18.612881228858626,
+          "pct_coord_interior": 22.574589756340128,
+          "variacao_log_preco_media": 0.061308107501168545,
+          "pct_celulas_que_SOBEM_preco": 99.20437593237196
+        },
+        "receita": {
+          "ganho_pct_agregado": 24.411205999759964,
+          "pct_coord_interior": 13.820238687220288,
+          "variacao_log_preco_media": -0.062214010036643404,
+          "pct_celulas_que_SOBEM_preco": 1.7155643958229736
+        }
+      },
+      {
+        "lambda": 1.0,
+        "margem": {
+          "ganho_pct_agregado": 21.858475173681533,
+          "pct_coord_interior": 28.705867727498756,
+          "variacao_log_preco_media": 0.017778205662280725,
+          "pct_celulas_que_SOBEM_preco": 76.20586772749876
+        },
+        "receita": {
+          "ganho_pct_agregado": 41.28211273110543,
+          "pct_coord_interior": 15.99328692192939,
+          "variacao_log_preco_media": -0.0717301332633946,
+          "pct_celulas_que_SOBEM_preco": 1.7652909000497268
+        }
+      },
+      {
+        "lambda": 1.25,
+        "margem": {
+          "ganho_pct_agregado": 31.735556027770073,
+          "pct_coord_interior": 26.6347588264545,
+          "variacao_log_preco_media": -0.010413075404346854,
+          "pct_celulas_que_SOBEM_preco": 30.457483838886123
+        },
+        "receita": {
+          "ganho_pct_agregado": 62.182414680028565,
+          "pct_coord_interior": 19.960218796618598,
+          "variacao_log_preco_media": -0.07498237955976232,
+          "pct_celulas_que_SOBEM_preco": 1.74042764793635
+        }
+      },
+      {
+        "lambda": 1.5,
+        "margem": {
+          "ganho_pct_agregado": 48.06873362628177,
+          "pct_coord_interior": 23.843858776727995,
+          "variacao_log_preco_media": -0.025874261133788573,
+          "pct_celulas_que_SOBEM_preco": 8.876181004475384
+        },
+        "receita": {
+          "ganho_pct_agregado": 87.97531544906856,
+          "pct_coord_interior": 22.998508204873197,
+          "variacao_log_preco_media": -0.07440860312908237,
+          "pct_celulas_que_SOBEM_preco": 2.187966185977126
+        }
+      }
+    ]
+  },
+  "tempo_total_min": 7.3553171506833674
+}

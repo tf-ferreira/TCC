@@ -1,0 +1,127 @@
+{
+  "categoria": "frj",
+  "particao": {
+    "semana_de_corte": 319,
+    "zona_morta_semanas": 8,
+    "n_treino": 409120,
+    "n_teste": 86460
+  },
+  "nota": "Todas as execuções já seguem D25 (promo_proprio fora). A referência da linha modulo52 é a especificação herdada do piso de D20, e a diferença contra ela mede só a mudança de representação do tempo.",
+  "k_harmonicas_melhor": 3,
+  "configuracao_melhor": "harm3",
+  "resultados": {
+    "modulo52": {
+      "atributos_sazonais": [
+        "semana_do_ano"
+      ],
+      "n_atributos": 28,
+      "treino": {
+        "rmse": 31.540994890328275,
+        "mae": 14.479519834221096,
+        "rmse_log": 0.46972715438556684,
+        "wmape_pct": 24.2604411808794
+      },
+      "teste": {
+        "rmse": 52.060269467383165,
+        "mae": 20.561984651108652,
+        "rmse_log": 0.7052358596078905,
+        "wmape_pct": 54.15136134434524
+      },
+      "share_importancia_sazonal_pct": 6.996031746031746
+    },
+    "harm1": {
+      "atributos_sazonais": [
+        "sen_1",
+        "cos_1"
+      ],
+      "n_atributos": 29,
+      "treino": {
+        "rmse": 30.998605576635807,
+        "mae": 14.272671838407057,
+        "rmse_log": 0.466207338890022,
+        "wmape_pct": 23.913867282484713
+      },
+      "teste": {
+        "rmse": 51.732294333273586,
+        "mae": 20.450102496821174,
+        "rmse_log": 0.6994697768537413,
+        "wmape_pct": 53.85671221063536
+      },
+      "share_importancia_sazonal_pct": 12.259920634920634
+    },
+    "harm2": {
+      "atributos_sazonais": [
+        "sen_1",
+        "cos_1",
+        "sen_2",
+        "cos_2"
+      ],
+      "n_atributos": 31,
+      "treino": {
+        "rmse": 30.26998540124057,
+        "mae": 14.04026178921333,
+        "rmse_log": 0.4635993906800085,
+        "wmape_pct": 23.524464153592
+      },
+      "teste": {
+        "rmse": 52.491716245793334,
+        "mae": 20.521059515819164,
+        "rmse_log": 0.7019766259703548,
+        "wmape_pct": 54.04358226432303
+      },
+      "share_importancia_sazonal_pct": 15.85515873015873
+    },
+    "harm3": {
+      "atributos_sazonais": [
+        "sen_1",
+        "cos_1",
+        "sen_2",
+        "cos_2",
+        "sen_3",
+        "cos_3"
+      ],
+      "n_atributos": 33,
+      "treino": {
+        "rmse": 30.034727104952562,
+        "mae": 13.975008624190489,
+        "rmse_log": 0.4627017378445867,
+        "wmape_pct": 23.415132449914825
+      },
+      "teste": {
+        "rmse": 51.675091889008804,
+        "mae": 20.14078789181016,
+        "rmse_log": 0.6933738532262064,
+        "wmape_pct": 53.04211151769438
+      },
+      "share_importancia_sazonal_pct": 18.529761904761905
+    },
+    "harm3_feriados": {
+      "atributos_sazonais": [
+        "sen_1",
+        "cos_1",
+        "sen_2",
+        "cos_2",
+        "sen_3",
+        "cos_3",
+        "fer_natal_ano_novo",
+        "fer_acao_de_gracas",
+        "fer_pascoa",
+        "fer_quatro_de_julho"
+      ],
+      "n_atributos": 37,
+      "treino": {
+        "rmse": 30.044444872117406,
+        "mae": 14.019752125732673,
+        "rmse_log": 0.4632928350224598,
+        "wmape_pct": 23.490100204358264
+      },
+      "teste": {
+        "rmse": 50.98593064154728,
+        "mae": 20.170997849288646,
+        "rmse_log": 0.6951820467022043,
+        "wmape_pct": 53.12167146053903
+      },
+      "share_importancia_sazonal_pct": 18.328373015873016
+    }
+  }
+}

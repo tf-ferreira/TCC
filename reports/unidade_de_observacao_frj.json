@@ -1,0 +1,292 @@
+{
+  "categoria": "frj",
+  "n_sortimento": 20,
+  "particao": {
+    "semana_de_corte": 319,
+    "zona_morta_semanas": 8,
+    "janela_treino": [
+      1,
+      310
+    ],
+    "escalonador": {
+      "preco_00": {
+        "media": 0.9006154673445443,
+        "desvio": 0.09648165109568149
+      },
+      "preco_01": {
+        "media": 1.2128901055924912,
+        "desvio": 0.23672202272308446
+      },
+      "preco_02": {
+        "media": 1.5096403663146916,
+        "desvio": 0.27851759755532646
+      },
+      "preco_03": {
+        "media": 1.5065517859470734,
+        "desvio": 0.2777528266641856
+      },
+      "preco_04": {
+        "media": 2.1243811106765738,
+        "desvio": 0.3038208134197681
+      },
+      "preco_05": {
+        "media": 1.5124375896232563,
+        "desvio": 0.2737759759490775
+      },
+      "preco_06": {
+        "media": 1.069415330465389,
+        "desvio": 0.11847812152144956
+      },
+      "preco_07": {
+        "media": 1.0666190848650763,
+        "desvio": 0.12094695778336335
+      },
+      "preco_08": {
+        "media": 1.2894725263981228,
+        "desvio": 0.12915564073861754
+      },
+      "preco_09": {
+        "media": 0.8028585597844626,
+        "desvio": 0.17905585607104854
+      },
+      "preco_10": {
+        "media": 0.8009845978641019,
+        "desvio": 0.17741400890364886
+      },
+      "preco_11": {
+        "media": 1.0641364597612142,
+        "desvio": 0.16263748085403473
+      },
+      "preco_12": {
+        "media": 1.218153810386053,
+        "desvio": 0.21770935664024918
+      },
+      "preco_13": {
+        "media": 1.6426031298304604,
+        "desvio": 0.24674589545116923
+      },
+      "preco_14": {
+        "media": 0.7483167724955709,
+        "desvio": 0.12694067148641416
+      },
+      "preco_15": {
+        "media": 0.8105812043210403,
+        "desvio": 0.15256774349850835
+      },
+      "preco_16": {
+        "media": 1.788672761048103,
+        "desvio": 0.13453456877448192
+      },
+      "preco_17": {
+        "media": 1.424718908877591,
+        "desvio": 0.26937733739472763
+      },
+      "preco_18": {
+        "media": 1.9783740711771605,
+        "desvio": 0.28246961773552276
+      },
+      "preco_19": {
+        "media": 1.427052209620649,
+        "desvio": 0.27019025247336126
+      },
+      "preco_lag1": {
+        "media": 1.2955949737593802,
+        "desvio": 0.4368175803253626
+      },
+      "preco_lag2": {
+        "media": 1.295550334243194,
+        "desvio": 0.4359060697106982
+      },
+      "preco_proprio": {
+        "media": 1.2949237926196813,
+        "desvio": 0.4444045823391344
+      },
+      "sen_1": {
+        "media": 0.019505940543202416,
+        "desvio": 0.7013777646771024
+      },
+      "cos_1": {
+        "media": -0.005301878497329565,
+        "desvio": 0.7125030804034995
+      },
+      "sen_2": {
+        "media": -0.002850401495706358,
+        "desvio": 0.7053638020426807
+      },
+      "cos_2": {
+        "media": 0.015377499000152447,
+        "desvio": 0.708672924912267
+      },
+      "idx_preco_resto": {
+        "media": 0.9910142424102123,
+        "desvio": 0.0648056525979575
+      },
+      "vol_resto": {
+        "media": 797.2280504497458,
+        "desvio": 472.0581199936802
+      },
+      "promo_resto": {
+        "media": 0.1871384468897048,
+        "desvio": 0.11895117225922525
+      },
+      "n_resto": {
+        "media": 44.46622017989832,
+        "desvio": 7.357785611156483
+      }
+    },
+    "vocabulario_tamanho": {
+      "sku": 20,
+      "store": 93
+    },
+    "n_treino": 409120,
+    "n_teste": 86460
+  },
+  "semente": 0,
+  "modelo": {
+    "tipo": "LightGBM",
+    "objetivo": "poisson",
+    "n_estimators": 800,
+    "num_leaves": 127
+  },
+  "correlacao_intra_celula": {
+    "treino": {
+      "cru": {
+        "n_linhas": 409120,
+        "n_grupos": 20456,
+        "m": 20,
+        "rho": -0.014762802661321187,
+        "fracao_da_variancia_entre_celulas_pct": 3.5973642068266267,
+        "efeito_de_desenho": 0.7195067494348975,
+        "n_efetivo": 568611.7612118635,
+        "razao_n_efetivo_sobre_n_celulas": 27.796820552007407,
+        "razao_n_efetivo_sobre_n_linhas": 1.3898410276003703
+      },
+      "pearson": {
+        "n_linhas": 409120,
+        "n_grupos": 20456,
+        "m": 20,
+        "rho": 1.263881628461129e-05,
+        "fracao_da_variancia_entre_celulas_pct": 5.000968428443591,
+        "efeito_de_desenho": 1.0002401375094077,
+        "n_efetivo": 409021.7785288106,
+        "razao_n_efetivo_sobre_n_celulas": 19.995198402855426,
+        "razao_n_efetivo_sobre_n_linhas": 0.9997599201427713
+      },
+      "alvo_log1p": {
+        "n_linhas": 409120,
+        "n_grupos": 20456,
+        "m": 20,
+        "rho": 0.13922271874468037,
+        "fracao_da_variancia_entre_celulas_pct": 18.225429674828476,
+        "efeito_de_desenho": 3.645231656148927,
+        "n_efetivo": 112234.29361749328,
+        "razao_n_efetivo_sobre_n_celulas": 5.486619750561854,
+        "razao_n_efetivo_sobre_n_linhas": 0.2743309875280927
+      }
+    },
+    "teste": {
+      "cru": {
+        "n_linhas": 86460,
+        "n_grupos": 4323,
+        "m": 20,
+        "rho": 0.02045151671880755,
+        "fracao_da_variancia_entre_celulas_pct": 6.941399533563048,
+        "efeito_de_desenho": 1.3885788176573435,
+        "n_efetivo": 62265.10076386283,
+        "razao_n_efetivo_sobre_n_celulas": 14.403215536401301,
+        "razao_n_efetivo_sobre_n_linhas": 0.7201607768200651
+      },
+      "pearson": {
+        "n_linhas": 86460,
+        "n_grupos": 4323,
+        "m": 20,
+        "rho": 0.07784395819756726,
+        "fracao_da_variancia_entre_celulas_pct": 12.392664096430384,
+        "efeito_de_desenho": 2.479035205753778,
+        "n_efetivo": 34876.4712172415,
+        "razao_n_efetivo_sobre_n_celulas": 8.06765468823537,
+        "razao_n_efetivo_sobre_n_linhas": 0.4033827344117684
+      },
+      "alvo_log1p": {
+        "n_linhas": 86460,
+        "n_grupos": 4323,
+        "m": 20,
+        "rho": 0.1540190638725236,
+        "fracao_da_variancia_entre_celulas_pct": 19.628161184117335,
+        "efeito_de_desenho": 3.9263622135779483,
+        "n_efetivo": 22020.38306629184,
+        "razao_n_efetivo_sobre_n_celulas": 5.093773552230359,
+        "razao_n_efetivo_sobre_n_linhas": 0.2546886776115179
+      }
+    }
+  },
+  "celulas_incompletas": {
+    "celulas_com_atividade": 32255,
+    "celulas_completas": 25234,
+    "celulas_incompletas": 7021,
+    "buraco_de_preco_igual_ao_de_volume": true,
+    "distribuicao_skus_faltando": {
+      "1": 4938,
+      "2": 1276,
+      "3": 486,
+      "4": 157,
+      "5": 75,
+      "6": 34,
+      "7": 16,
+      "8": 10,
+      "9": 6,
+      "10": 7,
+      "11": 2,
+      "12": 4,
+      "13": 2,
+      "14": 2,
+      "15": 2,
+      "16": 1,
+      "17": 1,
+      "19": 2
+    },
+    "pct_incompletas_com_ate_2_faltando": 88.50591083891183,
+    "linhas_sku_celula_recuperaveis": 129724,
+    "ganho_relativo_de_linhas_pct": 25.704208607434413,
+    "volume_nas_completas": 28095504.0,
+    "volume_nas_incompletas": 5269713.0,
+    "particao": {
+      "treino": {
+        "celulas": 25202,
+        "celulas_completas": 20456,
+        "pct_incompletas": 18.831838742956908,
+        "volume_em_completas_pct": 85.66446109155497
+      },
+      "teste": {
+        "celulas": 6415,
+        "celulas_completas": 4323,
+        "pct_incompletas": 32.61106780982073,
+        "volume_em_completas_pct": 75.580238909987
+      }
+    },
+    "pct_incompletas_por_sku": {
+      "preco_00": 3.413424275306154,
+      "preco_01": 2.9452798015811505,
+      "preco_02": 0.8029762827468611,
+      "preco_03": 0.18601767167880948,
+      "preco_04": 2.470934738800186,
+      "preco_05": 1.7144628739730277,
+      "preco_06": 1.8508758332041544,
+      "preco_07": 2.8460703766857853,
+      "preco_08": 2.312819717873198,
+      "preco_09": 1.2184157494962022,
+      "preco_10": 1.8601767167880952,
+      "preco_11": 0.7006665633235157,
+      "preco_12": 0.3658347543016587,
+      "preco_13": 0.9083862966981863,
+      "preco_14": 1.1099054410168965,
+      "preco_15": 1.6865602232212058,
+      "preco_16": 2.309719423345218,
+      "preco_17": 0.5518524259804681,
+      "preco_18": 2.7530615408463808,
+      "preco_19": 1.1533095644086189
+    },
+    "lojas_com_mais_da_metade_incompleta": 7,
+    "n_lojas": 93
+  }
+}

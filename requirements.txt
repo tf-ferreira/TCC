@@ -1,0 +1,30 @@
+# Dependências do código do TCC.
+#
+# Versões mínimas. O conjunto exato em que os resultados versionados foram
+# produzidos (Python 3.14.7, macOS arm64) está em requirements.lock.txt.
+#
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt        # ou: pip install -r requirements.lock.txt
+#
+# macOS: o lightgbm carrega a OpenMP (libomp.dylib) em tempo de execução, e a
+# roda do pip não a traz. Sem ela, `import lightgbm` falha com
+# "Library not loaded: @rpath/libomp.dylib". Instale com:  brew install libomp
+#
+# Duas versões importam de verdade para reproduzir os números: a do pandas,
+# porque o comportamento de groupby com `observed` mudou entre versões e a
+# absorção de efeitos fixos depende dele; e a do lightgbm, porque o remapeamento
+# de categóricas por valor na previsão é coberto por um teste próprio.
+
+numpy>=2.0
+pandas>=2.2
+pyarrow>=15.0        # parquet dos painéis
+scipy                # solver do problema de otimização (1.18.1 no ambiente oficial)
+scikit-learn>=1.4    # exigido pela API sklearn do lightgbm
+lightgbm>=4.3        # referência de árvores
+torch>=2.9           # rede de demanda; tudo roda em CPU
+matplotlib>=3.8      # figuras da triagem
+pytest>=8.0          # suíte de testes
+
+# Opcional: só src/optimization/sonda_d15.py (gap até o ótimo global, com
+# certificado) usa o solver SCIP; o teste correspondente é pulado sem ele.
+#   pip install pyscipopt

@@ -1,0 +1,403 @@
+{
+  "categoria": "frj",
+  "tamanhos": [
+    4,
+    8
+  ],
+  "h": 16,
+  "epocas": 15,
+  "semente": 0,
+  "celulas": [
+    1166,
+    1330,
+    2208,
+    2751,
+    3673
+  ],
+  "limite_s": 300.0,
+  "k_aproximado": 50,
+  "caixa": [
+    0.09999999999999998,
+    1.9
+  ],
+  "resultados": [
+    {
+      "n_prod": 4,
+      "h": 16,
+      "rmse_teste_reduzida": 50.310054779052734,
+      "n_binarias": 20,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.10559399999692687,
+        "min": 0.04208758299864712,
+        "max": 0.12778454199724365
+      },
+      "gap_pct": {
+        "mediana": 1.0155310950543315e-06,
+        "max": 1.0418305991756918e-06
+      },
+      "pct_relus_fixos_na_caixa": 61.0,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.12778454199724365,
+            "fechou": true,
+            "valor": 567.1492526417841,
+            "limite_superior": 567.1492526417841,
+            "gap_scip": 0.0,
+            "p": [
+              2.071000020709839,
+              2.26100002260977,
+              0.14899999000017966,
+              2.2348404663168093
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 8,
+            "pct_relus_fixos_na_caixa": 40.0,
+            "n_variaveis": 34,
+            "n_restricoes": 26
+          },
+          "aproximado": {
+            "melhor": 567.1492467568244,
+            "historico": 567.1492467568244,
+            "dispersao_relativa": 9.616827416927851e-08,
+            "k": 50,
+            "tempo_s": 0.006814833002863452
+          },
+          "receita_no_historico": 214.95623969406537,
+          "gap_pct_do_aproximado": 1.037638624738478e-06,
+          "ganho_global_pct": 163.84405190980937
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.04208758299864712,
+            "fechou": true,
+            "valor": 451.2829672042415,
+            "limite_superior": 451.2829672042415,
+            "gap_scip": 0.0,
+            "p": [
+              1.596000015959917,
+              2.3750000237498696,
+              0.16499999000010587,
+              1.9643660155097027
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 16,
+            "pct_relus_fixos_na_caixa": 80.0,
+            "n_variaveis": 30,
+            "n_restricoes": 21
+          },
+          "aproximado": {
+            "melhor": 451.2829625026375,
+            "historico": 451.28296250263736,
+            "dispersao_relativa": 1.883808613820704e-08,
+            "k": 50,
+            "tempo_s": 0.006322834000457078
+          },
+          "receita_no_historico": 78.08916826772524,
+          "gap_pct_do_aproximado": 1.0418305991756918e-06,
+          "ganho_global_pct": 477.907252971421
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.11560774999816203,
+            "fechou": true,
+            "valor": 514.2440360887916,
+            "limite_superior": 514.2440360887916,
+            "gap_scip": 0.0,
+            "p": [
+              1.8050000180499208,
+              2.0710000207098873,
+              0.16499999000009483,
+              2.096129267242675
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 12,
+            "pct_relus_fixos_na_caixa": 60.0,
+            "n_variaveis": 33,
+            "n_restricoes": 26
+          },
+          "aproximado": {
+            "melhor": 514.2440309338385,
+            "historico": 514.2440294604619,
+            "dispersao_relativa": 4.937625700240632e-08,
+            "k": 50,
+            "tempo_s": 0.006816667002567556
+          },
+          "receita_no_historico": 132.94360554567095,
+          "gap_pct_do_aproximado": 1.0024332299573078e-06,
+          "ganho_global_pct": 286.8136673276325
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.10559399999692687,
+            "fechou": true,
+            "valor": 478.55902497253834,
+            "limite_superior": 478.55902497253834,
+            "gap_scip": 0.0,
+            "p": [
+              1.8810000188095597,
+              1.8810000188093536,
+              0.1389999900005779,
+              2.0411252836659344
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 14,
+            "pct_relus_fixos_na_caixa": 70.0,
+            "n_variaveis": 32,
+            "n_restricoes": 23
+          },
+          "aproximado": {
+            "melhor": 478.5590201801603,
+            "historico": 478.5590201801601,
+            "dispersao_relativa": 9.594778184857708e-08,
+            "k": 50,
+            "tempo_s": 0.006858875000034459
+          },
+          "receita_no_historico": 186.70800693305162,
+          "gap_pct_do_aproximado": 1.001418380108925e-06,
+          "ganho_global_pct": 156.31414144125938
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.10497904200019548,
+            "fechou": true,
+            "valor": 413.96914425211065,
+            "limite_superior": 413.96914425211065,
+            "gap_scip": 0.0,
+            "p": [
+              1.6910000169099093,
+              1.8810000188098683,
+              0.1389999900001115,
+              1.9179647970810538
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 11,
+            "pct_relus_fixos_na_caixa": 55.0,
+            "n_variaveis": 32,
+            "n_restricoes": 23
+          },
+          "aproximado": {
+            "melhor": 413.96914004812527,
+            "historico": 413.96914004812504,
+            "dispersao_relativa": 4.545232818140562e-08,
+            "k": 50,
+            "tempo_s": 0.0066268330010643695
+          },
+          "receita_no_historico": 143.88247203382085,
+          "gap_pct_do_aproximado": 1.0155310950543315e-06,
+          "ganho_global_pct": 187.7133944117971
+        }
+      ]
+    },
+    {
+      "n_prod": 8,
+      "h": 16,
+      "rmse_teste_reduzida": 42.57114028930664,
+      "n_binarias": 24,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.4714391670022451,
+        "min": 0.3917010000004666,
+        "max": 0.5527425420004874
+      },
+      "gap_pct": {
+        "mediana": 1.2083596854686135e-06,
+        "max": 1.337367250976756e-06
+      },
+      "pct_relus_fixos_na_caixa": 21.666666666666668,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.39298791699911817,
+            "fechou": true,
+            "valor": 1082.5279930419479,
+            "limite_superior": 1082.5279930419479,
+            "gap_scip": 0.0,
+            "p": [
+              2.0710000207099446,
+              2.2610000226099127,
+              0.14899999000007053,
+              2.8058775877615556,
+              3.9710000397098812,
+              0.14899999000008168,
+              2.0710000207098545,
+              2.0710000207097163
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 3,
+            "pct_relus_fixos_na_caixa": 12.5,
+            "n_variaveis": 60,
+            "n_restricoes": 57
+          },
+          "aproximado": {
+            "melhor": 1082.527978564573,
+            "historico": 1082.5279784582904,
+            "dispersao_relativa": 0.9144057432300037,
+            "k": 50,
+            "tempo_s": 0.007108583002263913
+          },
+          "receita_no_historico": 288.4754249251602,
+          "gap_pct_do_aproximado": 1.337367250976756e-06,
+          "ganho_global_pct": 275.25830608371245
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.5527425420004874,
+            "fechou": true,
+            "valor": 989.7287836690529,
+            "limite_superior": 989.7287836690529,
+            "gap_scip": 0.0,
+            "p": [
+              1.5959999999999999,
+              2.375,
+              0.16499999999999995,
+              2.570949006326069,
+              4.465,
+              0.16499999999999995,
+              2.1849999999999996,
+              2.1849999999999996
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 7,
+            "pct_relus_fixos_na_caixa": 29.166666666666668,
+            "n_variaveis": 55,
+            "n_restricoes": 49
+          },
+          "aproximado": {
+            "melhor": 989.728783113262,
+            "historico": 989.7287824859436,
+            "dispersao_relativa": 6.812492333445402e-08,
+            "k": 50,
+            "tempo_s": 0.008212582997657591
+          },
+          "receita_no_historico": 100.05534813899207,
+          "gap_pct_do_aproximado": 5.615587393053227e-08,
+          "ganho_global_pct": 889.1812902336508
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.3917010000004666,
+            "fechou": true,
+            "valor": 1233.7774079771743,
+            "limite_superior": 1233.7774079771743,
+            "gap_scip": 0.0,
+            "p": [
+              1.8050000180499366,
+              2.0710000207099055,
+              0.16499999000008508,
+              2.8016502042898255,
+              4.161000041609866,
+              0.16499999000010218,
+              1.8810000188098652,
+              1.8810000188098726
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 4,
+            "pct_relus_fixos_na_caixa": 16.666666666666668,
+            "n_variaveis": 59,
+            "n_restricoes": 51
+          },
+          "aproximado": {
+            "melhor": 1233.7773927625947,
+            "historico": 1233.7773918534785,
+            "dispersao_relativa": 6.1328385385324346e-09,
+            "k": 50,
+            "tempo_s": 0.0075867919986194465
+          },
+          "receita_no_historico": 253.4540807183641,
+          "gap_pct_do_aproximado": 1.2331705511499101e-06,
+          "ganho_global_pct": 386.78537922146796
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.4715853329980746,
+            "fechou": true,
+            "valor": 1089.6867996987105,
+            "limite_superior": 1089.6867996987105,
+            "gap_scip": 0.0,
+            "p": [
+              1.8810000188099378,
+              1.8810000188099087,
+              0.13899999000008625,
+              2.627718475692426,
+              4.08500004084988,
+              0.14099999000012955,
+              2.071000020709869,
+              2.0710000207098167
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 6,
+            "pct_relus_fixos_na_caixa": 25.0,
+            "n_variaveis": 57,
+            "n_restricoes": 67
+          },
+          "aproximado": {
+            "melhor": 1089.6867865545169,
+            "historico": 1089.6867865545166,
+            "dispersao_relativa": 2.5195230482714086e-09,
+            "k": 50,
+            "tempo_s": 0.0073298749994137324
+          },
+          "receita_no_historico": 360.4898072491351,
+          "gap_pct_do_aproximado": 1.2062359246946086e-06,
+          "ganho_global_pct": 202.2795035493545
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.4714391670022451,
+            "fechou": true,
+            "valor": 1006.0531419160507,
+            "limite_superior": 1006.0531419160507,
+            "gap_scip": 0.0,
+            "p": [
+              1.6910000169099368,
+              1.8810000188099065,
+              0.13899999000008276,
+              2.576407524061811,
+              3.8950000389498745,
+              0.1389999900001191,
+              2.071000020709858,
+              2.0710000207097727
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 6,
+            "pct_relus_fixos_na_caixa": 25.0,
+            "n_variaveis": 51,
+            "n_restricoes": 52
+          },
+          "aproximado": {
+            "melhor": 1006.0531297593101,
+            "historico": 1006.0531295046694,
+            "dispersao_relativa": 3.4996591946615386e-08,
+            "k": 50,
+            "tempo_s": 0.0072322910018556286
+          },
+          "receita_no_historico": 344.8884706219897,
+          "gap_pct_do_aproximado": 1.2083596854686135e-06,
+          "ganho_global_pct": 191.70390651264228
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+  "categoria": "frj",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle"
+  },
+  "hierarquia": "nao_piorar",
+  "n_pares": 12,
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "n_sementes": 50,
+  "partidas_por_celula": 1,
+  "agregado": {
+    "margem": {
+      "ganho_pct_agregado": {
+        "media": 22.689668609000847,
+        "desvio": 0.9599997193655014,
+        "erro_padrao": 0.13576446230010572,
+        "min": 20.53001475528349,
+        "max": 25.01552812194623,
+        "amplitude": 4.48551336666274,
+        "n": 50
+      },
+      "pct_coord_interior": {
+        "media": 28.2644952759821,
+        "desvio": 1.0965148934555198,
+        "erro_padrao": 0.15507062336688854,
+        "min": 25.268523122824465,
+        "max": 30.259820984584785,
+        "amplitude": 4.991297861760319,
+        "n": 50
+      }
+    },
+    "receita": {
+      "ganho_pct_agregado": {
+        "media": 41.80406192656502,
+        "desvio": 1.3163447100088446,
+        "erro_padrao": 0.18615925416525866,
+        "min": 38.73168620513417,
+        "max": 44.62198000794451,
+        "amplitude": 5.890293802810341,
+        "n": 50
+      },
+      "pct_coord_interior": {
+        "media": 17.503455992043758,
+        "desvio": 1.5067440854355332,
+        "erro_padrao": 0.21308579206483763,
+        "min": 13.316757831924416,
+        "max": 21.093983092988562,
+        "amplitude": 7.777225261064146,
+        "n": 50
+      }
+    },
+    "wmape_teste": {
+      "media": 48.609698184685264,
+      "desvio": 1.0731431999719874,
+      "erro_padrao": 0.15176536677688468,
+      "min": 46.714410538140356,
+      "max": 52.32079681887556,
+      "amplitude": 5.606386280735201,
+      "n": 50
+    },
+    "vies_de_nivel_teste": {
+      "media": 0.9662645156868718,
+      "desvio": 0.04287122513130656,
+      "erro_padrao": 0.006062906801624401,
+      "min": 0.8777953091684435,
+      "max": 1.0449681693572952,
+      "amplitude": 0.1671728601888517,
+      "n": 50
+    }
+  },
+  "por_semente": [
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.858475173681533,
+        "pct_coord_interior": 28.705867727498756
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.28211273110543,
+        "pct_coord_interior": 15.99328692192939
+      },
+      "wmape_teste": 48.350024703476365,
+      "vies_de_nivel_teste": 0.9608114529393847,
+      "semente": 0,
+      "tempo_s": 72.20298758399986
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 20.53001475528349,
+        "pct_coord_interior": 29.879413227250126
+      },
+      "receita": {
+        "ganho_pct_agregado": 39.24352475962054,
+        "pct_coord_interior": 17.863003480855294
+      },
+      "wmape_teste": 47.5410335994079,
+      "vies_de_nivel_teste": 0.8867233475479744,
+      "semente": 1,
+      "tempo_s": 71.66564191700127
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.860495438992,
+        "pct_coord_interior": 30.259820984584785
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.6167136541481,
+        "pct_coord_interior": 13.453505718547985
+      },
+      "wmape_teste": 48.68140773908997,
+      "vies_de_nivel_teste": 0.9780536095035028,
+      "semente": 2,
+      "tempo_s": 62.459041791000345
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 20.831192508234754,
+        "pct_coord_interior": 30.243659870711088
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.87550291488768,
+        "pct_coord_interior": 16.590004972650423
+      },
+      "wmape_teste": 49.05579213793961,
+      "vies_de_nivel_teste": 1.0030805665549802,
+      "semente": 3,
+      "tempo_s": 69.42074179200063
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.152402451299878,
+        "pct_coord_interior": 28.204873197414223
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.411930889064806,
+        "pct_coord_interior": 19.710343112879166
+      },
+      "wmape_teste": 48.401741701889215,
+      "vies_de_nivel_teste": 0.9374501218397807,
+      "semente": 4,
+      "tempo_s": 74.51718016700033
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 24.097524010006467,
+        "pct_coord_interior": 27.635504724017903
+      },
+      "receita": {
+        "ganho_pct_agregado": 43.707527076331296,
+        "pct_coord_interior": 18.845101939333667
+      },
+      "wmape_teste": 47.107746780968064,
+      "vies_de_nivel_teste": 0.9421014316174231,
+      "semente": 5,
+      "tempo_s": 71.93847841699971
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.41964027237906,
+        "pct_coord_interior": 29.343610144206863
+      },
+      "receita": {
+        "ganho_pct_agregado": 39.66385178121288,
+        "pct_coord_interior": 17.610641471904525
+      },
+      "wmape_teste": 48.76164593523753,
+      "vies_de_nivel_teste": 0.9794686262564727,
+      "semente": 6,
+      "tempo_s": 73.21545937500014
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 20.80187781986682,
+        "pct_coord_interior": 28.444803580308303
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.72536493440215,
+        "pct_coord_interior": 17.967429139731475
+      },
+      "wmape_teste": 48.92098679930344,
+      "vies_de_nivel_teste": 0.947477155041121,
+      "semente": 7,
+      "tempo_s": 58.060980541999015
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.374624236442784,
+        "pct_coord_interior": 27.416708105420188
+      },
+      "receita": {
+        "ganho_pct_agregado": 44.00091642575019,
+        "pct_coord_interior": 18.293137742416707
+      },
+      "wmape_teste": 49.915349174446355,
+      "vies_de_nivel_teste": 0.9881570971672251,
+      "semente": 8,
+      "tempo_s": 58.91140120899945
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.841410879137023,
+        "pct_coord_interior": 28.968175037294877
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.80903976066552,
+        "pct_coord_interior": 13.316757831924416
+      },
+      "wmape_teste": 48.31260162675087,
+      "vies_de_nivel_teste": 0.9211491775814804,
+      "semente": 9,
+      "tempo_s": 52.541348332999405
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.036304611866985,
+        "pct_coord_interior": 27.549726504226754
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.70953372340711,
+        "pct_coord_interior": 19.63202386872203
+      },
+      "wmape_teste": 49.98050081028359,
+      "vies_de_nivel_teste": 1.0221018885166007,
+      "semente": 10,
+      "tempo_s": 72.27339374999974
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.67670727218112,
+        "pct_coord_interior": 28.318000994530085
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.352531220761456,
+        "pct_coord_interior": 16.829935355544507
+      },
+      "wmape_teste": 46.93013549004246,
+      "vies_de_nivel_teste": 0.8777953091684435,
+      "semente": 11,
+      "tempo_s": 67.41638145800061
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.097979645942157,
+        "pct_coord_interior": 26.862257583291896
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.03854062144892,
+        "pct_coord_interior": 17.577076081551468
+      },
+      "wmape_teste": 47.7503734830237,
+      "vies_de_nivel_teste": 0.9414119707584526,
+      "semente": 12,
+      "tempo_s": 61.13727554199977
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.48818310412153,
+        "pct_coord_interior": 27.78468423669816
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.02138611435135,
+        "pct_coord_interior": 17.432869219293885
+      },
+      "wmape_teste": 49.60631595170611,
+      "vies_de_nivel_teste": 1.020119098385623,
+      "semente": 13,
+      "tempo_s": 66.6150972079995
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.93369651629924,
+        "pct_coord_interior": 27.378170064644454
+      },
+      "receita": {
+        "ganho_pct_agregado": 39.96769761204027,
+        "pct_coord_interior": 17.07856787667827
+      },
+      "wmape_teste": 49.20571213929057,
+      "vies_de_nivel_teste": 0.9765592445933597,
+      "semente": 14,
+      "tempo_s": 59.53852691599968
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 24.23224298895019,
+        "pct_coord_interior": 28.18373943311785
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.99773216515717,
+        "pct_coord_interior": 19.012928891098955
+      },
+      "wmape_teste": 49.012418370838034,
+      "vies_de_nivel_teste": 1.0409206518428267,
+      "semente": 15,
+      "tempo_s": 77.74614787499922
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.92968012953569,
+        "pct_coord_interior": 29.218050721034313
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.14874173869916,
+        "pct_coord_interior": 18.9234211834908
+      },
+      "wmape_teste": 49.41685426691993,
+      "vies_de_nivel_teste": 1.0026344806579348,
+      "semente": 16,
+      "tempo_s": 78.13580562500101
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.954985370750514,
+        "pct_coord_interior": 28.740676280457485
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.13685508161458,
+        "pct_coord_interior": 17.10840377921432
+      },
+      "wmape_teste": 47.51531551224845,
+      "vies_de_nivel_teste": 0.9203336886993604,
+      "semente": 17,
+      "tempo_s": 70.4503963749994
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.539594466904788,
+        "pct_coord_interior": 28.504475385380406
+      },
+      "receita": {
+        "ganho_pct_agregado": 43.207902945421715,
+        "pct_coord_interior": 18.199900546991547
+      },
+      "wmape_teste": 47.78444620432957,
+      "vies_de_nivel_teste": 0.9241885470606153,
+      "semente": 18,
+      "tempo_s": 68.47506458299904
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.684118997624925,
+        "pct_coord_interior": 29.605917454002984
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.81677027934931,
+        "pct_coord_interior": 19.722774738935854
+      },
+      "wmape_teste": 48.83439648791199,
+      "vies_de_nivel_teste": 0.963138592750533,
+      "semente": 19,
+      "tempo_s": 77.35428912500174
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.781681732872162,
+        "pct_coord_interior": 27.2687717553456
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.3841384825854,
+        "pct_coord_interior": 16.85479860765788
+      },
+      "wmape_teste": 49.79643552378841,
+      "vies_de_nivel_teste": 1.0156368413036856,
+      "semente": 20,
+      "tempo_s": 65.42686320800021
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 25.01552812194623,
+        "pct_coord_interior": 25.927399303828942
+      },
+      "receita": {
+        "ganho_pct_agregado": 44.62198000794451,
+        "pct_coord_interior": 18.002237692690205
+      },
+      "wmape_teste": 48.96966051150487,
+      "vies_de_nivel_teste": 1.008301401157478,
+      "semente": 21,
+      "tempo_s": 63.42359483399923
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.628114823984614,
+        "pct_coord_interior": 30.19020387866733
+      },
+      "receita": {
+        "ganho_pct_agregado": 44.18311537420783,
+        "pct_coord_interior": 18.511934361014422
+      },
+      "wmape_teste": 49.99826569157768,
+      "vies_de_nivel_teste": 0.931674687785562,
+      "semente": 22,
+      "tempo_s": 74.5294899169985
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.155856941165197,
+        "pct_coord_interior": 29.0949776230731
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.04057820616467,
+        "pct_coord_interior": 16.575087021382398
+      },
+      "wmape_teste": 46.714410538140356,
+      "vies_de_nivel_teste": 0.9322458117575388,
+      "semente": 23,
+      "tempo_s": 71.29875233299936
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.04038221051434,
+        "pct_coord_interior": 27.440328194927897
+      },
+      "receita": {
+        "ganho_pct_agregado": 38.73168620513417,
+        "pct_coord_interior": 17.328443560417703
+      },
+      "wmape_teste": 47.63546862926855,
+      "vies_de_nivel_teste": 0.9257080414255254,
+      "semente": 24,
+      "tempo_s": 69.54690383300112
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.324889930143165,
+        "pct_coord_interior": 28.222277473893584
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.4347952509933,
+        "pct_coord_interior": 18.436101442068622
+      },
+      "wmape_teste": 49.65739528832187,
+      "vies_de_nivel_teste": 1.01351507767286,
+      "semente": 25,
+      "tempo_s": 67.13842929200109
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.208815829769723,
+        "pct_coord_interior": 29.510193933366484
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.53262165774532,
+        "pct_coord_interior": 17.32222774738936
+      },
+      "wmape_teste": 52.32079681887556,
+      "vies_de_nivel_teste": 1.0449681693572952,
+      "semente": 26,
+      "tempo_s": 72.12340287500047
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 24.21703040309191,
+        "pct_coord_interior": 28.003480855295873
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.68733402254477,
+        "pct_coord_interior": 16.618597712580804
+      },
+      "wmape_teste": 47.99459350648683,
+      "vies_de_nivel_teste": 0.9402905878769419,
+      "semente": 27,
+      "tempo_s": 68.72811233299944
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.035740259071712,
+        "pct_coord_interior": 29.158378915962206
+      },
+      "receita": {
+        "ganho_pct_agregado": 43.41117254603455,
+        "pct_coord_interior": 19.297613127797117
+      },
+      "wmape_teste": 48.858901519053525,
+      "vies_de_nivel_teste": 0.9193389430399025,
+      "semente": 28,
+      "tempo_s": 68.15902595799707
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.486087642650364,
+        "pct_coord_interior": 28.53431128791646
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.45589150151891,
+        "pct_coord_interior": 17.51118846345102
+      },
+      "wmape_teste": 48.637659785996625,
+      "vies_de_nivel_teste": 1.0302680475175146,
+      "semente": 29,
+      "tempo_s": 76.60157904199878
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.727712957263524,
+        "pct_coord_interior": 27.30979612133267
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.87095583536018,
+        "pct_coord_interior": 15.942317255096967
+      },
+      "wmape_teste": 49.13274770154119,
+      "vies_de_nivel_teste": 0.9702339323789217,
+      "semente": 30,
+      "tempo_s": 67.56194479199985
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.105233370098976,
+        "pct_coord_interior": 27.778468423669818
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.56921428225566,
+        "pct_coord_interior": 17.287419194430633
+      },
+      "wmape_teste": 49.416807039634435,
+      "vies_de_nivel_teste": 1.0151959335973195,
+      "semente": 31,
+      "tempo_s": 63.316896790998726
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.283658096768445,
+        "pct_coord_interior": 29.206862257583293
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.38941842206903,
+        "pct_coord_interior": 17.093485827946296
+      },
+      "wmape_teste": 49.58422795209876,
+      "vies_de_nivel_teste": 1.0188314042034725,
+      "semente": 32,
+      "tempo_s": 75.13611433400001
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.116251044108928,
+        "pct_coord_interior": 27.896568871208355
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.69152150591018,
+        "pct_coord_interior": 18.505718547986078
+      },
+      "wmape_teste": 49.16592842799805,
+      "vies_de_nivel_teste": 0.9549908620164483,
+      "semente": 33,
+      "tempo_s": 67.43096924999918
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.518912556191204,
+        "pct_coord_interior": 29.66310293386375
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.20459119210182,
+        "pct_coord_interior": 17.91148682247638
+      },
+      "wmape_teste": 49.057881801737686,
+      "vies_de_nivel_teste": 0.9901171184891867,
+      "semente": 34,
+      "tempo_s": 72.70756537499983
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.257399745449604,
+        "pct_coord_interior": 27.42665340626554
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.96071029393824,
+        "pct_coord_interior": 18.27076081551467
+      },
+      "wmape_teste": 49.11408904126022,
+      "vies_de_nivel_teste": 1.0038802924154737,
+      "semente": 35,
+      "tempo_s": 62.20349220800199
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 24.00224055219904,
+        "pct_coord_interior": 25.268523122824465
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.144557048769826,
+        "pct_coord_interior": 15.014917951268027
+      },
+      "wmape_teste": 47.15276174286753,
+      "vies_de_nivel_teste": 0.9285147730734085,
+      "semente": 36,
+      "tempo_s": 56.00532604200271
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.938822997279452,
+        "pct_coord_interior": 27.335902536051716
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.14701136729284,
+        "pct_coord_interior": 17.817006464445548
+      },
+      "wmape_teste": 48.512083831372294,
+      "vies_de_nivel_teste": 0.9847199969540055,
+      "semente": 37,
+      "tempo_s": 73.00929708399781
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.201431099925074,
+        "pct_coord_interior": 28.242168075584285
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.228283192001804,
+        "pct_coord_interior": 18.00472401790154
+      },
+      "wmape_teste": 50.16790113319103,
+      "vies_de_nivel_teste": 1.002795918367347,
+      "semente": 38,
+      "tempo_s": 69.07398016699881
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.19520504251078,
+        "pct_coord_interior": 29.275236200895076
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.43970241965083,
+        "pct_coord_interior": 17.522376926902037
+      },
+      "wmape_teste": 47.45049884009935,
+      "vies_de_nivel_teste": 0.9312666768199818,
+      "semente": 39,
+      "tempo_s": 79.31742254100027
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.255141164965366,
+        "pct_coord_interior": 28.447289905519643
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.09516687130799,
+        "pct_coord_interior": 21.093983092988562
+      },
+      "wmape_teste": 48.68364008900018,
+      "vies_de_nivel_teste": 0.9992308863844045,
+      "semente": 40,
+      "tempo_s": 75.45826208299695
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.556398960242085,
+        "pct_coord_interior": 26.972899055196418
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.81722213349672,
+        "pct_coord_interior": 19.966434609646942
+      },
+      "wmape_teste": 47.15350474577795,
+      "vies_de_nivel_teste": 0.9198518123667377,
+      "semente": 41,
+      "tempo_s": 58.86768158400082
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.028918078237126,
+        "pct_coord_interior": 26.964196916956737
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.51920393091264,
+        "pct_coord_interior": 15.039781203381402
+      },
+      "wmape_teste": 47.179920632157284,
+      "vies_de_nivel_teste": 0.9264896436186415,
+      "semente": 42,
+      "tempo_s": 60.62646920900079
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.013088364311507,
+        "pct_coord_interior": 27.134510193933366
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.137311630537575,
+        "pct_coord_interior": 16.573843858776726
+      },
+      "wmape_teste": 47.448024499260214,
+      "vies_de_nivel_teste": 0.9529761650929028,
+      "semente": 43,
+      "tempo_s": 60.81535412499943
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.44680213674979,
+        "pct_coord_interior": 27.866732968672302
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.7763329295675,
+        "pct_coord_interior": 18.00845350571855
+      },
+      "wmape_teste": 48.49081315582495,
+      "vies_de_nivel_teste": 0.9656393542491624,
+      "semente": 44,
+      "tempo_s": 67.24663520800095
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.69611479404916,
+        "pct_coord_interior": 29.245400298359026
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.10748441448897,
+        "pct_coord_interior": 15.41148682247638
+      },
+      "wmape_teste": 48.98019363323145,
+      "vies_de_nivel_teste": 0.9763516600670119,
+      "semente": 45,
+      "tempo_s": 72.02661066700239
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.010314266321252,
+        "pct_coord_interior": 29.706613625062158
+      },
+      "receita": {
+        "ganho_pct_agregado": 43.624691946503646,
+        "pct_coord_interior": 15.988314271506713
+      },
+      "wmape_teste": 48.154492183149934,
+      "vies_de_nivel_teste": 1.0036781906792567,
+      "semente": 46,
+      "tempo_s": 63.991185667000536
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.546886723297234,
+        "pct_coord_interior": 27.357036300348085
+      },
+      "receita": {
+        "ganho_pct_agregado": 42.754658876937725,
+        "pct_coord_interior": 17.011437095972152
+      },
+      "wmape_teste": 47.02438731043215,
+      "vies_de_nivel_teste": 0.8809981724032897,
+      "semente": 47,
+      "tempo_s": 64.5086244999984
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 23.747167209364516,
+        "pct_coord_interior": 27.741173545499752
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.935043623775094,
+        "pct_coord_interior": 17.610641471904525
+      },
+      "wmape_teste": 49.17478846242215,
+      "vies_de_nivel_teste": 0.981872220530003,
+      "semente": 48,
+      "tempo_s": 62.5473715420012
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 22.600452745998734,
+        "pct_coord_interior": 27.787170561909498
+      },
+      "receita": {
+        "ganho_pct_agregado": 40.57252472705959,
+        "pct_coord_interior": 17.47886623570363
+      },
+      "wmape_teste": 47.771830283088576,
+      "vies_de_nivel_teste": 0.9099671032592141,
+      "semente": 49,
+      "tempo_s": 72.68997995799873
+    }
+  ],
+  "tempo_total_min": 56.7599037882
+}

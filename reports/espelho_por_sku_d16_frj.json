@@ -1,0 +1,415 @@
+{
+  "categoria": "frj",
+  "janela": "treino",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle",
+    "gama_contextual": false
+  },
+  "n_linhas": 407292,
+  "n_sementes": 50,
+  "por_sku": [
+    {
+      "sku": 0,
+      "n_linhas": 20456,
+      "r2_parcial_custo": 0.2936765088211495,
+      "F_primeiro_estagio_agrupado": 845.347686979495,
+      "instrumento_fraco": false,
+      "obs": 0.16886128793101296,
+      "ep_obs": 1.6800115715180817,
+      "espelho": -0.017829276947997443,
+      "dp_espelho_sementes": 0.2036513475324797,
+      "diferenca": 0.1866905648788592,
+      "ep_total": 0.5340323736910907,
+      "z": 0.3495866057492046,
+      "canais": {
+        "contexto": 0.7843927356665645,
+        "cruzado": 0.4577393508090726,
+        "proprio": -1.2599613773418419
+      }
+    },
+    {
+      "sku": 1,
+      "n_linhas": 20456,
+      "r2_parcial_custo": 0.6101585248550055,
+      "F_primeiro_estagio_agrupado": 13605.980656988393,
+      "instrumento_fraco": false,
+      "obs": -0.3656649006971828,
+      "ep_obs": 1.3454807238131004,
+      "espelho": -0.5302638595305423,
+      "dp_espelho_sementes": 0.10252117523294837,
+      "diferenca": 0.16459895883322873,
+      "ep_total": 0.4243687946919071,
+      "z": 0.38786772470564906,
+      "canais": {
+        "contexto": 0.4354021868008733,
+        "cruzado": 0.45808922764838655,
+        "proprio": -1.4237552766131412
+      }
+    },
+    {
+      "sku": 2,
+      "n_linhas": 20317,
+      "r2_parcial_custo": 0.39369684835850804,
+      "F_primeiro_estagio_agrupado": 14263.096281273914,
+      "instrumento_fraco": false,
+      "obs": -2.8827395029623606,
+      "ep_obs": 0.36593962373749167,
+      "espelho": -2.691921889052839,
+      "dp_espelho_sementes": 0.17084262590501612,
+      "diferenca": -0.19081761390956514,
+      "ep_total": 0.13814925249827167,
+      "z": -1.381242463921058,
+      "canais": {
+        "contexto": 0.3150978925268375,
+        "cruzado": -0.9073054505325455,
+        "proprio": -2.09971432723259
+      }
+    },
+    {
+      "sku": 3,
+      "n_linhas": 20388,
+      "r2_parcial_custo": 0.37860026113412004,
+      "F_primeiro_estagio_agrupado": 12847.922729475848,
+      "instrumento_fraco": false,
+      "obs": -0.9773357072355562,
+      "ep_obs": 0.36457421361701564,
+      "espelho": -0.8990611363173795,
+      "dp_espelho_sementes": 0.1404039777307683,
+      "diferenca": -0.07827457091821036,
+      "ep_total": 0.13444410920036953,
+      "z": -0.5822090040520363,
+      "canais": {
+        "contexto": 1.482212857673781,
+        "cruzado": -0.23838289135673296,
+        "proprio": -2.1428911032002422
+      }
+    },
+    {
+      "sku": 4,
+      "n_linhas": 20456,
+      "r2_parcial_custo": 0.6248472769284854,
+      "F_primeiro_estagio_agrupado": 7358.929766943074,
+      "instrumento_fraco": false,
+      "obs": -0.6443261364684227,
+      "ep_obs": 0.6586497801811997,
+      "espelho": -0.6114583867185441,
+      "dp_espelho_sementes": 0.12602406790833912,
+      "diferenca": -0.03286774974994368,
+      "ep_total": 0.22520520318191245,
+      "z": -0.14594578315934523,
+      "canais": {
+        "contexto": 0.27534739445603185,
+        "cruzado": 0.3681055314159476,
+        "proprio": -1.254911313891653
+      }
+    },
+    {
+      "sku": 5,
+      "n_linhas": 20385,
+      "r2_parcial_custo": 0.3390683249000832,
+      "F_primeiro_estagio_agrupado": 10819.756142761013,
+      "instrumento_fraco": false,
+      "obs": -4.5549110353982005,
+      "ep_obs": 0.21950481077638756,
+      "espelho": -4.236083967245173,
+      "dp_espelho_sementes": 0.1930974322749261,
+      "diferenca": -0.31882706815305,
+      "ep_total": 0.11376930322079702,
+      "z": -2.8023997609819977,
+      "canais": {
+        "contexto": -0.9859180590932773,
+        "cruzado": -1.3110667033008747,
+        "proprio": -1.9390991984692958
+      }
+    },
+    {
+      "sku": 6,
+      "n_linhas": 20454,
+      "r2_parcial_custo": 0.3084594755930894,
+      "F_primeiro_estagio_agrupado": 2335.04756622269,
+      "instrumento_fraco": false,
+      "obs": -2.110068213604253,
+      "ep_obs": 0.6993383885916611,
+      "espelho": -2.07633187913542,
+      "dp_espelho_sementes": 0.07030531910282116,
+      "diferenca": -0.033736334468916454,
+      "ep_total": 0.22607487044994448,
+      "z": -0.14922637974655417,
+      "canais": {
+        "contexto": 0.6435188046803582,
+        "cruzado": -1.0504899760674817,
+        "proprio": -1.6693607027611472
+      }
+    },
+    {
+      "sku": 7,
+      "n_linhas": 20453,
+      "r2_parcial_custo": 0.3030639092733397,
+      "F_primeiro_estagio_agrupado": 2069.6409152255246,
+      "instrumento_fraco": false,
+      "obs": -2.8713484854170868,
+      "ep_obs": 0.5147747016780574,
+      "espelho": -2.5237283508438106,
+      "dp_espelho_sementes": 0.08982048360152527,
+      "diferenca": -0.3476201345733121,
+      "ep_total": 0.18430270112980396,
+      "z": -1.8861369499326222,
+      "canais": {
+        "contexto": -0.4906873987198308,
+        "cruzado": -0.45835581907470324,
+        "proprio": -1.5746851374813549
+      }
+    },
+    {
+      "sku": 8,
+      "n_linhas": 20358,
+      "r2_parcial_custo": 0.24467212506854075,
+      "F_primeiro_estagio_agrupado": 1179.9563094715538,
+      "instrumento_fraco": false,
+      "obs": -0.038170142624812275,
+      "ep_obs": 0.2446082136148956,
+      "espelho": 0.12027957381019276,
+      "dp_espelho_sementes": 0.13292912268834808,
+      "diferenca": -0.15844971643501363,
+      "ep_total": 0.18934314139429195,
+      "z": -0.8368389542299541,
+      "canais": {
+        "contexto": 1.015913055744942,
+        "cruzado": 1.0585567308947825,
+        "proprio": -1.9541902136961746
+      }
+    },
+    {
+      "sku": 9,
+      "n_linhas": 20374,
+      "r2_parcial_custo": 1.9747385359036862e-05,
+      "F_primeiro_estagio_agrupado": 0.1336169275874126,
+      "instrumento_fraco": true,
+      "obs": 13.142413345320655,
+      "ep_obs": 40.473551014231944,
+      "espelho": 13.647715346234376,
+      "dp_espelho_sementes": 5.047714946329109,
+      "diferenca": -0.5053020009092305,
+      "ep_total": 14.30454884169931,
+      "z": -0.03532456748556938,
+      "canais": {
+        "contexto": 15.21771278567914,
+        "cruzado": 0.6342908907994342,
+        "proprio": -2.2042882952554237
+      }
+    },
+    {
+      "sku": 10,
+      "n_linhas": 20374,
+      "r2_parcial_custo": 0.00022741503802636842,
+      "F_primeiro_estagio_agrupado": 1.1130324247373942,
+      "instrumento_fraco": true,
+      "obs": -26.069584761992715,
+      "ep_obs": 23.68163044246797,
+      "espelho": -21.062136051902115,
+      "dp_espelho_sementes": 2.756154842325423,
+      "diferenca": -5.007448710090033,
+      "ep_total": 6.095060558334943,
+      "z": -0.8215584836548326,
+      "canais": {
+        "contexto": -13.392792315950153,
+        "cruzado": -6.843898390992688,
+        "proprio": -0.8254452478467726
+      }
+    },
+    {
+      "sku": 11,
+      "n_linhas": 20370,
+      "r2_parcial_custo": 0.01829979542964777,
+      "F_primeiro_estagio_agrupado": 23.786887353712974,
+      "instrumento_fraco": false,
+      "obs": 2.584174831719446,
+      "ep_obs": 9.375172072475982,
+      "espelho": 1.5928012498648156,
+      "dp_espelho_sementes": 0.6939101378083241,
+      "diferenca": 0.9913735818537696,
+      "ep_total": 2.902509188686334,
+      "z": 0.34155743096974034,
+      "canais": {
+        "contexto": 0.8879834893598648,
+        "cruzado": 2.707398421387424,
+        "proprio": -2.0025806849843093
+      }
+    },
+    {
+      "sku": 12,
+      "n_linhas": 19999,
+      "r2_parcial_custo": 0.2618885159635722,
+      "F_primeiro_estagio_agrupado": 8067.872074619465,
+      "instrumento_fraco": false,
+      "obs": 0.530596776810353,
+      "ep_obs": 0.5529586325201075,
+      "espelho": 0.5601812700175918,
+      "dp_espelho_sementes": 0.1886131597976242,
+      "diferenca": -0.02958449320729124,
+      "ep_total": 0.192011768755017,
+      "z": -0.15407645791252178,
+      "canais": {
+        "contexto": 1.399299258949008,
+        "cruzado": 3.069759747245853,
+        "proprio": -3.9088777096583467
+      }
+    },
+    {
+      "sku": 13,
+      "n_linhas": 20447,
+      "r2_parcial_custo": 0.4369879231268785,
+      "F_primeiro_estagio_agrupado": 2543.5043961218707,
+      "instrumento_fraco": false,
+      "obs": -0.12178571864708299,
+      "ep_obs": 0.9513260245354447,
+      "espelho": -0.05381366493433145,
+      "dp_espelho_sementes": 0.14647918585427827,
+      "diferenca": -0.06797205371284415,
+      "ep_total": 0.3164720182970239,
+      "z": -0.21478061181715336,
+      "canais": {
+        "contexto": 0.4074064071404906,
+        "cruzado": 1.279031691714807,
+        "proprio": -1.7402517616831705
+      }
+    },
+    {
+      "sku": 14,
+      "n_linhas": 20055,
+      "r2_parcial_custo": 0.22436314671615276,
+      "F_primeiro_estagio_agrupado": 1018.4567364731378,
+      "instrumento_fraco": false,
+      "obs": -0.14478400773930078,
+      "ep_obs": 1.6666256280426677,
+      "espelho": -0.2483837809715091,
+      "dp_espelho_sementes": 0.2199773441199107,
+      "diferenca": 0.10359977323204901,
+      "ep_total": 0.5285399169392963,
+      "z": 0.19601125650448767,
+      "canais": {
+        "contexto": 0.7742262841307141,
+        "cruzado": 2.7573204940998224,
+        "proprio": -3.7799305544037622
+      }
+    },
+    {
+      "sku": 15,
+      "n_linhas": 20347,
+      "r2_parcial_custo": 0.052014882085840486,
+      "F_primeiro_estagio_agrupado": 988.9397143372912,
+      "instrumento_fraco": false,
+      "obs": -1.1287270786848977,
+      "ep_obs": 1.9068519778379562,
+      "espelho": -0.9584539289399848,
+      "dp_espelho_sementes": 0.19683819717235204,
+      "diferenca": -0.1702731497447119,
+      "ep_total": 0.6176186734333209,
+      "z": -0.27569300778774924,
+      "canais": {
+        "contexto": 0.5668351935326212,
+        "cruzado": 0.5830743330102841,
+        "proprio": -2.1083634354681386
+      }
+    },
+    {
+      "sku": 16,
+      "n_linhas": 20456,
+      "r2_parcial_custo": 0.10343324062278059,
+      "F_primeiro_estagio_agrupado": 683.757798326366,
+      "instrumento_fraco": false,
+      "obs": -3.238013046263177,
+      "ep_obs": 4.5356848778378405,
+      "espelho": -2.0266867839275164,
+      "dp_espelho_sementes": 0.288554526035517,
+      "diferenca": -1.2113262623352512,
+      "ep_total": 1.4046483816466053,
+      "z": -0.8623697418960242,
+      "canais": {
+        "contexto": -0.1911536038633539,
+        "cruzado": -0.39823646992437745,
+        "proprio": -1.4372967128357743
+      }
+    },
+    {
+      "sku": 17,
+      "n_linhas": 20378,
+      "r2_parcial_custo": 0.34138884585401097,
+      "F_primeiro_estagio_agrupado": 25136.049755543037,
+      "instrumento_fraco": false,
+      "obs": -1.4727115343350468,
+      "ep_obs": 0.5414642243401092,
+      "espelho": -1.5496067553874187,
+      "dp_espelho_sementes": 0.20489156644455356,
+      "diferenca": 0.07689522105231665,
+      "ep_total": 0.18507616597511858,
+      "z": 0.41547878759631507,
+      "canais": {
+        "contexto": 1.9160991354112726,
+        "cruzado": 0.14984718686271759,
+        "proprio": -3.615553079864472
+      }
+    },
+    {
+      "sku": 18,
+      "n_linhas": 20396,
+      "r2_parcial_custo": 0.24336222645824857,
+      "F_primeiro_estagio_agrupado": 7008.888764606973,
+      "instrumento_fraco": false,
+      "obs": -1.1301605128810817,
+      "ep_obs": 0.3637232655344022,
+      "espelho": -0.9126042934608464,
+      "dp_espelho_sementes": 0.16964989742097364,
+      "diferenca": -0.21755621942021133,
+      "ep_total": 0.14279651275154864,
+      "z": -1.5235401427395987,
+      "canais": {
+        "contexto": -0.1428136105671105,
+        "cruzado": 1.19256499991763,
+        "proprio": -1.9623556810962455
+      }
+    },
+    {
+      "sku": 19,
+      "n_linhas": 20373,
+      "r2_parcial_custo": 0.28843837545566164,
+      "F_primeiro_estagio_agrupado": 20316.588363417526,
+      "instrumento_fraco": false,
+      "obs": -1.6667210303425897,
+      "ep_obs": 0.3927923802567637,
+      "espelho": -1.7299441283569275,
+      "dp_espelho_sementes": 0.24380674294303367,
+      "diferenca": 0.06322309801430338,
+      "ep_total": 0.15129078730919954,
+      "z": 0.4178912618459153,
+      "canais": {
+        "contexto": 1.837443874793272,
+        "cruzado": 0.018061897573387498,
+        "proprio": -3.5854499015362475
+      }
+    }
+  ],
+  "resumo": {
+    "n_fortes": 18,
+    "n_fracos": 2,
+    "z_bonferroni_20": 2.807033768343811,
+    "fortes_com_z_acima_1_96": 1,
+    "fortes_com_z_acima_bonferroni": 0,
+    "fortes_rede_mais_elastica": 6,
+    "fortes_rede_menos_elastica": 12,
+    "diferenca_mediana_fortes": -0.0508541940908803,
+    "diferenca_media_ponderada_fortes": -0.07098521684455444,
+    "maior_diferenca_absoluta_fortes": -1.2113262623352512
+  }
+}

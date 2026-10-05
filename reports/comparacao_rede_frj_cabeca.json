@@ -1,0 +1,189 @@
+{
+  "n_configuracoes": 4,
+  "n_pares": 6,
+  "alfa": 0.05,
+  "limiar_z_corrigido": 2.6382572734767513,
+  "eixos": {
+    "wmape": {
+      "n_sementes": 50,
+      "medias": {
+        "posto=2": 51.20307861017084,
+        "posto=4": 50.573604272314526,
+        "posto=8": 49.29900109476596,
+        "posto_cheio": 48.609698184685264
+      },
+      "pares": {
+        "posto=2__menos__posto=4": {
+          "diferenca_media": 0.6294743378563268,
+          "erro_padrao_pareado": 0.1706182096478582,
+          "z": 3.68937371430347,
+          "passa_limiar": true
+        },
+        "posto=2__menos__posto=8": {
+          "diferenca_media": 1.9040775154048706,
+          "erro_padrao_pareado": 0.1874125939669733,
+          "z": 10.15981623807211,
+          "passa_limiar": true
+        },
+        "posto=2__menos__posto_cheio": {
+          "diferenca_media": 2.593380425485576,
+          "erro_padrao_pareado": 0.17983981796040274,
+          "z": 14.420501838233557,
+          "passa_limiar": true
+        },
+        "posto=4__menos__posto=8": {
+          "diferenca_media": 1.2746031775485436,
+          "erro_padrao_pareado": 0.18080241735807293,
+          "z": 7.049702079061455,
+          "passa_limiar": true
+        },
+        "posto=4__menos__posto_cheio": {
+          "diferenca_media": 1.963906087629249,
+          "erro_padrao_pareado": 0.172817243123681,
+          "z": 11.3640632851881,
+          "passa_limiar": true
+        },
+        "posto=8__menos__posto_cheio": {
+          "diferenca_media": 0.6893029100807054,
+          "erro_padrao_pareado": 0.14392761457199876,
+          "z": 4.789233199831062,
+          "passa_limiar": true
+        }
+      },
+      "poder": {
+        "ep_pareado_mediano": 0.17632853054204187,
+        "diferenca_minima_detectavel_mediana": 0.46520002822400947,
+        "amplitude_das_medias": 2.5933804254855772,
+        "n_pares_que_passam": 6,
+        "n_pares": 6,
+        "tem_ordem_de_melhor": true,
+        "melhor": "posto_cheio",
+        "segunda": "posto=8",
+        "distancia_melhor_para_segunda": 0.6893029100806984,
+        "amplitude_do_topo": 2.5933804254855772,
+        "n_do_topo": 4,
+        "diferenca_minima_detectavel_do_par_1_2": 0.3797180759987342,
+        "escolha_entre_1_e_2_e_decidivel": true,
+        "sementes_para_decidir_1_contra_2": 16
+      }
+    },
+    "vies_de_nivel": {
+      "n_sementes": 50,
+      "medias": {
+        "posto=2": 0.9261955680779773,
+        "posto=4": 0.9456142918062747,
+        "posto=8": 0.9511545278708499,
+        "posto_cheio": 0.9662645156868718
+      },
+      "pares": {
+        "posto=2__menos__posto=4": {
+          "diferenca_media": -0.019418723728297296,
+          "erro_padrao_pareado": 0.005425901610116162,
+          "z": -3.5788934491721394,
+          "passa_limiar": true
+        },
+        "posto=2__menos__posto=8": {
+          "diferenca_media": -0.024958959792872385,
+          "erro_padrao_pareado": 0.006548153156674713,
+          "z": -3.8116029353148266,
+          "passa_limiar": true
+        },
+        "posto=2__menos__posto_cheio": {
+          "diferenca_media": -0.040068947608894324,
+          "erro_padrao_pareado": 0.004773522208933824,
+          "z": -8.394000458174009,
+          "passa_limiar": true
+        },
+        "posto=4__menos__posto=8": {
+          "diferenca_media": -0.005540236064575086,
+          "erro_padrao_pareado": 0.00540980914900954,
+          "z": -1.0241093376814274,
+          "passa_limiar": false
+        },
+        "posto=4__menos__posto_cheio": {
+          "diferenca_media": -0.02065022388059702,
+          "erro_padrao_pareado": 0.005363542442151723,
+          "z": -3.850109158885047,
+          "passa_limiar": true
+        },
+        "posto=8__menos__posto_cheio": {
+          "diferenca_media": -0.015109987816021934,
+          "erro_padrao_pareado": 0.005060490058653612,
+          "z": -2.9858744194513998,
+          "passa_limiar": true
+        }
+      },
+      "poder": {
+        "ep_pareado_mediano": 0.005386675795580631,
+        "diferenca_minima_detectavel_mediana": 0.014211436597551768,
+        "amplitude_das_medias": 0.040068947608894456,
+        "n_pares_que_passam": 5,
+        "n_pares": 6,
+        "tem_ordem_de_melhor": true,
+        "melhor": "posto_cheio",
+        "segunda": "posto=8",
+        "distancia_melhor_para_segunda": 0.015109987816021908,
+        "amplitude_do_topo": 0.040068947608894456,
+        "n_do_topo": 4,
+        "diferenca_minima_detectavel_do_par_1_2": 0.013350874704599685,
+        "escolha_entre_1_e_2_e_decidivel": true,
+        "sementes_para_decidir_1_contra_2": 40
+      }
+    },
+    "elast_h10": {
+      "n_sementes": 50,
+      "medias": {
+        "posto=2": -1.6690686321258545,
+        "posto=4": -1.7612531185150146,
+        "posto=8": -1.8414366626739502,
+        "posto_cheio": -1.9108779454231262
+      },
+      "pares": {
+        "posto=2__menos__posto=4": {
+          "diferenca_media": 0.09218448638916016,
+          "erro_padrao_pareado": 0.017487405637350545,
+          "z": 5.271478703065454,
+          "passa_limiar": true
+        },
+        "posto=2__menos__posto=8": {
+          "diferenca_media": 0.1723680305480957,
+          "erro_padrao_pareado": 0.013930183456055734,
+          "z": 12.373708579779244,
+          "passa_limiar": true
+        },
+        "posto=2__menos__posto_cheio": {
+          "diferenca_media": 0.24180931329727173,
+          "erro_padrao_pareado": 0.012667508186988544,
+          "z": 19.08894075518709,
+          "passa_limiar": true
+        },
+        "posto=4__menos__posto=8": {
+          "diferenca_media": 0.08018354415893554,
+          "erro_padrao_pareado": 0.01462233383830094,
+          "z": 5.483635173812484,
+          "passa_limiar": true
+        },
+        "posto=4__menos__posto_cheio": {
+          "diferenca_media": 0.14962482690811157,
+          "erro_padrao_pareado": 0.012724681895000743,
+          "z": 11.75863005006797,
+          "passa_limiar": true
+        },
+        "posto=8__menos__posto_cheio": {
+          "diferenca_media": 0.06944128274917602,
+          "erro_padrao_pareado": 0.009685869038418546,
+          "z": 7.16933942362223,
+          "passa_limiar": true
+        }
+      },
+      "poder": {
+        "ep_pareado_mediano": 0.013327432675528238,
+        "diferenca_minima_detectavel_mediana": 0.03516119619298409,
+        "amplitude_das_medias": 0.24180931329727162,
+        "n_pares_que_passam": 6,
+        "n_pares": 6,
+        "tem_ordem_de_melhor": false
+      }
+    }
+  }
+}

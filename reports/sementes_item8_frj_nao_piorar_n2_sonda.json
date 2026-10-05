@@ -1,0 +1,124 @@
+{
+  "categoria": "frj",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle"
+  },
+  "hierarquia": "nao_piorar",
+  "n_pares": 12,
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "n_sementes": 2,
+  "partidas_por_celula": 1,
+  "agregado": {
+    "margem": {
+      "ganho_pct_agregado": {
+        "media": 21.19424496448251,
+        "desvio": 0.9393633703871757,
+        "erro_padrao": 0.6642302091990223,
+        "min": 20.53001475528349,
+        "max": 21.858475173681533,
+        "amplitude": 1.3284604183980449,
+        "n": 2
+      },
+      "pct_coord_interior": {
+        "media": 29.29264047737444,
+        "desvio": 0.8298219809051495,
+        "erro_padrao": 0.586772749875685,
+        "min": 28.705867727498756,
+        "max": 29.879413227250126,
+        "amplitude": 1.17354549975137,
+        "n": 2
+      }
+    },
+    "receita": {
+      "ganho_pct_agregado": {
+        "media": 40.262818745362985,
+        "desvio": 1.4414993786822916,
+        "erro_padrao": 1.0192939857424432,
+        "min": 39.24352475962054,
+        "max": 41.28211273110543,
+        "amplitude": 2.038587971484887,
+        "n": 2
+      },
+      "pct_coord_interior": {
+        "media": 16.92814520139234,
+        "desvio": 1.3220892577132846,
+        "erro_padrao": 0.9348582794629525,
+        "min": 15.99328692192939,
+        "max": 17.863003480855294,
+        "amplitude": 1.869716558925905,
+        "n": 2
+      }
+    },
+    "wmape_teste": {
+      "media": 47.94552915144213,
+      "desvio": 0.5720430956064009,
+      "erro_padrao": 0.40449555203423054,
+      "min": 47.5410335994079,
+      "max": 48.350024703476365,
+      "amplitude": 0.8089911040684612,
+      "n": 2
+    },
+    "vies_de_nivel_teste": {
+      "media": 0.9237674002436795,
+      "desvio": 0.05238820172752984,
+      "erro_padrao": 0.03704405269570515,
+      "min": 0.8867233475479744,
+      "max": 0.9608114529393847,
+      "amplitude": 0.07408810539141031,
+      "n": 2
+    }
+  },
+  "por_semente": [
+    {
+      "margem": {
+        "ganho_pct_agregado": 21.858475173681533,
+        "pct_coord_interior": 28.705867727498756
+      },
+      "receita": {
+        "ganho_pct_agregado": 41.28211273110543,
+        "pct_coord_interior": 15.99328692192939
+      },
+      "wmape_teste": 48.350024703476365,
+      "vies_de_nivel_teste": 0.9608114529393847,
+      "semente": 0,
+      "tempo_s": 71.64050316700013
+    },
+    {
+      "margem": {
+        "ganho_pct_agregado": 20.53001475528349,
+        "pct_coord_interior": 29.879413227250126
+      },
+      "receita": {
+        "ganho_pct_agregado": 39.24352475962054,
+        "pct_coord_interior": 17.863003480855294
+      },
+      "wmape_teste": 47.5410335994079,
+      "vies_de_nivel_teste": 0.8867233475479744,
+      "semente": 1,
+      "tempo_s": 71.74820320900108
+    }
+  ],
+  "tempo_total_min": 2.3898136972333304
+}

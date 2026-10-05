@@ -1,0 +1,48 @@
+{
+  "categoria": "frj",
+  "particao": {
+    "semana_de_corte": 319,
+    "zona_morta_semanas": 8,
+    "versao_pipeline": "2026-09-17_vocabulario_do_treino",
+    "janela_treino": [
+      1,
+      310
+    ],
+    "vocabulario_tamanho": {
+      "sku": 20,
+      "store": 86
+    },
+    "n_treino": 409120,
+    "n_teste": 86460,
+    "semana_de_corte_validacao": 249,
+    "janela_treino_reduzido": [
+      1,
+      240
+    ],
+    "n_treino_reduzido": 321820,
+    "n_validacao": 76760,
+    "lojas_so_na_validacao": 0
+  },
+  "treino": {
+    "n_celulas": 20456,
+    "semana_min": 1,
+    "semana_max": 310
+  },
+  "teste": {
+    "n_celulas": 4323,
+    "semana_min": 319,
+    "semana_max": 399
+  },
+  "treino_reduzido": {
+    "n_celulas": 16091,
+    "semana_min": 1,
+    "semana_max": 240
+  },
+  "validacao": {
+    "n_celulas": 3838,
+    "semana_min": 249,
+    "semana_max": 310
+  },
+  "fracao_treino_reduzido": 0.7866151740320688,
+  "pct_treino_reduzido": 78.66151740320689
+}

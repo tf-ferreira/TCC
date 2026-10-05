@@ -1,0 +1,1131 @@
+{
+  "categoria": "frj",
+  "n_sementes": 50,
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle",
+    "gama_contextual": false
+  },
+  "wmape_teste_total": 48.60969819962594,
+  "wmape_teste_total_dp": 1.0731432006305597,
+  "por_sku": [
+    {
+      "sku": 0,
+      "participacao_volume_teste": 0.01772921108742004,
+      "wmape_teste": 49.61907097544316,
+      "wmape_teste_dp": 2.762898458064714,
+      "encolhimento_treino": 0.9666636694281447,
+      "nivel_teste": 1.1335601156511996,
+      "transferencia": 1.1726520314162494,
+      "contribuicao_deficit_treino": 0.005226529268233362,
+      "contribuicao_deficit_teste": -0.07019063656825669
+    },
+    {
+      "sku": 1,
+      "participacao_volume_teste": 0.019714285714285715,
+      "wmape_teste": 38.203947398488964,
+      "wmape_teste_dp": 0.690407167244887,
+      "encolhimento_treino": 0.9617209259094537,
+      "nivel_teste": 0.9561821312175475,
+      "transferencia": 0.9942407464133439,
+      "contribuicao_deficit_treino": 0.004999284455270936,
+      "contribuicao_deficit_teste": 0.025606208691924724
+    },
+    {
+      "sku": 2,
+      "participacao_volume_teste": 0.03884313128236369,
+      "wmape_teste": 58.5719538587877,
+      "wmape_teste_dp": 5.451014482081348,
+      "encolhimento_treino": 0.8887089396415523,
+      "nivel_teste": 1.2239563693508313,
+      "transferencia": 1.3772297259038444,
+      "contribuicao_deficit_treino": 0.026105722027800683,
+      "contribuicao_deficit_teste": -0.2578639522968007
+    },
+    {
+      "sku": 3,
+      "participacao_volume_teste": 0.08155528480048736,
+      "wmape_teste": 44.63519999077119,
+      "wmape_teste_dp": 2.168070021891245,
+      "encolhimento_treino": 0.874015031774275,
+      "nivel_teste": 0.9814744808662056,
+      "transferencia": 1.1229492001685428,
+      "contribuicao_deficit_treino": 0.07823662983419807,
+      "contribuicao_deficit_teste": 0.04478529913864627
+    },
+    {
+      "sku": 4,
+      "participacao_volume_teste": 0.018115747791653977,
+      "wmape_teste": 42.55427933735714,
+      "wmape_teste_dp": 1.4467920332718995,
+      "encolhimento_treino": 0.9678760450097262,
+      "nivel_teste": 1.004419184266188,
+      "transferencia": 1.037756011676159,
+      "contribuicao_deficit_treino": 0.0039205285610448256,
+      "contribuicao_deficit_teste": -0.002373074432525665
+    },
+    {
+      "sku": 5,
+      "participacao_volume_teste": 0.08249223271398111,
+      "wmape_teste": 44.97443180113774,
+      "wmape_teste_dp": 3.1786099313489533,
+      "encolhimento_treino": 0.9387051753570458,
+      "nivel_teste": 1.0607321686004205,
+      "transferencia": 1.1299950148852227,
+      "contribuicao_deficit_treino": 0.016838332570977405,
+      "contribuicao_deficit_teste": -0.1485062840066227
+    },
+    {
+      "sku": 6,
+      "participacao_volume_teste": 0.030038988729820287,
+      "wmape_teste": 42.23857018548609,
+      "wmape_teste_dp": 2.793017391146318,
+      "encolhimento_treino": 0.9242541014870161,
+      "nivel_teste": 1.1613599717890313,
+      "transferencia": 1.256537536507049,
+      "contribuicao_deficit_treino": 0.014746697804213617,
+      "contribuicao_deficit_teste": -0.1436792661156972
+    },
+    {
+      "sku": 7,
+      "participacao_volume_teste": 0.02837678952177886,
+      "wmape_teste": 56.37101801916165,
+      "wmape_teste_dp": 6.484433075499338,
+      "encolhimento_treino": 0.9063142193105271,
+      "nivel_teste": 1.3481938943273577,
+      "transferencia": 1.4875568159495365,
+      "contribuicao_deficit_treino": 0.016379298440437343,
+      "contribuicao_deficit_teste": -0.2928851781110449
+    },
+    {
+      "sku": 8,
+      "participacao_volume_teste": 0.019250380749314653,
+      "wmape_teste": 52.99434363054087,
+      "wmape_teste_dp": 5.245536278699989,
+      "encolhimento_treino": 0.9130056519535076,
+      "nivel_teste": 1.305566176489509,
+      "transferencia": 1.4299650541002253,
+      "contribuicao_deficit_treino": 0.013766155801151475,
+      "contribuicao_deficit_teste": -0.17436430678754347
+    },
+    {
+      "sku": 9,
+      "participacao_volume_teste": 0.04419494364910143,
+      "wmape_teste": 49.99126560288947,
+      "wmape_teste_dp": 4.761938299491459,
+      "encolhimento_treino": 0.8701698896321727,
+      "nivel_teste": 1.1372303715744716,
+      "transferencia": 1.3069061399667454,
+      "contribuicao_deficit_treino": 0.04046424813372465,
+      "contribuicao_deficit_teste": -0.17977769487906853
+    },
+    {
+      "sku": 10,
+      "participacao_volume_teste": 0.03820560462991167,
+      "wmape_teste": 50.78002731371907,
+      "wmape_teste_dp": 5.5667178438394025,
+      "encolhimento_treino": 0.8406446445879555,
+      "nivel_teste": 1.1048982107786514,
+      "transferencia": 1.3143463387198768,
+      "contribuicao_deficit_treino": 0.042091176776089534,
+      "contribuicao_deficit_teste": -0.11879772981795211
+    },
+    {
+      "sku": 11,
+      "participacao_volume_teste": 0.05315686871763631,
+      "wmape_teste": 39.956521796379974,
+      "wmape_teste_dp": 1.646288845739148,
+      "encolhimento_treino": 0.9255212288630587,
+      "nivel_teste": 1.0551000482662556,
+      "transferencia": 1.1400063179127462,
+      "contribuicao_deficit_treino": 0.03360951391297002,
+      "contribuicao_deficit_teste": -0.08682091397137086
+    },
+    {
+      "sku": 12,
+      "participacao_volume_teste": 0.1912366737739872,
+      "wmape_teste": 45.67280186660546,
+      "wmape_teste_dp": 1.0776575562431676,
+      "encolhimento_treino": 0.8539986859827314,
+      "nivel_teste": 0.7945344642312356,
+      "transferencia": 0.9303696566194738,
+      "contribuicao_deficit_treino": 0.2204264826504248,
+      "contribuicao_deficit_teste": 1.1647243366881226
+    },
+    {
+      "sku": 13,
+      "participacao_volume_teste": 0.03569905574169967,
+      "wmape_teste": 39.225881548395535,
+      "wmape_teste_dp": 0.7220535740544989,
+      "encolhimento_treino": 0.9347710328511109,
+      "nivel_teste": 0.9334230124087468,
+      "transferencia": 0.998557913761777,
+      "contribuicao_deficit_treino": 0.01672392004401641,
+      "contribuicao_deficit_teste": 0.07045208550597425
+    },
+    {
+      "sku": 14,
+      "participacao_volume_teste": 0.05308041425525434,
+      "wmape_teste": 67.30926930091351,
+      "wmape_teste_dp": 2.3979812248071717,
+      "encolhimento_treino": 0.6683286315479454,
+      "nivel_teste": 0.8753262942320869,
+      "transferencia": 1.3097243674937358,
+      "contribuicao_deficit_treino": 0.18047203258092573,
+      "contribuicao_deficit_teste": 0.1961652860581129
+    },
+    {
+      "sku": 15,
+      "participacao_volume_teste": 0.03371733170880292,
+      "wmape_teste": 48.29218390030961,
+      "wmape_teste_dp": 3.353578949760145,
+      "encolhimento_treino": 0.830789995722367,
+      "nivel_teste": 1.1073412328615686,
+      "transferencia": 1.3328774281865803,
+      "contribuicao_deficit_treino": 0.03714158583560575,
+      "contribuicao_deficit_teste": -0.10728345749886324
+    },
+    {
+      "sku": 16,
+      "participacao_volume_teste": 0.013269265915321352,
+      "wmape_teste": 46.73187915732824,
+      "wmape_teste_dp": 2.9365815600884795,
+      "encolhimento_treino": 0.9574523667467486,
+      "nivel_teste": 1.1252470314172522,
+      "transferencia": 1.1752511879422678,
+      "contribuicao_deficit_treino": 0.003676301280884481,
+      "contribuicao_deficit_teste": -0.049263733516422
+    },
+    {
+      "sku": 17,
+      "participacao_volume_teste": 0.1122366737739872,
+      "wmape_teste": 51.6923441747621,
+      "wmape_teste_dp": 1.7181449433010696,
+      "encolhimento_treino": 0.804368839798763,
+      "nivel_teste": 0.8162825665861694,
+      "transferencia": 1.0148112733834729,
+      "contribuicao_deficit_treino": 0.15215655838882763,
+      "contribuicao_deficit_teste": 0.611220822454809
+    },
+    {
+      "sku": 18,
+      "participacao_volume_teste": 0.01811696618946086,
+      "wmape_teste": 46.82338776051567,
+      "wmape_teste_dp": 1.7283884759333885,
+      "encolhimento_treino": 0.9230917153968593,
+      "nivel_teste": 1.056928273271671,
+      "transferencia": 1.144987280941279,
+      "contribuicao_deficit_treino": 0.008520788828844288,
+      "contribuicao_deficit_teste": -0.030572184285613094
+    },
+    {
+      "sku": 19,
+      "participacao_volume_teste": 0.07097014925373134,
+      "wmape_teste": 53.721568871714,
+      "wmape_teste_dp": 1.9660404049118547,
+      "encolhimento_treino": 0.7894688461710568,
+      "nivel_teste": 0.7388324473191478,
+      "transferencia": 0.9358601683936018,
+      "contribuicao_deficit_treino": 0.08449821280436023,
+      "contribuicao_deficit_teste": 0.5494243737501892
+    }
+  ],
+  "lojas": {
+    "n": 87,
+    "n_so_no_teste": 7,
+    "linhas_no_indice_de_reserva": 3860,
+    "participacao_volume_so_no_teste": 0.044460858970453855,
+    "wmape_mediana": 49.47296157952881,
+    "wmape_p10": 44.3955620575023,
+    "wmape_p90": 57.19044423722013,
+    "wmape_vistas": 47.839121587731036,
+    "wmape_vistas_dp": 0.9984731955200955,
+    "wmape_so_no_teste": 65.17069434045212,
+    "wmape_so_no_teste_dp": 8.53041759645324,
+    "por_loja": [
+      {
+        "loja": 2,
+        "so_no_teste": false,
+        "wmape": 45.96211577652412
+      },
+      {
+        "loja": 5,
+        "so_no_teste": false,
+        "wmape": 50.97815459902573
+      },
+      {
+        "loja": 8,
+        "so_no_teste": false,
+        "wmape": 52.369871686582165
+      },
+      {
+        "loja": 9,
+        "so_no_teste": false,
+        "wmape": 52.48806059309887
+      },
+      {
+        "loja": 12,
+        "so_no_teste": false,
+        "wmape": 44.034744578936944
+      },
+      {
+        "loja": 14,
+        "so_no_teste": false,
+        "wmape": 49.80099022600059
+      },
+      {
+        "loja": 18,
+        "so_no_teste": false,
+        "wmape": 47.02042523309805
+      },
+      {
+        "loja": 21,
+        "so_no_teste": false,
+        "wmape": 49.854868618698276
+      },
+      {
+        "loja": 28,
+        "so_no_teste": false,
+        "wmape": 53.609574836860844
+      },
+      {
+        "loja": 32,
+        "so_no_teste": false,
+        "wmape": 44.32055046146446
+      },
+      {
+        "loja": 33,
+        "so_no_teste": false,
+        "wmape": 45.592694067323045
+      },
+      {
+        "loja": 40,
+        "so_no_teste": false,
+        "wmape": 51.70102749546024
+      },
+      {
+        "loja": 44,
+        "so_no_teste": false,
+        "wmape": 46.54396808649477
+      },
+      {
+        "loja": 47,
+        "so_no_teste": false,
+        "wmape": 53.29624692571386
+      },
+      {
+        "loja": 48,
+        "so_no_teste": false,
+        "wmape": 51.7577313432656
+      },
+      {
+        "loja": 51,
+        "so_no_teste": false,
+        "wmape": 49.98575701943122
+      },
+      {
+        "loja": 52,
+        "so_no_teste": false,
+        "wmape": 47.41056496168719
+      },
+      {
+        "loja": 53,
+        "so_no_teste": false,
+        "wmape": 52.71670856925014
+      },
+      {
+        "loja": 54,
+        "so_no_teste": false,
+        "wmape": 55.90474935146234
+      },
+      {
+        "loja": 56,
+        "so_no_teste": false,
+        "wmape": 44.4455697881942
+      },
+      {
+        "loja": 59,
+        "so_no_teste": false,
+        "wmape": 51.03725583023333
+      },
+      {
+        "loja": 62,
+        "so_no_teste": false,
+        "wmape": 42.840000244511685
+      },
+      {
+        "loja": 67,
+        "so_no_teste": false,
+        "wmape": 49.320008476741585
+      },
+      {
+        "loja": 68,
+        "so_no_teste": false,
+        "wmape": 44.25830486152921
+      },
+      {
+        "loja": 70,
+        "so_no_teste": false,
+        "wmape": 49.54172177352396
+      },
+      {
+        "loja": 71,
+        "so_no_teste": false,
+        "wmape": 60.80721653500804
+      },
+      {
+        "loja": 72,
+        "so_no_teste": false,
+        "wmape": 55.45929491992022
+      },
+      {
+        "loja": 73,
+        "so_no_teste": false,
+        "wmape": 57.18874953230536
+      },
+      {
+        "loja": 74,
+        "so_no_teste": false,
+        "wmape": 52.999642081161745
+      },
+      {
+        "loja": 75,
+        "so_no_teste": false,
+        "wmape": 45.454051677238894
+      },
+      {
+        "loja": 76,
+        "so_no_teste": false,
+        "wmape": 47.156228181016466
+      },
+      {
+        "loja": 77,
+        "so_no_teste": false,
+        "wmape": 49.10206054175325
+      },
+      {
+        "loja": 78,
+        "so_no_teste": false,
+        "wmape": 51.449523075871014
+      },
+      {
+        "loja": 80,
+        "so_no_teste": false,
+        "wmape": 43.41006848827237
+      },
+      {
+        "loja": 81,
+        "so_no_teste": false,
+        "wmape": 44.98026672767294
+      },
+      {
+        "loja": 83,
+        "so_no_teste": false,
+        "wmape": 46.04648935770249
+      },
+      {
+        "loja": 84,
+        "so_no_teste": false,
+        "wmape": 49.26346629690236
+      },
+      {
+        "loja": 86,
+        "so_no_teste": false,
+        "wmape": 43.24726723116977
+      },
+      {
+        "loja": 88,
+        "so_no_teste": false,
+        "wmape": 48.202313162197804
+      },
+      {
+        "loja": 89,
+        "so_no_teste": false,
+        "wmape": 54.54402078102743
+      },
+      {
+        "loja": 90,
+        "so_no_teste": false,
+        "wmape": 46.448092558796645
+      },
+      {
+        "loja": 91,
+        "so_no_teste": false,
+        "wmape": 53.87459978396588
+      },
+      {
+        "loja": 92,
+        "so_no_teste": false,
+        "wmape": 57.192986294592274
+      },
+      {
+        "loja": 93,
+        "so_no_teste": false,
+        "wmape": 46.990354143801476
+      },
+      {
+        "loja": 94,
+        "so_no_teste": false,
+        "wmape": 53.66051893302584
+      },
+      {
+        "loja": 95,
+        "so_no_teste": false,
+        "wmape": 50.95345632034043
+      },
+      {
+        "loja": 98,
+        "so_no_teste": false,
+        "wmape": 44.89658978788865
+      },
+      {
+        "loja": 100,
+        "so_no_teste": false,
+        "wmape": 45.81258726113201
+      },
+      {
+        "loja": 101,
+        "so_no_teste": false,
+        "wmape": 47.07103266184176
+      },
+      {
+        "loja": 102,
+        "so_no_teste": false,
+        "wmape": 47.10537599241044
+      },
+      {
+        "loja": 103,
+        "so_no_teste": false,
+        "wmape": 50.97332369169875
+      },
+      {
+        "loja": 104,
+        "so_no_teste": false,
+        "wmape": 45.185744045401535
+      },
+      {
+        "loja": 105,
+        "so_no_teste": false,
+        "wmape": 54.64709640728785
+      },
+      {
+        "loja": 106,
+        "so_no_teste": false,
+        "wmape": 57.610316078880594
+      },
+      {
+        "loja": 107,
+        "so_no_teste": false,
+        "wmape": 46.39931905639448
+      },
+      {
+        "loja": 109,
+        "so_no_teste": false,
+        "wmape": 49.67370583357478
+      },
+      {
+        "loja": 110,
+        "so_no_teste": false,
+        "wmape": 56.2521696216533
+      },
+      {
+        "loja": 111,
+        "so_no_teste": false,
+        "wmape": 53.75807369821307
+      },
+      {
+        "loja": 112,
+        "so_no_teste": false,
+        "wmape": 41.980830185617194
+      },
+      {
+        "loja": 113,
+        "so_no_teste": false,
+        "wmape": 51.386158322075424
+      },
+      {
+        "loja": 114,
+        "so_no_teste": false,
+        "wmape": 50.78546224982781
+      },
+      {
+        "loja": 115,
+        "so_no_teste": false,
+        "wmape": 49.03794027435542
+      },
+      {
+        "loja": 116,
+        "so_no_teste": false,
+        "wmape": 48.53209482047208
+      },
+      {
+        "loja": 117,
+        "so_no_teste": false,
+        "wmape": 53.633076285760936
+      },
+      {
+        "loja": 119,
+        "so_no_teste": false,
+        "wmape": 46.150085390672615
+      },
+      {
+        "loja": 121,
+        "so_no_teste": false,
+        "wmape": 47.374561947771916
+      },
+      {
+        "loja": 122,
+        "so_no_teste": false,
+        "wmape": 43.19287890173191
+      },
+      {
+        "loja": 123,
+        "so_no_teste": false,
+        "wmape": 51.8328330544625
+      },
+      {
+        "loja": 124,
+        "so_no_teste": false,
+        "wmape": 44.887768431424
+      },
+      {
+        "loja": 126,
+        "so_no_teste": false,
+        "wmape": 47.75480039583128
+      },
+      {
+        "loja": 128,
+        "so_no_teste": false,
+        "wmape": 44.20133607791007
+      },
+      {
+        "loja": 129,
+        "so_no_teste": false,
+        "wmape": 48.4637570278849
+      },
+      {
+        "loja": 130,
+        "so_no_teste": false,
+        "wmape": 51.387465218455546
+      },
+      {
+        "loja": 131,
+        "so_no_teste": false,
+        "wmape": 49.98769786826071
+      },
+      {
+        "loja": 132,
+        "so_no_teste": false,
+        "wmape": 46.26442182333799
+      },
+      {
+        "loja": 133,
+        "so_no_teste": false,
+        "wmape": 45.330139999232486
+      },
+      {
+        "loja": 134,
+        "so_no_teste": false,
+        "wmape": 48.74632604593174
+      },
+      {
+        "loja": 135,
+        "so_no_teste": true,
+        "wmape": 56.16009939340293
+      },
+      {
+        "loja": 136,
+        "so_no_teste": false,
+        "wmape": 49.47296157952881
+      },
+      {
+        "loja": 137,
+        "so_no_teste": false,
+        "wmape": 45.69796568351333
+      },
+      {
+        "loja": 139,
+        "so_no_teste": false,
+        "wmape": 47.77958840399118
+      },
+      {
+        "loja": 140,
+        "so_no_teste": true,
+        "wmape": 60.72595237568602
+      },
+      {
+        "loja": 141,
+        "so_no_teste": true,
+        "wmape": 67.46846788524545
+      },
+      {
+        "loja": 142,
+        "so_no_teste": true,
+        "wmape": 131.63377671514885
+      },
+      {
+        "loja": 143,
+        "so_no_teste": true,
+        "wmape": 58.16280573902021
+      },
+      {
+        "loja": 144,
+        "so_no_teste": true,
+        "wmape": 68.37502494935497
+      },
+      {
+        "loja": 146,
+        "so_no_teste": true,
+        "wmape": 66.19003989269075
+      }
+    ]
+  },
+  "semanas": {
+    "inclinacao_wmape_por_semana": 0.057076517894653164,
+    "corr_wmape_volume": -0.13072338373387274,
+    "blocos": [
+      {
+        "bloco": 0,
+        "wmape": 49.655851368438526,
+        "dp": 1.3236537467523442
+      },
+      {
+        "bloco": 1,
+        "wmape": 48.88163670558128,
+        "dp": 1.6887001634143994
+      },
+      {
+        "bloco": 2,
+        "wmape": 45.96135100141893,
+        "dp": 1.8745707927646755
+      },
+      {
+        "bloco": 3,
+        "wmape": 50.31239488578763,
+        "dp": 1.3723857094094438
+      },
+      {
+        "bloco": 4,
+        "wmape": 44.54033129551795,
+        "dp": 1.37915413572403
+      }
+    ],
+    "por_semana": [
+      {
+        "semana": 319,
+        "wmape": 34.86660079574895,
+        "volume": 23684.0
+      },
+      {
+        "semana": 320,
+        "wmape": 45.514240269240965,
+        "volume": 57320.0
+      },
+      {
+        "semana": 321,
+        "wmape": 79.58478628711671,
+        "volume": 38247.0
+      },
+      {
+        "semana": 322,
+        "wmape": 53.57939063243166,
+        "volume": 41530.0
+      },
+      {
+        "semana": 323,
+        "wmape": 38.82668462772726,
+        "volume": 39735.0
+      },
+      {
+        "semana": 324,
+        "wmape": 38.06131734250543,
+        "volume": 27708.0
+      },
+      {
+        "semana": 325,
+        "wmape": 44.66256029719759,
+        "volume": 78911.0
+      },
+      {
+        "semana": 326,
+        "wmape": 59.47850825064624,
+        "volume": 44836.0
+      },
+      {
+        "semana": 327,
+        "wmape": 47.162503903478445,
+        "volume": 54924.0
+      },
+      {
+        "semana": 328,
+        "wmape": 48.20915287738043,
+        "volume": 54691.0
+      },
+      {
+        "semana": 329,
+        "wmape": 38.62906973425352,
+        "volume": 49786.0
+      },
+      {
+        "semana": 330,
+        "wmape": 45.26455537242396,
+        "volume": 29692.0
+      },
+      {
+        "semana": 331,
+        "wmape": 44.67884639866392,
+        "volume": 68145.0
+      },
+      {
+        "semana": 332,
+        "wmape": 59.51431167818705,
+        "volume": 90894.0
+      },
+      {
+        "semana": 333,
+        "wmape": 52.21280405658308,
+        "volume": 38023.0
+      },
+      {
+        "semana": 334,
+        "wmape": 38.80053466995517,
+        "volume": 35293.0
+      },
+      {
+        "semana": 335,
+        "wmape": 47.88506428210209,
+        "volume": 67851.0
+      },
+      {
+        "semana": 336,
+        "wmape": 68.82099273320769,
+        "volume": 27424.0
+      },
+      {
+        "semana": 337,
+        "wmape": 49.12218273429442,
+        "volume": 33547.0
+      },
+      {
+        "semana": 338,
+        "wmape": 57.928556255962825,
+        "volume": 26845.0
+      },
+      {
+        "semana": 339,
+        "wmape": 35.234454913510184,
+        "volume": 42678.0
+      },
+      {
+        "semana": 340,
+        "wmape": 38.81585860780268,
+        "volume": 29099.0
+      },
+      {
+        "semana": 341,
+        "wmape": 36.17782998730774,
+        "volume": 63498.0
+      },
+      {
+        "semana": 342,
+        "wmape": 44.896898467981735,
+        "volume": 39873.0
+      },
+      {
+        "semana": 343,
+        "wmape": 37.98482331565032,
+        "volume": 37827.0
+      },
+      {
+        "semana": 344,
+        "wmape": 47.578605280163885,
+        "volume": 43473.0
+      },
+      {
+        "semana": 345,
+        "wmape": 49.34406768150192,
+        "volume": 62872.0
+      },
+      {
+        "semana": 346,
+        "wmape": 45.678324912398914,
+        "volume": 37588.0
+      },
+      {
+        "semana": 347,
+        "wmape": 45.961020807077446,
+        "volume": 28167.0
+      },
+      {
+        "semana": 348,
+        "wmape": 40.496248432944334,
+        "volume": 36843.0
+      },
+      {
+        "semana": 349,
+        "wmape": 51.65723940927607,
+        "volume": 70417.0
+      },
+      {
+        "semana": 350,
+        "wmape": 52.03176931633984,
+        "volume": 53995.0
+      },
+      {
+        "semana": 351,
+        "wmape": 44.53936888810192,
+        "volume": 29489.0
+      },
+      {
+        "semana": 352,
+        "wmape": 53.9537325758059,
+        "volume": 44584.0
+      },
+      {
+        "semana": 353,
+        "wmape": 48.246867940364666,
+        "volume": 45851.0
+      },
+      {
+        "semana": 354,
+        "wmape": 93.89240830738072,
+        "volume": 29473.0
+      },
+      {
+        "semana": 355,
+        "wmape": 49.109450185744244,
+        "volume": 60173.0
+      },
+      {
+        "semana": 356,
+        "wmape": 43.863880830428315,
+        "volume": 45647.0
+      },
+      {
+        "semana": 357,
+        "wmape": 49.47566786887196,
+        "volume": 49462.0
+      },
+      {
+        "semana": 358,
+        "wmape": 61.10556748698767,
+        "volume": 99567.0
+      },
+      {
+        "semana": 359,
+        "wmape": 44.28081456249683,
+        "volume": 50550.0
+      },
+      {
+        "semana": 360,
+        "wmape": 38.22826243180883,
+        "volume": 40224.0
+      },
+      {
+        "semana": 361,
+        "wmape": 33.223606470987654,
+        "volume": 66852.0
+      },
+      {
+        "semana": 362,
+        "wmape": 50.60888132609998,
+        "volume": 94224.0
+      },
+      {
+        "semana": 363,
+        "wmape": 51.10005495343853,
+        "volume": 38471.0
+      },
+      {
+        "semana": 364,
+        "wmape": 55.714957454832735,
+        "volume": 31212.0
+      },
+      {
+        "semana": 365,
+        "wmape": 47.77028086956236,
+        "volume": 26486.0
+      },
+      {
+        "semana": 366,
+        "wmape": 54.66877078420236,
+        "volume": 27550.0
+      },
+      {
+        "semana": 367,
+        "wmape": 47.23138022627154,
+        "volume": 27943.0
+      },
+      {
+        "semana": 368,
+        "wmape": 47.7175129618248,
+        "volume": 100309.0
+      },
+      {
+        "semana": 369,
+        "wmape": 59.57037576551982,
+        "volume": 38541.0
+      },
+      {
+        "semana": 372,
+        "wmape": 55.091164505346825,
+        "volume": 27690.0
+      },
+      {
+        "semana": 373,
+        "wmape": 49.99358191916717,
+        "volume": 43916.0
+      },
+      {
+        "semana": 374,
+        "wmape": 40.970770688497495,
+        "volume": 36844.0
+      },
+      {
+        "semana": 375,
+        "wmape": 38.1913742698376,
+        "volume": 42666.0
+      },
+      {
+        "semana": 376,
+        "wmape": 41.08855429518263,
+        "volume": 34178.0
+      },
+      {
+        "semana": 377,
+        "wmape": 39.675209716843504,
+        "volume": 44046.0
+      },
+      {
+        "semana": 378,
+        "wmape": 40.07542953516605,
+        "volume": 31857.0
+      },
+      {
+        "semana": 379,
+        "wmape": 39.275346535744944,
+        "volume": 34696.0
+      },
+      {
+        "semana": 380,
+        "wmape": 43.85042221196353,
+        "volume": 25507.0
+      },
+      {
+        "semana": 381,
+        "wmape": 41.42081125176973,
+        "volume": 41089.0
+      },
+      {
+        "semana": 382,
+        "wmape": 41.07566960997897,
+        "volume": 33044.0
+      },
+      {
+        "semana": 383,
+        "wmape": 48.947119119784965,
+        "volume": 54571.0
+      },
+      {
+        "semana": 384,
+        "wmape": 37.814178151993836,
+        "volume": 33116.0
+      },
+      {
+        "semana": 385,
+        "wmape": 56.2100844632518,
+        "volume": 44336.0
+      },
+      {
+        "semana": 386,
+        "wmape": 46.805867834980106,
+        "volume": 32676.0
+      },
+      {
+        "semana": 387,
+        "wmape": 61.881019891132716,
+        "volume": 29643.0
+      },
+      {
+        "semana": 388,
+        "wmape": 48.21628060956429,
+        "volume": 29643.0
+      },
+      {
+        "semana": 389,
+        "wmape": 48.46217993686124,
+        "volume": 23959.0
+      },
+      {
+        "semana": 390,
+        "wmape": 72.54937365011664,
+        "volume": 37792.0
+      },
+      {
+        "semana": 391,
+        "wmape": 77.1138989284482,
+        "volume": 28233.0
+      },
+      {
+        "semana": 392,
+        "wmape": 57.56954544794036,
+        "volume": 8701.0
+      },
+      {
+        "semana": 393,
+        "wmape": 68.2398778879928,
+        "volume": 5285.0
+      },
+      {
+        "semana": 394,
+        "wmape": 68.38699151769315,
+        "volume": 5285.0
+      },
+      {
+        "semana": 395,
+        "wmape": 60.06218830549828,
+        "volume": 19087.0
+      },
+      {
+        "semana": 396,
+        "wmape": 39.766159730124684,
+        "volume": 49759.0
+      },
+      {
+        "semana": 397,
+        "wmape": 47.091575059697796,
+        "volume": 22940.0
+      },
+      {
+        "semana": 398,
+        "wmape": 44.2839348961254,
+        "volume": 19003.0
+      },
+      {
+        "semana": 399,
+        "wmape": 44.54033129551795,
+        "volume": 21414.0
+      }
+    ]
+  },
+  "nivel": {
+    "encolhimento_treino_total": 0.857155844328407,
+    "nivel_teste_total": 0.9662645104958167,
+    "contribuicao_3_maiores_teste": 2.325369532893121,
+    "contribuicao_5_maiores_teste": 2.591986904457208,
+    "encolhimento_min_max": [
+      0.6683286315479454,
+      0.9678760450097262
+    ]
+  }
+}

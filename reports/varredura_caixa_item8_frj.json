@@ -1,0 +1,895 @@
+{
+  "categoria": "frj",
+  "artefato": "rede_frj.pt",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle",
+    "semente": 0,
+    "gama_contextual": false
+  },
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "amostra": {
+    "tipo": "todas",
+    "n": 4022
+  },
+  "raios": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.15
+  ],
+  "linhas": [
+    {
+      "objetivo": "margem",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.99,
+        1.01
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.00035239550004462217,
+        "p10": 0.00032333300009668164,
+        "p90": 0.0008264416999054447,
+        "media": 0.0005112464343618451
+      },
+      "tempo_total_s": 2.056233159003341,
+      "ganho_pct_por_celula": {
+        "mediana": 1.334528461546991,
+        "p10": 0.9640081398175581,
+        "p90": 1.9782306791111905,
+        "media": 1.4209298622550635
+      },
+      "ganho_pct_agregado": 1.4286769783970588,
+      "pct_coord_borda_inferior": 36.907011437095974,
+      "pct_coord_borda_superior": 60.2511188463451,
+      "pct_coord_interior": 2.841869716558926,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 73.6200895077076,
+      "interior_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "media": 0.5683739433117851
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": 0.28723018568255737,
+        "p10": -0.12437792155822304,
+        "p90": 0.7016484971915775,
+        "media": 0.29306614911052986
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 0.16493200392723173,
+        "p10": -1.105015391130869,
+        "p90": 1.4331858896325802,
+        "media": 0.17510415811566354
+      },
+      "pct_celulas_preco_e_volume_sobem": 38.93585280954749,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 38.93585280954749,
+      "resposta_agregada_da_politica_mediana": -0.616344409995367,
+      "pct_celulas_com_razao_usavel": 98.30929885629041,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.4030189514160156,
+        "propria_ponderada_mediana": -2.4352822303771973,
+        "folga_mediana": 0.01919269561767578,
+        "pct_celulas_com_violacao": 47.31476974487305
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 47.31476974487305,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.4030189514160156,
+      "raio": 0.01
+    },
+    {
+      "objetivo": "receita",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.99,
+        1.01
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.0003617710000298757,
+        "p10": 0.0003224170000066806,
+        "p90": 0.0010147038999548386,
+        "media": 0.0005258584080056264
+      },
+      "tempo_total_s": 2.1150025169986293,
+      "ganho_pct_por_celula": {
+        "mediana": 1.764038395993539,
+        "p10": 1.5375825856456249,
+        "p90": 2.5035196280104732,
+        "media": 1.901428063373749
+      },
+      "ganho_pct_agregado": 1.9867067212769873,
+      "pct_coord_borda_inferior": 74.93908503232223,
+      "pct_coord_borda_superior": 22.603182496270513,
+      "pct_coord_interior": 2.45773247140726,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 86.0765788165092,
+      "interior_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "media": 0.49154649428145203
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": -0.7854410534509262,
+        "p10": -0.8985758912265653,
+        "p90": -0.591714333973876,
+        "media": -0.7616825721738772
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 2.608716339316286,
+        "p10": 2.3881673299818895,
+        "p90": 3.400148359412547,
+        "media": 2.772896157337818
+      },
+      "pct_celulas_preco_e_volume_sobem": 0.0,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 0.0,
+      "resposta_agregada_da_politica_mediana": -3.2618760168821703,
+      "pct_celulas_com_razao_usavel": 100.0,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.4007253646850586,
+        "propria_ponderada_mediana": -2.419546604156494,
+        "folga_mediana": 0.0013766288757324219,
+        "pct_celulas_com_violacao": 49.87568283081055
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 49.87568283081055,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.4007253646850586,
+      "raio": 0.01
+    },
+    {
+      "objetivo": "margem",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.98,
+        1.02
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.00045570800000405143,
+        "p10": 0.000324458000022787,
+        "p90": 0.0012925499999028034,
+        "media": 0.0006326477642962539
+      },
+      "tempo_total_s": 2.544509307999533,
+      "ganho_pct_por_celula": {
+        "mediana": 2.6621961316787957,
+        "p10": 1.9192992628048502,
+        "p90": 3.9497333798233463,
+        "media": 2.8354655859869817
+      },
+      "ganho_pct_agregado": 2.85416167950181,
+      "pct_coord_borda_inferior": 35.59547488811536,
+      "pct_coord_borda_superior": 58.44231725509697,
+      "pct_coord_interior": 5.962207856787668,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 53.13276976628543,
+      "interior_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 2.0,
+        "media": 1.1924415713575336
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": 0.5695352307660719,
+        "p10": -0.24711845263190668,
+        "p90": 1.3701738616903185,
+        "media": 0.5723297286964066
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 0.4704533530775823,
+        "p10": -2.067673098902647,
+        "p90": 3.0220011016431516,
+        "media": 0.5118731056748819
+      },
+      "pct_celulas_preco_e_volume_sobem": 41.69567379413227,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 41.69567379413227,
+      "resposta_agregada_da_politica_mediana": -0.46413279450145534,
+      "pct_celulas_com_razao_usavel": 99.3784186971656,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.40171480178833,
+        "propria_ponderada_mediana": -2.4438252449035645,
+        "folga_mediana": 0.029719829559326172,
+        "pct_celulas_com_violacao": 45.97215270996094
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 45.97215270996094,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.40171480178833,
+      "raio": 0.02
+    },
+    {
+      "objetivo": "receita",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.98,
+        1.02
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.0004257084999608196,
+        "p10": 0.00032271309989937433,
+        "p90": 0.0010227669999494538,
+        "media": 0.0005532045589304019
+      },
+      "tempo_total_s": 2.2249887360180765,
+      "ganho_pct_por_celula": {
+        "mediana": 3.6005327991162073,
+        "p10": 3.12692821805219,
+        "p90": 5.1663273898339686,
+        "media": 3.8969530045781546
+      },
+      "ganho_pct_agregado": 4.07693171382002,
+      "pct_coord_borda_inferior": 74.47041272998509,
+      "pct_coord_borda_superior": 23.09298856290403,
+      "pct_coord_interior": 2.43659870711089,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 83.68970661362506,
+      "interior_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "media": 0.48731974142217804
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": -1.5571235514628305,
+        "p10": -1.7977657322681548,
+        "p90": -1.1565460951882716,
+        "media": -1.5079749671497493
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 5.337712546748508,
+        "p10": 4.880548726879814,
+        "p90": 7.049077654564324,
+        "media": 5.696015366728617
+      },
+      "pct_celulas_preco_e_volume_sobem": 0.0,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 0.0,
+      "resposta_agregada_da_politica_mediana": -3.3214463573177726,
+      "pct_celulas_com_razao_usavel": 100.0,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.397292137145996,
+        "propria_ponderada_mediana": -2.4128308296203613,
+        "folga_mediana": -0.003435373306274414,
+        "pct_celulas_com_violacao": 50.39781188964844
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 50.39781188964844,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.397292137145996,
+      "raio": 0.02
+    },
+    {
+      "objetivo": "margem",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.95,
+        1.05
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.000885916500010353,
+        "p10": 0.00033434640015457263,
+        "p90": 0.001745354499939822,
+        "media": 0.0009934786297816636
+      },
+      "tempo_total_s": 3.995771048981851,
+      "ganho_pct_por_celula": {
+        "mediana": 6.6119050386688745,
+        "p10": 4.751009123772991,
+        "p90": 10.093176117990346,
+        "media": 7.099158165246686
+      },
+      "ganho_pct_agregado": 7.1671417361626855,
+      "pct_coord_borda_inferior": 32.993535554450524,
+      "pct_coord_borda_superior": 55.04724017901542,
+      "pct_coord_interior": 11.959224266534063,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 23.719542516161113,
+      "interior_por_celula": {
+        "mediana": 1.0,
+        "p10": 0.0,
+        "p90": 4.0,
+        "media": 2.3918448533068126
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": 1.3277941170902232,
+        "p10": -0.6797775755216985,
+        "p90": 3.2390931159185143,
+        "media": 1.3284094534433033
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 2.307662852749792,
+        "p10": -3.894193434922562,
+        "p90": 8.80292623242614,
+        "media": 2.512386248494103
+      },
+      "pct_celulas_preco_e_volume_sobem": 49.925410243659876,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 49.925410243659876,
+      "resposta_agregada_da_politica_mediana": -0.0049774742719000745,
+      "pct_celulas_com_razao_usavel": 99.67677772252611,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.395547389984131,
+        "propria_ponderada_mediana": -2.4727869033813477,
+        "folga_mediana": 0.05852842330932617,
+        "pct_celulas_com_violacao": 43.088016510009766
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 43.088016510009766,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.395547389984131,
+      "raio": 0.05
+    },
+    {
+      "objetivo": "receita",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.95,
+        1.05
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.0005218124999828433,
+        "p10": 0.00032420810014173186,
+        "p90": 0.00108148370006802,
+        "media": 0.0006035407859261154
+      },
+      "tempo_total_s": 2.427441040994836,
+      "ganho_pct_por_celula": {
+        "mediana": 9.611183691685078,
+        "p10": 8.214437694536688,
+        "p90": 14.436193857208426,
+        "media": 10.534498033295995
+      },
+      "ganho_pct_agregado": 11.061136252296189,
+      "pct_coord_borda_inferior": 72.56588761810045,
+      "pct_coord_borda_superior": 24.622078567876677,
+      "pct_coord_interior": 2.812033814022874,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 81.10392839383391,
+      "interior_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "media": 0.5624067628045748
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": -3.767130103289529,
+        "p10": -4.484882361384129,
+        "p90": -2.7269943553711675,
+        "media": -3.664934756609623
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 14.311334314358481,
+        "p10": 12.97255710800232,
+        "p90": 19.884550430693878,
+        "media": 15.502478092918082
+      },
+      "pct_celulas_preco_e_volume_sobem": 0.0,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 0.0,
+      "resposta_agregada_da_politica_mediana": -3.527357822330005,
+      "pct_celulas_com_razao_usavel": 100.0,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.387526035308838,
+        "propria_ponderada_mediana": -2.39329195022583,
+        "folga_mediana": -0.015343904495239258,
+        "pct_celulas_com_violacao": 52.287418365478516
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 52.287418365478516,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.387526035308838,
+      "raio": 0.05
+    },
+    {
+      "objetivo": "margem",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.9,
+        1.1
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.0013901665000730645,
+        "p10": 0.0006989419999172241,
+        "p90": 0.0021579208000048313,
+        "media": 0.0014109886941825805
+      },
+      "tempo_total_s": 5.674996528002339,
+      "ganho_pct_por_celula": {
+        "mediana": 13.375981960668526,
+        "p10": 9.36658129135235,
+        "p90": 21.390864225054,
+        "media": 14.594083519908635
+      },
+      "ganho_pct_agregado": 14.78244451757158,
+      "pct_coord_borda_inferior": 30.597961213326702,
+      "pct_coord_borda_superior": 51.78642466434609,
+      "pct_coord_interior": 17.6156141223272,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 6.762804574838389,
+      "interior_por_celula": {
+        "mediana": 2.0,
+        "p10": 1.0,
+        "p90": 5.0,
+        "media": 3.5231228244654402
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": 2.3253092106111013,
+        "p10": -1.2394735935445738,
+        "p90": 5.779515172447656,
+        "media": 2.325554267397841
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 8.428125935895636,
+        "p10": -3.7069234568077953,
+        "p90": 22.71051804519743,
+        "media": 9.245355659344
+      },
+      "pct_celulas_preco_e_volume_sobem": 59.82098458478369,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 59.82098458478369,
+      "resposta_agregada_da_politica_mediana": 0.7816322071668389,
+      "pct_celulas_com_razao_usavel": 99.801093983093,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.375279426574707,
+        "propria_ponderada_mediana": -2.5128250122070312,
+        "folga_mediana": 0.09522175788879395,
+        "pct_celulas_com_violacao": 40.17901611328125
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 40.17901611328125,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.375279426574707,
+      "raio": 0.1
+    },
+    {
+      "objetivo": "receita",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.9,
+        1.1
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.0005842499999744177,
+        "p10": 0.0003477079999356647,
+        "p90": 0.0011201159999700394,
+        "media": 0.0006680398219821407
+      },
+      "tempo_total_s": 2.6868561640121698,
+      "ganho_pct_por_celula": {
+        "mediana": 21.910482409787146,
+        "p10": 17.730070544041272,
+        "p90": 35.046439156023695,
+        "media": 24.338092848194773
+      },
+      "ganho_pct_agregado": 25.701698487946878,
+      "pct_coord_borda_inferior": 69.34485330681252,
+      "pct_coord_borda_superior": 27.548483341621083,
+      "pct_coord_interior": 3.106663351566385,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 79.81103928393833,
+      "interior_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "media": 0.621332670313277
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": -7.012237161852106,
+        "p10": -8.858148598146117,
+        "p90": -4.989406609591373,
+        "media": -6.9734551258434685
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 32.69421660655232,
+        "p10": 28.819463020973608,
+        "p90": 50.012059536899365,
+        "media": 36.29377156251058
+      },
+      "pct_celulas_preco_e_volume_sobem": 0.0,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 0.0,
+      "resposta_agregada_da_politica_mediana": -4.022223015589612,
+      "pct_celulas_com_razao_usavel": 100.0,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.3708243370056152,
+        "propria_ponderada_mediana": -2.3535146713256836,
+        "folga_mediana": -0.04534721374511719,
+        "pct_celulas_com_violacao": 55.842864990234375
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 55.842864990234375,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.3708243370056152,
+      "raio": 0.1
+    },
+    {
+      "objetivo": "margem",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.85,
+        1.15
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.0017132079999555572,
+        "p10": 0.0009727250000196363,
+        "p90": 0.002486213099973611,
+        "media": 0.0017216087834422019
+      },
+      "tempo_total_s": 6.924310527004536,
+      "ganho_pct_por_celula": {
+        "mediana": 20.531755448079934,
+        "p10": 14.023291013426858,
+        "p90": 35.60451735229371,
+        "media": 23.129715505734893
+      },
+      "ganho_pct_agregado": 23.457096081943284,
+      "pct_coord_borda_inferior": 28.855047240179015,
+      "pct_coord_borda_superior": 49.94530084535057,
+      "pct_coord_interior": 21.19965191447041,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 3.2322227747389363,
+      "interior_por_celula": {
+        "mediana": 3.0,
+        "p10": 1.0,
+        "p90": 7.0,
+        "media": 4.239930382894083
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": 3.0274256773023462,
+        "p10": -1.726187873434508,
+        "p90": 7.921959011572281,
+        "media": 3.0646463353584124
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 18.755470167316634,
+        "p10": -0.2168656185027749,
+        "p90": 43.230659327074314,
+        "media": 20.514217316718256
+      },
+      "pct_celulas_preco_e_volume_sobem": 67.37941322725013,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 67.37941322725013,
+      "resposta_agregada_da_politica_mediana": 1.5477166753344451,
+      "pct_celulas_com_razao_usavel": 99.72650422675285,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.3521125316619873,
+        "propria_ponderada_mediana": -2.550614356994629,
+        "folga_mediana": 0.11389493942260742,
+        "pct_celulas_com_violacao": 38.81153869628906
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 38.81153869628906,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.3521125316619873,
+      "raio": 0.15
+    },
+    {
+      "objetivo": "receita",
+      "metodo": "SLSQP",
+      "raio_caixa": [
+        0.85,
+        1.15
+      ],
+      "n_restricoes_lineares": 0,
+      "restricoes_ativas_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 0.0,
+        "media": 0.0
+      },
+      "pct_celulas_com_alguma_ativa": 0.0,
+      "violacao_maxima_observada": 0.0,
+      "violacao_maxima_em_fracao_de_preco": 0.0,
+      "tolerancia_declarada": 0.0043,
+      "acima_da_tolerancia": false,
+      "pct_celulas_nao_viaveis_na_tolerancia": 0.0,
+      "pct_celulas_com_metodo_de_reserva": 0.0,
+      "n_celulas": 4022,
+      "n_celulas_inviaveis_na_caixa": 0,
+      "pct_celulas_inviaveis_na_caixa": 0.0,
+      "pct_sucesso": 100.0,
+      "tempo_por_solve_s": {
+        "mediana": 0.0006444790000159628,
+        "p10": 0.00039119609982662956,
+        "p90": 0.0011542711001311546,
+        "media": 0.0007063401728016095
+      },
+      "tempo_total_s": 2.8409001750080733,
+      "ganho_pct_por_celula": {
+        "mediana": 39.38305465364322,
+        "p10": 28.94933052066957,
+        "p90": 65.28050604360415,
+        "media": 43.06527315626875
+      },
+      "ganho_pct_agregado": 45.63877085410661,
+      "pct_coord_borda_inferior": 64.92292391844853,
+      "pct_coord_borda_superior": 31.02312282446544,
+      "pct_coord_interior": 4.053953257086027,
+      "pct_celulas_todas_na_borda_inferior": 0.0,
+      "pct_celulas_sem_nenhuma_interior": 81.12879164594729,
+      "interior_por_celula": {
+        "mediana": 0.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "media": 0.8107906514172054
+      },
+      "variacao_pct_preco_medio": {
+        "mediana": -9.622468024621057,
+        "p10": -12.989924196422969,
+        "p90": -6.739026625787084,
+        "media": -9.760142171138094
+      },
+      "variacao_pct_volume_total": {
+        "mediana": 58.36834424775851,
+        "p10": 48.142874136167656,
+        "p90": 95.74407784578662,
+        "media": 65.15039965465643
+      },
+      "pct_celulas_preco_e_volume_sobem": 0.0,
+      "pct_celulas_preco_e_volume_descem": 0.0,
+      "pct_celulas_resposta_agregada_positiva": 0.0,
+      "resposta_agregada_da_politica_mediana": -4.858835487626625,
+      "pct_celulas_com_razao_usavel": 100.0,
+      "identidade_na_base": {
+        "elast_agregada_mediana": -2.4042022228240967,
+        "propria_ponderada_mediana": -2.4256057739257812,
+        "folga_mediana": 0.005939006805419922,
+        "pct_celulas_com_violacao": 48.93088150024414
+      },
+      "identidade_no_otimo": {
+        "elast_agregada_mediana": -2.3550126552581787,
+        "propria_ponderada_mediana": -2.3033199310302734,
+        "folga_mediana": -0.09768831729888916,
+        "pct_celulas_com_violacao": 59.94530487060547
+      },
+      "pct_violacao_identidade_base": 48.93088150024414,
+      "pct_violacao_identidade_otimo": 59.94530487060547,
+      "elast_agregada_uniforme_base": -2.4042022228240967,
+      "elast_agregada_uniforme_otimo": -2.3550126552581787,
+      "raio": 0.15
+    }
+  ]
+}

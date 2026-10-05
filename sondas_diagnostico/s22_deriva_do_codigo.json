@@ -1,0 +1,77 @@
+{
+ "celulas_completas": 25234,
+ "linhas": 504680,
+ "por_ano": {
+  "0": {
+   "linhas": 67180,
+   "com_codigo": 0.15516522774635308,
+   "descontos": 21174,
+   "com_codigo_nos_descontos": 0.33900066118824973,
+   "sem_codigo_nos_descontos": 0.6609993388117503
+  },
+  "1": {
+   "linhas": 72380,
+   "com_codigo": 0.17837800497374964,
+   "descontos": 11489,
+   "com_codigo_nos_descontos": 0.4393767951954043,
+   "sem_codigo_nos_descontos": 0.5606232048045957
+  },
+  "2": {
+   "linhas": 70960,
+   "com_codigo": 0.18043968432919955,
+   "descontos": 15528,
+   "com_codigo_nos_descontos": 0.496973209685729,
+   "sem_codigo_nos_descontos": 0.503026790314271
+  },
+  "3": {
+   "linhas": 73780,
+   "com_codigo": 0.17891027378693414,
+   "descontos": 16623,
+   "com_codigo_nos_descontos": 0.49539794260963727,
+   "sem_codigo_nos_descontos": 0.5046020573903627
+  },
+  "4": {
+   "linhas": 63620,
+   "com_codigo": 0.20396101854762652,
+   "descontos": 11039,
+   "com_codigo_nos_descontos": 0.6379201014584654,
+   "sem_codigo_nos_descontos": 0.36207989854153455
+  },
+  "5": {
+   "linhas": 63660,
+   "com_codigo": 0.20710021991831606,
+   "descontos": 10383,
+   "com_codigo_nos_descontos": 0.7334103823557738,
+   "sem_codigo_nos_descontos": 0.2665896176442262
+  },
+  "6": {
+   "linhas": 59400,
+   "com_codigo": 0.23474747474747476,
+   "descontos": 10797,
+   "com_codigo_nos_descontos": 0.8226359173844586,
+   "sem_codigo_nos_descontos": 0.17736408261554137
+  },
+  "7": {
+   "linhas": 33700,
+   "com_codigo": 0.22186943620178043,
+   "descontos": 4683,
+   "com_codigo_nos_descontos": 0.7416186205423874,
+   "sem_codigo_nos_descontos": 0.25838137945761264
+  }
+ },
+ "resumo": {
+  "sem_codigo_nos_descontos_4_primeiros": [
+   0.503026790314271,
+   0.6609993388117503
+  ],
+  "sem_codigo_nos_descontos_3_ultimos": [
+   0.17736408261554137,
+   0.2665896176442262
+  ],
+  "com_codigo_primeiro_ano": 0.15516522774635308,
+  "com_codigo_2_ultimos": [
+   0.22186943620178043,
+   0.23474747474747476
+  ]
+ }
+}

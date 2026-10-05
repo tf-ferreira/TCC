@@ -1,0 +1,1038 @@
+{
+  "corte_teste": 318,
+  "zona_morta": 8,
+  "n_skus": 20,
+  "n_celulas_completas": 25234,
+  "d18_registrado": -1.7569785621288925,
+  "variancia_sku_semana": {
+    "ln_custo": 0.9748974099498368,
+    "ln_preco": 0.8449134652211078
+  },
+  "E0_d18": {
+    "n": 631365,
+    "n_series": 1860,
+    "n_semanas": 396,
+    "r2_parcial_custo": 0.1234396684589224,
+    "ols": {
+      "propria": {
+        "coef": -2.6134768414956633,
+        "ep_iid": 0.006233291322740647,
+        "ep_agrupado": 0.0416885486365564
+      }
+    },
+    "iv": {
+      "propria": {
+        "coef": -1.7569785621288925,
+        "ep_iid": 0.018005747868353763,
+        "ep_agrupado": 0.05855239825617099
+      }
+    },
+    "reproduz_d18": true
+  },
+  "E1_completas": {
+    "n": 502353,
+    "n_series": 1860,
+    "n_semanas": 395,
+    "r2_parcial_custo": 0.12877713598915164,
+    "ols": {
+      "propria": {
+        "coef": -2.5892355984359554,
+        "ep_iid": 0.006850609730269998,
+        "ep_agrupado": 0.042450034869103384
+      }
+    },
+    "iv": {
+      "propria": {
+        "coef": -1.6886238630083767,
+        "ep_iid": 0.01941724005575149,
+        "ep_agrupado": 0.05955217734791936
+      }
+    }
+  },
+  "E2_completas_teste": {
+    "n": 87000,
+    "n_series": 1740,
+    "n_semanas": 80,
+    "r2_parcial_custo": 0.04837809020402495,
+    "ols": {
+      "propria": {
+        "coef": -3.500634682194498,
+        "ep_iid": 0.021304041799011075,
+        "ep_agrupado": 0.07611993496932598
+      }
+    },
+    "iv": {
+      "propria": {
+        "coef": -5.905263957915314,
+        "ep_iid": 0.10384965194067157,
+        "ep_agrupado": 0.1727232609280904
+      }
+    }
+  },
+  "E3_inclinacoes_sem_cruzados": {
+    "cruzados": "sem",
+    "n": 467480,
+    "n_celulas": 23374,
+    "resumo": {
+      "ols": {
+        "mediana": -1.9540809497891694,
+        "media": -2.5514690511314813,
+        "media_ponderada_volume": -3.0649145765232833,
+        "min": -4.5607735689960105,
+        "max": -1.1069505558635073
+      },
+      "iv": {
+        "mediana": -1.4791784299772819,
+        "media": -2.016970099952974,
+        "media_ponderada_volume": -1.5692390104755345,
+        "min": -8.066802654925233,
+        "max": 0.8927162484755499
+      }
+    },
+    "por_sku": [
+      {
+        "sku": 0,
+        "upc": 2500000300,
+        "n": 23374,
+        "volume_total": 575768.0,
+        "r2_parcial_custo_proprio": 0.16448749554511477,
+        "ols": {
+          "propria": {
+            "coef": -1.1676891864395273,
+            "ep_agrupado": 0.08584541009165406
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.16083566599216098,
+            "ep_agrupado": 0.17766523598450923
+          }
+        }
+      },
+      {
+        "sku": 1,
+        "upc": 2500000425,
+        "n": 23374,
+        "volume_total": 491739.0,
+        "r2_parcial_custo_proprio": 0.5895987437649777,
+        "ols": {
+          "propria": {
+            "coef": -1.1069505558635073,
+            "ep_agrupado": 0.08452160067874613
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.32272257479980676,
+            "ep_agrupado": 0.1333179444241827
+          }
+        }
+      },
+      {
+        "sku": 2,
+        "upc": 2500002513,
+        "n": 23374,
+        "volume_total": 879808.0,
+        "r2_parcial_custo_proprio": 0.412745616301052,
+        "ols": {
+          "propria": {
+            "coef": -4.067097001030324,
+            "ep_agrupado": 0.0643893091770972
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -3.1605826776636667,
+            "ep_agrupado": 0.09698935184576063
+          }
+        }
+      },
+      {
+        "sku": 3,
+        "upc": 2500002519,
+        "n": 23374,
+        "volume_total": 2308075.0,
+        "r2_parcial_custo_proprio": 0.40342279616804433,
+        "ols": {
+          "propria": {
+            "coef": -3.4801895253575217,
+            "ep_agrupado": 0.058626699512769234
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -1.6048478916981683,
+            "ep_agrupado": 0.09677967176403321
+          }
+        }
+      },
+      {
+        "sku": 4,
+        "upc": 2500002521,
+        "n": 23374,
+        "volume_total": 458271.0,
+        "r2_parcial_custo_proprio": 0.5250805508515701,
+        "ols": {
+          "propria": {
+            "coef": -1.3433152627847689,
+            "ep_agrupado": 0.09252538038485957
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.6090304168228862,
+            "ep_agrupado": 0.14162851800629342
+          }
+        }
+      },
+      {
+        "sku": 5,
+        "upc": 2500002544,
+        "n": 23374,
+        "volume_total": 1130894.0,
+        "r2_parcial_custo_proprio": 0.33624617995118866,
+        "ols": {
+          "propria": {
+            "coef": -4.464357852045647,
+            "ep_agrupado": 0.07853641047781743
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -4.826614453809174,
+            "ep_agrupado": 0.123915615721548
+          }
+        }
+      },
+      {
+        "sku": 6,
+        "upc": 2500002549,
+        "n": 23374,
+        "volume_total": 739538.0,
+        "r2_parcial_custo_proprio": 0.32687081001002405,
+        "ols": {
+          "propria": {
+            "coef": -2.7518591070843987,
+            "ep_agrupado": 0.07050416642861526
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -2.207001039608874,
+            "ep_agrupado": 0.1172260894303552
+          }
+        }
+      },
+      {
+        "sku": 7,
+        "upc": 2500002561,
+        "n": 23374,
+        "volume_total": 667385.0,
+        "r2_parcial_custo_proprio": 0.31761871066616165,
+        "ols": {
+          "propria": {
+            "coef": -3.7854930997457603,
+            "ep_agrupado": 0.09431933161574078
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -3.2580318126281638,
+            "ep_agrupado": 0.1602006923030993
+          }
+        }
+      },
+      {
+        "sku": 8,
+        "upc": 2870000013,
+        "n": 23374,
+        "volume_total": 560034.0,
+        "r2_parcial_custo_proprio": 0.34133993649974037,
+        "ols": {
+          "propria": {
+            "coef": -1.4194890577057604,
+            "ep_agrupado": 0.1263381383017543
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.7272543513404842,
+            "ep_agrupado": 0.1669893853797839
+          }
+        }
+      },
+      {
+        "sku": 9,
+        "upc": 3828190009,
+        "n": 23374,
+        "volume_total": 1128505.0,
+        "r2_parcial_custo_proprio": 0.0006350348926125182,
+        "ols": {
+          "propria": {
+            "coef": -1.5186460156382042,
+            "ep_agrupado": 0.07630341230660899
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -7.772092705906617,
+            "ep_agrupado": 2.7982129735792025
+          }
+        }
+      },
+      {
+        "sku": 10,
+        "upc": 3828190013,
+        "n": 23374,
+        "volume_total": 952012.0,
+        "r2_parcial_custo_proprio": 0.0025076124297866986,
+        "ols": {
+          "propria": {
+            "coef": -1.6582826235679808,
+            "ep_agrupado": 0.0902680525990639
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -8.066802654925233,
+            "ep_agrupado": 1.7198936403563814
+          }
+        }
+      },
+      {
+        "sku": 11,
+        "upc": 3828190021,
+        "n": 23374,
+        "volume_total": 1649144.0,
+        "r2_parcial_custo_proprio": 0.03648977198811587,
+        "ols": {
+          "propria": {
+            "coef": -1.6027451243284065,
+            "ep_agrupado": 0.0740911828984881
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": 0.8927162484755499,
+            "ep_agrupado": 0.5417413924448612
+          }
+        }
+      },
+      {
+        "sku": 12,
+        "upc": 3828190029,
+        "n": 23374,
+        "volume_total": 5405545.0,
+        "r2_parcial_custo_proprio": 0.07461897011789742,
+        "ols": {
+          "propria": {
+            "coef": -3.596943411828009,
+            "ep_agrupado": 0.06560453813788128
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": 0.49739104474316415,
+            "ep_agrupado": 0.2086380425323613
+          }
+        }
+      },
+      {
+        "sku": 13,
+        "upc": 3828190033,
+        "n": 23374,
+        "volume_total": 961443.0,
+        "r2_parcial_custo_proprio": 0.41363665751303513,
+        "ols": {
+          "propria": {
+            "coef": -1.6351547028643616,
+            "ep_agrupado": 0.0881481755134348
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.31624927035374717,
+            "ep_agrupado": 0.17562914932041057
+          }
+        }
+      },
+      {
+        "sku": 14,
+        "upc": 3828190041,
+        "n": 23374,
+        "volume_total": 1282791.0,
+        "r2_parcial_custo_proprio": 0.2057237606974559,
+        "ols": {
+          "propria": {
+            "coef": -3.084360385152385,
+            "ep_agrupado": 0.06111226052445762
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.3837602912846924,
+            "ep_agrupado": 0.1872853921192761
+          }
+        }
+      },
+      {
+        "sku": 15,
+        "upc": 3828190053,
+        "n": 23374,
+        "volume_total": 780229.0,
+        "r2_parcial_custo_proprio": 0.03632972978959259,
+        "ols": {
+          "propria": {
+            "coef": -1.5300448256830275,
+            "ep_agrupado": 0.05968303009861216
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.6631197272334449,
+            "ep_agrupado": 0.32475100215481456
+          }
+        }
+      },
+      {
+        "sku": 16,
+        "upc": 4180012100,
+        "n": 23374,
+        "volume_total": 326654.0,
+        "r2_parcial_custo_proprio": 0.17815716530482673,
+        "ols": {
+          "propria": {
+            "coef": -2.090904430997334,
+            "ep_agrupado": 0.09623331629783206
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -2.715903953740063,
+            "ep_agrupado": 0.3082597863307968
+          }
+        }
+      },
+      {
+        "sku": 17,
+        "upc": 4850000145,
+        "n": 23374,
+        "volume_total": 2942110.0,
+        "r2_parcial_custo_proprio": 0.3139663812666281,
+        "ols": {
+          "propria": {
+            "coef": -4.347827816935687,
+            "ep_agrupado": 0.06136546651958713
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -1.6238953649728887,
+            "ep_agrupado": 0.09551964503801728
+          }
+        }
+      },
+      {
+        "sku": 18,
+        "upc": 4850000147,
+        "n": 23374,
+        "volume_total": 421570.0,
+        "r2_parcial_custo_proprio": 0.2383867799155066,
+        "ols": {
+          "propria": {
+            "coef": -1.8172574685810046,
+            "ep_agrupado": 0.08670055616134452
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -1.3535089682563957,
+            "ep_agrupado": 0.13520010794223722
+          }
+        }
+      },
+      {
+        "sku": 19,
+        "upc": 4850000225,
+        "n": 23374,
+        "volume_total": 1557519.0,
+        "r2_parcial_custo_proprio": 0.26221035060942877,
+        "ols": {
+          "propria": {
+            "coef": -4.5607735689960105,
+            "ep_agrupado": 0.07012327023043183
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -1.9572554712417316,
+            "ep_agrupado": 0.11156677188511405
+          }
+        }
+      }
+    ]
+  },
+  "E4_inclinacoes_cruzados_exogenos": {
+    "cruzados": "exogenos",
+    "n": 467480,
+    "n_celulas": 23374,
+    "resumo": {
+      "ols": {
+        "mediana": -2.216234632077878,
+        "media": -2.7679844859758003,
+        "media_ponderada_volume": -3.525869917400314,
+        "min": -5.619034351251598,
+        "max": -1.078952861527109
+      },
+      "iv": {
+        "mediana": -3.3635429607312872,
+        "media": -1.888987165689428,
+        "media_ponderada_volume": -2.2999336910792385,
+        "min": -7.454635719794353,
+        "max": 15.647826935215054
+      }
+    },
+    "por_sku": [
+      {
+        "sku": 0,
+        "upc": 2500000300,
+        "n": 23374,
+        "volume_total": 575768.0,
+        "r2_parcial_custo_proprio": 0.05660880991093242,
+        "ols": {
+          "propria": {
+            "coef": -1.2055589064278165,
+            "ep_agrupado": 0.10617000782915746
+          },
+          "media_outros": {
+            "coef": 0.715483785484324,
+            "ep_agrupado": 0.16888823087204896
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -4.079421927269008,
+            "ep_agrupado": 2.2542756060767255
+          },
+          "media_outros": {
+            "coef": 3.3683014466263064,
+            "ep_agrupado": 1.6208080719188973
+          }
+        }
+      },
+      {
+        "sku": 1,
+        "upc": 2500000425,
+        "n": 23374,
+        "volume_total": 491739.0,
+        "r2_parcial_custo_proprio": 0.5117816197574907,
+        "ols": {
+          "propria": {
+            "coef": -1.078952861527109,
+            "ep_agrupado": 0.09206209668087571
+          },
+          "media_outros": {
+            "coef": 0.6669612620099514,
+            "ep_agrupado": 0.13953598418340213
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -1.9564779891156063,
+            "ep_agrupado": 0.8638624276140886
+          },
+          "media_outros": {
+            "coef": 2.283477250749264,
+            "ep_agrupado": 1.0370156727268054
+          }
+        }
+      },
+      {
+        "sku": 2,
+        "upc": 2500002513,
+        "n": 23374,
+        "volume_total": 879808.0,
+        "r2_parcial_custo_proprio": 0.22678469594041784,
+        "ols": {
+          "propria": {
+            "coef": -4.705997921250386,
+            "ep_agrupado": 0.07333719801489547
+          },
+          "media_outros": {
+            "coef": 3.579044304434834,
+            "ep_agrupado": 0.18645358264275882
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -5.541638160068694,
+            "ep_agrupado": 0.917669662968006
+          },
+          "media_outros": {
+            "coef": 5.280196274748208,
+            "ep_agrupado": 1.2593775790023007
+          }
+        }
+      },
+      {
+        "sku": 3,
+        "upc": 2500002519,
+        "n": 23374,
+        "volume_total": 2308075.0,
+        "r2_parcial_custo_proprio": 0.22118621762440338,
+        "ols": {
+          "propria": {
+            "coef": -4.4252466781039,
+            "ep_agrupado": 0.06941628531346583
+          },
+          "media_outros": {
+            "coef": 4.916712100462607,
+            "ep_agrupado": 0.16098030482716652
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -3.6238968400837197,
+            "ep_agrupado": 0.9354119881486803
+          },
+          "media_outros": {
+            "coef": 4.088529508151449,
+            "ep_agrupado": 1.2777121780105385
+          }
+        }
+      },
+      {
+        "sku": 4,
+        "upc": 2500002521,
+        "n": 23374,
+        "volume_total": 458271.0,
+        "r2_parcial_custo_proprio": 0.29865908133829755,
+        "ols": {
+          "propria": {
+            "coef": -1.454404237794507,
+            "ep_agrupado": 0.10105661911932476
+          },
+          "media_outros": {
+            "coef": 0.8951690445587196,
+            "ep_agrupado": 0.1462060903493341
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -3.451221825787172,
+            "ep_agrupado": 1.6390664541802782
+          },
+          "media_outros": {
+            "coef": 3.755942901358325,
+            "ep_agrupado": 1.8645146165903612
+          }
+        }
+      },
+      {
+        "sku": 5,
+        "upc": 2500002544,
+        "n": 23374,
+        "volume_total": 1130894.0,
+        "r2_parcial_custo_proprio": 0.17583598521476584,
+        "ols": {
+          "propria": {
+            "coef": -4.627449099111216,
+            "ep_agrupado": 0.09218527216701587
+          },
+          "media_outros": {
+            "coef": 1.4810060949397692,
+            "ep_agrupado": 0.2543254209971398
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -7.454635719794353,
+            "ep_agrupado": 0.8830201443005732
+          },
+          "media_outros": {
+            "coef": 6.061097109704225,
+            "ep_agrupado": 1.1707463471101147
+          }
+        }
+      },
+      {
+        "sku": 6,
+        "upc": 2500002549,
+        "n": 23374,
+        "volume_total": 739538.0,
+        "r2_parcial_custo_proprio": 0.33236585755128467,
+        "ols": {
+          "propria": {
+            "coef": -2.5210987062566077,
+            "ep_agrupado": 0.06857140075293665
+          },
+          "media_outros": {
+            "coef": -1.0490507304034495,
+            "ep_agrupado": 0.15696901817564696
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -2.366931079753225,
+            "ep_agrupado": 0.14202752980771635
+          },
+          "media_outros": {
+            "coef": -0.8217874415494931,
+            "ep_agrupado": 0.30249443389044944
+          }
+        }
+      },
+      {
+        "sku": 7,
+        "upc": 2500002561,
+        "n": 23374,
+        "volume_total": 667385.0,
+        "r2_parcial_custo_proprio": 0.3250107306482872,
+        "ols": {
+          "propria": {
+            "coef": -3.5414536551790996,
+            "ep_agrupado": 0.09249661048333066
+          },
+          "media_outros": {
+            "coef": -1.015080113930533,
+            "ep_agrupado": 0.1740195781925224
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -3.275864095675402,
+            "ep_agrupado": 0.16228257360824166
+          },
+          "media_outros": {
+            "coef": -0.8269492235246505,
+            "ep_agrupado": 0.3270606207049959
+          }
+        }
+      },
+      {
+        "sku": 8,
+        "upc": 2870000013,
+        "n": 23374,
+        "volume_total": 560034.0,
+        "r2_parcial_custo_proprio": 0.3423189313472902,
+        "ols": {
+          "propria": {
+            "coef": -1.198675581311398,
+            "ep_agrupado": 0.12003371402939751
+          },
+          "media_outros": {
+            "coef": -1.3535694999209427,
+            "ep_agrupado": 0.18581931152330802
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.07863685564074427,
+            "ep_agrupado": 0.3029892857882649
+          },
+          "media_outros": {
+            "coef": -1.2448489375016079,
+            "ep_agrupado": 0.351425692573583
+          }
+        }
+      },
+      {
+        "sku": 9,
+        "upc": 3828190009,
+        "n": 23374,
+        "volume_total": 1128505.0,
+        "r2_parcial_custo_proprio": 0.001092185070728724,
+        "ols": {
+          "propria": {
+            "coef": -1.339275677486431,
+            "ep_agrupado": 0.07402699183358694
+          },
+          "media_outros": {
+            "coef": -0.5863892953385161,
+            "ep_agrupado": 0.1609499979143812
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": 3.5516404085523905,
+            "ep_agrupado": 1.9910056742586844
+          },
+          "media_outros": {
+            "coef": -3.5394683384203613,
+            "ep_agrupado": 1.5708655891977907
+          }
+        }
+      },
+      {
+        "sku": 10,
+        "upc": 3828190013,
+        "n": 23374,
+        "volume_total": 952012.0,
+        "r2_parcial_custo_proprio": 0.00017795899547012883,
+        "ols": {
+          "propria": {
+            "coef": -1.430515303937725,
+            "ep_agrupado": 0.08831424353654983
+          },
+          "media_outros": {
+            "coef": -1.0741270872710593,
+            "ep_agrupado": 0.1807516940560501
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": 15.647826935215054,
+            "ep_agrupado": 14.646776314697918
+          },
+          "media_outros": {
+            "coef": -12.107104536743522,
+            "ep_agrupado": 10.08061384779044
+          }
+        }
+      },
+      {
+        "sku": 11,
+        "upc": 3828190021,
+        "n": 23374,
+        "volume_total": 1649144.0,
+        "r2_parcial_custo_proprio": 0.03576701322889775,
+        "ols": {
+          "propria": {
+            "coef": -1.5698603429732854,
+            "ep_agrupado": 0.07336106401703389
+          },
+          "media_outros": {
+            "coef": 0.40782626497071034,
+            "ep_agrupado": 0.14618873075701685
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -1.9716376064103105,
+            "ep_agrupado": 1.323832759954344
+          },
+          "media_outros": {
+            "coef": 0.5645749223817845,
+            "ep_agrupado": 0.42674673214163056
+          }
+        }
+      },
+      {
+        "sku": 12,
+        "upc": 3828190029,
+        "n": 23374,
+        "volume_total": 5405545.0,
+        "r2_parcial_custo_proprio": 0.032499113983361694,
+        "ols": {
+          "propria": {
+            "coef": -4.3173392383190725,
+            "ep_agrupado": 0.06811630514524761
+          },
+          "media_outros": {
+            "coef": 4.8483134465001285,
+            "ep_agrupado": 0.139441140696479
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -2.459609519629945,
+            "ep_agrupado": 1.3623178011847055
+          },
+          "media_outros": {
+            "coef": 3.4552380145878927,
+            "ep_agrupado": 1.0195625058269644
+          }
+        }
+      },
+      {
+        "sku": 13,
+        "upc": 3828190033,
+        "n": 23374,
+        "volume_total": 961443.0,
+        "r2_parcial_custo_proprio": 0.18495154428277227,
+        "ols": {
+          "propria": {
+            "coef": -2.2096380620078024,
+            "ep_agrupado": 0.08447487677564926
+          },
+          "media_outros": {
+            "coef": 2.216888689050389,
+            "ep_agrupado": 0.12596066226296815
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -3.8482492197131806,
+            "ep_agrupado": 2.0285376829176145
+          },
+          "media_outros": {
+            "coef": 4.693933824070143,
+            "ep_agrupado": 2.4338297416967833
+          }
+        }
+      },
+      {
+        "sku": 14,
+        "upc": 3828190041,
+        "n": 23374,
+        "volume_total": 1282791.0,
+        "r2_parcial_custo_proprio": 0.13140934453326525,
+        "ols": {
+          "propria": {
+            "coef": -3.413629894662177,
+            "ep_agrupado": 0.057874528142815254
+          },
+          "media_outros": {
+            "coef": 3.2650877781112833,
+            "ep_agrupado": 0.12434846935853786
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -4.503513258534728,
+            "ep_agrupado": 1.635336209799751
+          },
+          "media_outros": {
+            "coef": 4.3682807384885125,
+            "ep_agrupado": 0.966700807239
+          }
+        }
+      },
+      {
+        "sku": 15,
+        "upc": 3828190053,
+        "n": 23374,
+        "volume_total": 780229.0,
+        "r2_parcial_custo_proprio": 0.03825006990055968,
+        "ols": {
+          "propria": {
+            "coef": -1.4194064282880274,
+            "ep_agrupado": 0.06009950843881063
+          },
+          "media_outros": {
+            "coef": -1.244629480590143,
+            "ep_agrupado": 0.17397363645076844
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": 1.0046530826071223,
+            "ep_agrupado": 0.9051031431491181
+          },
+          "media_outros": {
+            "coef": -1.3481840195447952,
+            "ep_agrupado": 0.5087567445936171
+          }
+        }
+      },
+      {
+        "sku": 16,
+        "upc": 4180012100,
+        "n": 23374,
+        "volume_total": 326654.0,
+        "r2_parcial_custo_proprio": 0.2072150204237876,
+        "ols": {
+          "propria": {
+            "coef": -1.6545900738539037,
+            "ep_agrupado": 0.10900159259304909
+          },
+          "media_outros": {
+            "coef": -1.13862702002069,
+            "ep_agrupado": 0.18030800311051373
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -0.6862955214888798,
+            "ep_agrupado": 0.9541017563255514
+          },
+          "media_outros": {
+            "coef": -1.11235647351057,
+            "ep_agrupado": 0.5173762759829157
+          }
+        }
+      },
+      {
+        "sku": 17,
+        "upc": 4850000145,
+        "n": 23374,
+        "volume_total": 2942110.0,
+        "r2_parcial_custo_proprio": 0.18008538833279386,
+        "ols": {
+          "propria": {
+            "coef": -5.404731497625993,
+            "ep_agrupado": 0.06941150566865172
+          },
+          "media_outros": {
+            "coef": 5.881098798501935,
+            "ep_agrupado": 0.15343140266255767
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -4.110258825924731,
+            "ep_agrupado": 0.9790989933770694
+          },
+          "media_outros": {
+            "coef": 4.633071339423909,
+            "ep_agrupado": 1.0864300390055954
+          }
+        }
+      },
+      {
+        "sku": 18,
+        "upc": 4850000147,
+        "n": 23374,
+        "volume_total": 421570.0,
+        "r2_parcial_custo_proprio": 0.08427477681997009,
+        "ols": {
+          "propria": {
+            "coef": -2.222831202147954,
+            "ep_agrupado": 0.08127366956538058
+          },
+          "media_outros": {
+            "coef": 1.8562378761384624,
+            "ep_agrupado": 0.1453416169158144
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -4.005554919924705,
+            "ep_agrupado": 0.9888354513171207
+          },
+          "media_outros": {
+            "coef": 4.108202248653943,
+            "ep_agrupado": 0.8802815685362262
+          }
+        }
+      },
+      {
+        "sku": 19,
+        "upc": 4850000225,
+        "n": 23374,
+        "volume_total": 1557519.0,
+        "r2_parcial_custo_proprio": 0.13200987788183105,
+        "ols": {
+          "propria": {
+            "coef": -5.619034351251598,
+            "ep_agrupado": 0.0768033002655391
+          },
+          "media_outros": {
+            "coef": 5.872154600251815,
+            "ep_agrupado": 0.1607274795491716
+          }
+        },
+        "iv": {
+          "propria": {
+            "coef": -4.57002037534872,
+            "ep_agrupado": 0.9859946054952083
+          },
+          "media_outros": {
+            "coef": 4.927904167724895,
+            "ep_agrupado": 1.10135618404657
+          }
+        }
+      }
+    ]
+  }
+}

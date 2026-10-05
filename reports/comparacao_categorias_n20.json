@@ -1,0 +1,113 @@
+{
+  "gerado_em": "2026-09-09",
+  "n": 20,
+  "criterio": "completude_conjunta",
+  "produtor": "src/data/nucleo.py",
+  "observacao": "Comparação refeita sob o critério vigente de D12. A comparação original do texto usa tau_c(30) sob regularidade individual, que é a regra superada.",
+  "categorias": [
+    {
+      "n_upcs_categoria": 127,
+      "n_elegiveis": 36,
+      "regularidade_minima": 0.7548327610326847,
+      "celulas_completas": 19393,
+      "observacoes_completas": 387860,
+      "cv_dois_estagios": 0.10614071886766735,
+      "promo_preco_dois_estagios": 0.1358529537559591,
+      "cobertura_volume_categoria_pct": 75.03937864506986,
+      "categoria": "tti",
+      "nome": "Papel higiênico",
+      "criterio": "completude_conjunta"
+    },
+    {
+      "n_upcs_categoria": 175,
+      "n_elegiveis": 76,
+      "regularidade_minima": 0.9476501901140684,
+      "celulas_completas": 25234,
+      "observacoes_completas": 504680,
+      "cv_dois_estagios": 0.16202912206791842,
+      "promo_preco_dois_estagios": 0.177920132774708,
+      "cobertura_volume_categoria_pct": 55.23329089179573,
+      "categoria": "frj",
+      "nome": "Sucos congelados",
+      "criterio": "completude_conjunta"
+    },
+    {
+      "n_upcs_categoria": 445,
+      "n_elegiveis": 193,
+      "regularidade_minima": 0.9749282296650718,
+      "celulas_completas": 29924,
+      "observacoes_completas": 598480,
+      "cv_dois_estagios": 0.16870833279492894,
+      "promo_preco_dois_estagios": 0.5047248328079428,
+      "cobertura_volume_categoria_pct": 44.6545972887489,
+      "categoria": "cso",
+      "nome": "Sopas enlatadas",
+      "criterio": "completude_conjunta"
+    },
+    {
+      "n_upcs_categoria": 266,
+      "n_elegiveis": 78,
+      "regularidade_minima": 0.9192890306242086,
+      "celulas_completas": 9989,
+      "observacoes_completas": 199780,
+      "cv_dois_estagios": 0.09867744138459311,
+      "promo_preco_dois_estagios": 0.14605684170901562,
+      "cobertura_volume_categoria_pct": 34.13244715723921,
+      "categoria": "frd",
+      "nome": "Pratos congelados",
+      "criterio": "completude_conjunta"
+    },
+    {
+      "n_upcs_categoria": 506,
+      "n_elegiveis": 141,
+      "regularidade_minima": 0.9614603838582676,
+      "celulas_completas": 27024,
+      "observacoes_completas": 540480,
+      "cv_dois_estagios": 0.08826845822148385,
+      "promo_preco_dois_estagios": 0.13398812181230296,
+      "cobertura_volume_categoria_pct": 28.82609208205719,
+      "categoria": "bjc",
+      "nome": "Sucos engarrafados",
+      "criterio": "completude_conjunta"
+    },
+    {
+      "n_upcs_categoria": 657,
+      "n_elegiveis": 221,
+      "regularidade_minima": 0.9738250492125984,
+      "celulas_completas": 29650,
+      "observacoes_completas": 593000,
+      "cv_dois_estagios": 0.12638486969968876,
+      "promo_preco_dois_estagios": 0.12890318478231455,
+      "cobertura_volume_categoria_pct": 26.64896244695082,
+      "categoria": "che",
+      "nome": "Queijos",
+      "criterio": "completude_conjunta"
+    },
+    {
+      "n_upcs_categoria": 1608,
+      "n_elegiveis": 404,
+      "regularidade_minima": 0.9771393265369168,
+      "celulas_completas": 30878,
+      "observacoes_completas": 617560,
+      "cv_dois_estagios": 0.1437296033791456,
+      "promo_preco_dois_estagios": 0.19060182155322855,
+      "cobertura_volume_categoria_pct": 26.074894002574386,
+      "categoria": "sdr",
+      "nome": "Refrigerantes",
+      "criterio": "completude_conjunta"
+    },
+    {
+      "n_upcs_categoria": 898,
+      "n_elegiveis": 259,
+      "regularidade_minima": 0.9449024917095136,
+      "celulas_completas": 23459,
+      "observacoes_completas": 469180,
+      "cv_dois_estagios": 0.12096184295773191,
+      "promo_preco_dois_estagios": 0.14405443501511273,
+      "cobertura_volume_categoria_pct": 17.31518612203649,
+      "categoria": "fre",
+      "nome": "Refeições congeladas",
+      "criterio": "completude_conjunta"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categoria": "frj",
+  "lojas_no_painel": 93,
+  "lojas_sem_linha_na_demografia": 7,
+  "lojas_so_no_teste": 7,
+  "sem_demografia_sao_as_mesmas_do_teste": true,
+  "precos_distintos_por_sku_semana_mediana": 4.0,
+  "lojas_ativas_por_sku_semana_mediana": 66.0,
+  "variancia_entre_lojas": {
+    "zone": {
+      "pct_explicada": 54.108865821519814,
+      "n_lojas": 83,
+      "n_grupos": 15
+    },
+    "scluster": {
+      "pct_explicada": 14.497098304511969,
+      "n_lojas": 86,
+      "n_grupos": 5
+    },
+    "faixa_de_preco": {
+      "pct_explicada": 27.58496902461992,
+      "n_lojas": 86,
+      "n_grupos": 3
+    }
+  }
+}

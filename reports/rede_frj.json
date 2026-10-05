@@ -1,0 +1,83 @@
+{
+  "categoria": "frj",
+  "n_sortimento": 20,
+  "restrita": true,
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle",
+    "semente": 0,
+    "gama_contextual": false
+  },
+  "particao": {
+    "semana_de_corte": 319,
+    "zona_morta_semanas": 8,
+    "versao_pipeline": "2026-09-17_vocabulario_do_treino",
+    "janela_treino": [
+      1,
+      310
+    ],
+    "vocabulario_tamanho": {
+      "sku": 20,
+      "store": 86
+    },
+    "n_treino": 409120,
+    "n_teste": 86460,
+    "semana_de_corte_validacao": 249,
+    "janela_treino_reduzido": [
+      1,
+      240
+    ],
+    "n_treino_reduzido": 321820,
+    "n_validacao": 76760,
+    "lojas_so_na_validacao": 0
+  },
+  "n_celulas": {
+    "treino": 20456,
+    "teste": 4323
+  },
+  "perda_por_epoca": [
+    1.0626431897276774,
+    0.4816239676556645,
+    0.41025046466335824,
+    0.37312989665933266,
+    0.34829122347900726,
+    0.3306227169281158,
+    0.3164443935576854,
+    0.3067943663931844,
+    0.29806432651270637,
+    0.2922355511550284,
+    0.286623295532058,
+    0.28353319283010997,
+    0.2796403606818158,
+    0.2773527259769783,
+    0.27611109392923633
+  ],
+  "desempenho": {
+    "treino": {
+      "rmse": 94.69058960917671,
+      "mae": 23.841431258555893,
+      "rmse_log": 0.5221521568662781,
+      "wmape_pct": 39.94632745687932
+    },
+    "teste": {
+      "rmse": 56.48065166440968,
+      "mae": 18.359140770473388,
+      "rmse_log": 0.6281069844341407,
+      "wmape_pct": 48.350024703476365
+    }
+  },
+  "vies_de_nivel": {
+    "treino": 0.8524104975964236,
+    "teste": 0.9608114529393847
+  }
+}

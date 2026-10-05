@@ -1,0 +1,103 @@
+{
+  "categoria": "frj",
+  "artefato": "rede_frj.pt",
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "sonda": {
+    "corridas": {
+      "n_celulas_do_escopo": 4022,
+      "n_corridas": 886,
+      "tamanho_das_corridas": {
+        "mediana": 2.0,
+        "p10": 1.0,
+        "p90": 11.0,
+        "media": 4.539503386004514
+      },
+      "n_corridas_curtas_demais": 496,
+      "n_celulas_resolvidas": 3388,
+      "n_celulas_de_aquecimento": 780,
+      "n_celulas_elegiveis": 2608,
+      "pct_do_escopo_elegivel": 64.84336151168573,
+      "n_excluidas_por_quebra_de_cadeia": 1414,
+      "semanas_de_aquecimento_por_corrida": 2
+    },
+    "indicadores_de_falta": {
+      "falta1": {
+        "pct_entradas_com_falta_1": 0.0,
+        "maximo": 0.0
+      },
+      "falta2": {
+        "pct_entradas_com_falta_1": 0.0,
+        "maximo": 0.0
+      }
+    },
+    "calibracao": {
+      "margem": {
+        "escopo_inteiro": {
+          "n_celulas": 4022,
+          "modelo_no_historico": 1137148.743057251,
+          "observado_no_historico": 1142425.456122,
+          "calibracao_agregada": 0.9953811314020776,
+          "calibracao_por_celula": {
+            "mediana": 1.0239817197469012,
+            "p10": 0.7264589128900271,
+            "p90": 1.4350976048774227,
+            "media": 1.0608838713967936
+          },
+          "pct_celulas_com_modelo_ABAIXO_do_observado": 46.14619592242665
+        },
+        "elegiveis": {
+          "n_celulas": 2608,
+          "modelo_no_historico": 779927.727722168,
+          "observado_no_historico": 813022.441543,
+          "calibracao_agregada": 0.9592942185482322,
+          "calibracao_por_celula": {
+            "mediana": 0.9851085957317727,
+            "p10": 0.6987505662107703,
+            "p90": 1.3700642772691216,
+            "media": 1.0141272275332929
+          },
+          "pct_celulas_com_modelo_ABAIXO_do_observado": 52.53067484662577
+        }
+      },
+      "receita": {
+        "escopo_inteiro": {
+          "n_celulas": 4022,
+          "modelo_no_historico": 3306180.7846679688,
+          "observado_no_historico": 3406604.0500000003,
+          "calibracao_agregada": 0.9705210045376329,
+          "calibracao_por_celula": {
+            "mediana": 1.0040794391307357,
+            "p10": 0.6894456493068978,
+            "p90": 1.4222908671421695,
+            "media": 1.0410885604879456
+          },
+          "pct_celulas_com_modelo_ABAIXO_do_observado": 49.45300845350572
+        },
+        "elegiveis": {
+          "n_celulas": 2608,
+          "modelo_no_historico": 2274218.725830078,
+          "observado_no_historico": 2412244.33,
+          "calibracao_agregada": 0.9427812504507278,
+          "calibracao_por_celula": {
+            "mediana": 0.972982515173856,
+            "p10": 0.6692907465343172,
+            "p90": 1.3514394778203196,
+            "media": 0.9991581273218683
+          },
+          "pct_celulas_com_modelo_ABAIXO_do_observado": 54.37116564417178
+        }
+      }
+    }
+  }
+}

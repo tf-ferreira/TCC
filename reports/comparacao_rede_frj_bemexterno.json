@@ -1,0 +1,93 @@
+{
+  "n_configuracoes": 2,
+  "n_pares": 1,
+  "alfa": 0.05,
+  "limiar_z_corrigido": 1.9599639845400534,
+  "eixos": {
+    "wmape": {
+      "n_sementes": 50,
+      "medias": {
+        "com_bem_externo": 48.609698184685264,
+        "sem_bem_externo": 51.64958961404769
+      },
+      "pares": {
+        "com_bem_externo__menos__sem_bem_externo": {
+          "diferenca_media": -3.0398914293624113,
+          "erro_padrao_pareado": 0.18848524059468327,
+          "z": -16.128007793986175,
+          "passa_limiar": true
+        }
+      },
+      "poder": {
+        "ep_pareado_mediano": 0.18848524059468327,
+        "diferenca_minima_detectavel_mediana": 0.36942428318294607,
+        "amplitude_das_medias": 3.0398914293624273,
+        "n_pares_que_passam": 1,
+        "n_pares": 1,
+        "tem_ordem_de_melhor": true,
+        "melhor": "com_bem_externo",
+        "segunda": "sem_bem_externo",
+        "distancia_melhor_para_segunda": 3.0398914293624273,
+        "amplitude_do_topo": 3.0398914293624273,
+        "n_do_topo": 2,
+        "diferenca_minima_detectavel_do_par_1_2": 0.36942428318294607,
+        "escolha_entre_1_e_2_e_decidivel": true,
+        "sementes_para_decidir_1_contra_2": 1
+      }
+    },
+    "vies_de_nivel": {
+      "n_sementes": 50,
+      "medias": {
+        "com_bem_externo": 0.9662645156868718,
+        "sem_bem_externo": 1.048538834907097
+      },
+      "pares": {
+        "com_bem_externo__menos__sem_bem_externo": {
+          "diferenca_media": -0.08227431922022539,
+          "erro_padrao_pareado": 0.004179640405006243,
+          "z": -19.68454490048469,
+          "passa_limiar": true
+        }
+      },
+      "poder": {
+        "ep_pareado_mediano": 0.004179640405006243,
+        "diferenca_minima_detectavel_mediana": 0.008191944662140639,
+        "amplitude_das_medias": 0.08227431922022521,
+        "n_pares_que_passam": 1,
+        "n_pares": 1,
+        "tem_ordem_de_melhor": true,
+        "melhor": "com_bem_externo",
+        "segunda": "sem_bem_externo",
+        "distancia_melhor_para_segunda": 0.014803350593968756,
+        "amplitude_do_topo": 0.014803350593968756,
+        "n_do_topo": 2,
+        "diferenca_minima_detectavel_do_par_1_2": 0.008191944662140639,
+        "escolha_entre_1_e_2_e_decidivel": true,
+        "sementes_para_decidir_1_contra_2": 16
+      }
+    },
+    "elast_h10": {
+      "n_sementes": 50,
+      "medias": {
+        "com_bem_externo": -1.9108779454231262,
+        "sem_bem_externo": -1.8941839265823364
+      },
+      "pares": {
+        "com_bem_externo__menos__sem_bem_externo": {
+          "diferenca_media": -0.016694018840789793,
+          "erro_padrao_pareado": 0.0018734648509627675,
+          "z": -8.910772375692446,
+          "passa_limiar": true
+        }
+      },
+      "poder": {
+        "ep_pareado_mediano": 0.0018734648509627675,
+        "diferenca_minima_detectavel_mediana": 0.003671923634188723,
+        "amplitude_das_medias": 0.016694018840789804,
+        "n_pares_que_passam": 1,
+        "n_pares": 1,
+        "tem_ordem_de_melhor": false
+      }
+    }
+  }
+}

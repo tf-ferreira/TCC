@@ -1,0 +1,25 @@
+# ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# sistema
+.DS_Store
+
+# dados: baixados ou regenerados pelos scripts, nunca versionados (ver data/README.md)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+# exceção documentada em data/README.md: o resumo por categoria das figuras da triagem
+!data/interim/screening/
+data/interim/screening/*
+!data/interim/screening/_payload.json
+
+# registros de execução das rodadas longas
+reports/logs_v1/

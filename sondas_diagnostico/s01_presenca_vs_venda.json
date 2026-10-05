@@ -1,0 +1,14 @@
+{
+ "sortimento": {
+  "linhas": 660801,
+  "preco_positivo_sem_venda": 0,
+  "venda_sem_preco": 0,
+  "p_venda_dado_preco": 1.0
+ },
+ "resto": {
+  "linhas": 2436464,
+  "preco_positivo_sem_venda": 0,
+  "venda_sem_preco": 0,
+  "p_venda_dado_preco": 1.0
+ }
+}

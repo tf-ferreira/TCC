@@ -1,0 +1,455 @@
+{
+  "categoria": "frj",
+  "prefixo_marca_propria": "3828190",
+  "n_skus": 20,
+  "produtos": [
+    {
+      "pos": 0,
+      "upc": 2500000300,
+      "descrip": "~MM ORANGE JUICE",
+      "size": "6 OZ",
+      "oncas": 6.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": true
+    },
+    {
+      "pos": 1,
+      "upc": 2500000425,
+      "descrip": "5 ALIVE FRUIT BEVERA",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "blend",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 2,
+      "upc": 2500002513,
+      "descrip": "MM COUNTRY STYLE ORA",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 3,
+      "upc": 2500002519,
+      "descrip": "MM ORANGE JUICE",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 4,
+      "upc": 2500002521,
+      "descrip": "MM ORANGE JUICE",
+      "size": "16 OZ",
+      "oncas": 16.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 5,
+      "upc": 2500002544,
+      "descrip": "MM ORANGE JUICE W/CA",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 6,
+      "upc": 2500002549,
+      "descrip": "MM FRUIT PUNCH",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "punch",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 7,
+      "upc": 2500002561,
+      "descrip": "MM LEMONADE",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "limonada",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 8,
+      "upc": 2870000013,
+      "descrip": "TREE TOP APPLE JUICE",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "maca",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 9,
+      "upc": 3828190009,
+      "descrip": "HH LEMONADE",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "limonada",
+      "marca_propria": true,
+      "descontinuado": false
+    },
+    {
+      "pos": 10,
+      "upc": 3828190013,
+      "descrip": "HH PINK LEMONADE",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "limonada",
+      "marca_propria": true,
+      "descontinuado": false
+    },
+    {
+      "pos": 11,
+      "upc": 3828190021,
+      "descrip": "DOM APPLE JUICE",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "maca",
+      "marca_propria": true,
+      "descontinuado": false
+    },
+    {
+      "pos": 12,
+      "upc": 3828190029,
+      "descrip": "HH ORANGE JUICE CONC",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "laranja",
+      "marca_propria": true,
+      "descontinuado": false
+    },
+    {
+      "pos": 13,
+      "upc": 3828190033,
+      "descrip": "HH ORANGE JUICE CONC",
+      "size": "16 OZ",
+      "oncas": 16.0,
+      "tipo": "laranja",
+      "marca_propria": true,
+      "descontinuado": false
+    },
+    {
+      "pos": 14,
+      "upc": 3828190041,
+      "descrip": "HH ORANGE JUICE CONC",
+      "size": "6 OZ",
+      "oncas": 6.0,
+      "tipo": "laranja",
+      "marca_propria": true,
+      "descontinuado": false
+    },
+    {
+      "pos": 15,
+      "upc": 3828190053,
+      "descrip": "DOM FRUIT PUNCH",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "punch",
+      "marca_propria": true,
+      "descontinuado": false
+    },
+    {
+      "pos": 16,
+      "upc": 4180012100,
+      "descrip": "WELCH'S CRNBRY JCE C",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "cranberry",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 17,
+      "upc": 4850000145,
+      "descrip": "TROP SB ORANGE JUICE",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 18,
+      "upc": 4850000147,
+      "descrip": "TROP ORANGE JUICE",
+      "size": "16 OZ",
+      "oncas": 16.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": false
+    },
+    {
+      "pos": 19,
+      "upc": 4850000225,
+      "descrip": "TROP SB HOME STYLE O",
+      "size": "12 OZ",
+      "oncas": 12.0,
+      "tipo": "laranja",
+      "marca_propria": false,
+      "descontinuado": false
+    }
+  ],
+  "pares": [
+    [
+      9,
+      7
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      11,
+      8
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      12,
+      5
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      13,
+      4
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      15,
+      6
+    ]
+  ],
+  "n_pares": 12,
+  "skus_sem_par": [
+    1,
+    16
+  ],
+  "centavos_por_onca_todas": {
+    "centavos_por_onca_propria_mediana": 8.6875,
+    "centavos_por_onca_nacional_mediana": 11.75,
+    "n_skus_marca_propria": 7
+  },
+  "auditoria_todas": {
+    "n_celulas": 25234,
+    "n_pares": 12,
+    "pct_celulas_com_alguma_violacao": 39.8311801537608,
+    "n_celulas_com_alguma_violacao": 10051,
+    "pct_violacao_media_entre_pares": 8.718395815170009,
+    "pct_violacao_maxima_entre_pares": 19.140841721486883,
+    "por_par": [
+      {
+        "propria": 9,
+        "nacional": 7,
+        "pct_violacao": 4.43053023698185,
+        "preco_propria_mediana": 0.82,
+        "preco_nacional_mediana": 1.09
+      },
+      {
+        "propria": 10,
+        "nacional": 7,
+        "pct_violacao": 4.51771419513355,
+        "preco_propria_mediana": 0.82,
+        "preco_nacional_mediana": 1.09
+      },
+      {
+        "propria": 11,
+        "nacional": 8,
+        "pct_violacao": 6.503130696679084,
+        "preco_propria_mediana": 1.09,
+        "preco_nacional_mediana": 1.34
+      },
+      {
+        "propria": 12,
+        "nacional": 2,
+        "pct_violacao": 13.806768645478323,
+        "preco_propria_mediana": 1.22,
+        "preco_nacional_mediana": 1.51
+      },
+      {
+        "propria": 12,
+        "nacional": 3,
+        "pct_violacao": 13.917730046762305,
+        "preco_propria_mediana": 1.22,
+        "preco_nacional_mediana": 1.51
+      },
+      {
+        "propria": 12,
+        "nacional": 5,
+        "pct_violacao": 13.43425536973924,
+        "preco_propria_mediana": 1.22,
+        "preco_nacional_mediana": 1.51
+      },
+      {
+        "propria": 12,
+        "nacional": 17,
+        "pct_violacao": 19.140841721486883,
+        "preco_propria_mediana": 1.22,
+        "preco_nacional_mediana": 1.35
+      },
+      {
+        "propria": 12,
+        "nacional": 19,
+        "pct_violacao": 18.784180074502654,
+        "preco_propria_mediana": 1.22,
+        "preco_nacional_mediana": 1.35
+      },
+      {
+        "propria": 13,
+        "nacional": 4,
+        "pct_violacao": 0.035666164698422764,
+        "preco_propria_mediana": 1.59,
+        "preco_nacional_mediana": 2.09
+      },
+      {
+        "propria": 13,
+        "nacional": 18,
+        "pct_violacao": 3.348656574463026,
+        "preco_propria_mediana": 1.59,
+        "preco_nacional_mediana": 1.89
+      },
+      {
+        "propria": 14,
+        "nacional": 0,
+        "pct_violacao": 3.1663628437821987,
+        "preco_propria_mediana": 0.75,
+        "preco_nacional_mediana": 0.89
+      },
+      {
+        "propria": 15,
+        "nacional": 6,
+        "pct_violacao": 3.5349132123325675,
+        "preco_propria_mediana": 0.82,
+        "preco_nacional_mediana": 1.09
+      }
+    ]
+  },
+  "auditoria_escopo_d38": {
+    "n_celulas": 4022,
+    "n_pares": 12,
+    "pct_celulas_com_alguma_violacao": 39.9801093983093,
+    "n_celulas_com_alguma_violacao": 1608,
+    "pct_violacao_media_entre_pares": 7.9272335488148515,
+    "pct_violacao_maxima_entre_pares": 24.689209348582793,
+    "por_par": [
+      {
+        "propria": 9,
+        "nacional": 7,
+        "pct_violacao": 1.6907011437095973,
+        "preco_propria_mediana": 0.82,
+        "preco_nacional_mediana": 1.09
+      },
+      {
+        "propria": 10,
+        "nacional": 7,
+        "pct_violacao": 1.6658378915962206,
+        "preco_propria_mediana": 0.82,
+        "preco_nacional_mediana": 1.09
+      },
+      {
+        "propria": 11,
+        "nacional": 8,
+        "pct_violacao": 0.0,
+        "preco_propria_mediana": 1.15,
+        "preco_nacional_mediana": 1.49
+      },
+      {
+        "propria": 12,
+        "nacional": 2,
+        "pct_violacao": 11.188463451019395,
+        "preco_propria_mediana": 1.29,
+        "preco_nacional_mediana": 1.55
+      },
+      {
+        "propria": 12,
+        "nacional": 3,
+        "pct_violacao": 11.387369467926405,
+        "preco_propria_mediana": 1.29,
+        "preco_nacional_mediana": 1.55
+      },
+      {
+        "propria": 12,
+        "nacional": 5,
+        "pct_violacao": 11.13873694679264,
+        "preco_propria_mediana": 1.29,
+        "preco_nacional_mediana": 1.5
+      },
+      {
+        "propria": 12,
+        "nacional": 17,
+        "pct_violacao": 24.689209348582793,
+        "preco_propria_mediana": 1.29,
+        "preco_nacional_mediana": 1.33
+      },
+      {
+        "propria": 12,
+        "nacional": 19,
+        "pct_violacao": 24.316260566882146,
+        "preco_propria_mediana": 1.29,
+        "preco_nacional_mediana": 1.33
+      },
+      {
+        "propria": 13,
+        "nacional": 4,
+        "pct_violacao": 0.02486325211337643,
+        "preco_propria_mediana": 1.69,
+        "preco_nacional_mediana": 2.19
+      },
+      {
+        "propria": 13,
+        "nacional": 18,
+        "pct_violacao": 0.9945300845350571,
+        "preco_propria_mediana": 1.69,
+        "preco_nacional_mediana": 1.89
+      },
+      {
+        "propria": 14,
+        "nacional": 0,
+        "pct_violacao": 6.389855793137743,
+        "preco_propria_mediana": 0.75,
+        "preco_nacional_mediana": 0.99
+      },
+      {
+        "propria": 15,
+        "nacional": 6,
+        "pct_violacao": 1.6409746394828444,
+        "preco_propria_mediana": 0.82,
+        "preco_nacional_mediana": 1.09
+      }
+    ]
+  }
+}

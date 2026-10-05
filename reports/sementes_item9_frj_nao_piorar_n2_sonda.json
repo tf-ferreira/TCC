@@ -1,0 +1,235 @@
+{
+  "categoria": "frj",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle"
+  },
+  "hierarquia": "nao_piorar",
+  "n_pares": 12,
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "corridas": {
+    "n_celulas_do_escopo": 4022,
+    "n_corridas": 886,
+    "tamanho_das_corridas": {
+      "mediana": 2.0,
+      "p10": 1.0,
+      "p90": 11.0,
+      "media": 4.539503386004514
+    },
+    "n_corridas_curtas_demais": 496,
+    "n_celulas_resolvidas": 3388,
+    "n_celulas_de_aquecimento": 780,
+    "n_celulas_elegiveis": 2608,
+    "pct_do_escopo_elegivel": 64.84336151168573,
+    "n_excluidas_por_quebra_de_cadeia": 1414,
+    "semanas_de_aquecimento_por_corrida": 2
+  },
+  "n_sementes": 2,
+  "partidas_por_celula": 1,
+  "agregado": {
+    "margem": {
+      "superestimacao_da_avaliacao_ingenua_pct": {
+        "media": 8.495930987393574,
+        "desvio": 4.120459783432901,
+        "erro_padrao": 2.9136050544718572,
+        "min": 5.582325932921717,
+        "max": 11.409536041865431,
+        "amplitude": 5.8272101089437145,
+        "n": 2
+      },
+      "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": {
+        "media": -1.3531660368853837,
+        "desvio": 0.44039801822801117,
+        "erro_padrao": 0.31140842511014344,
+        "min": -1.6645744619955272,
+        "max": -1.0417576117752403,
+        "amplitude": 0.6228168502202869,
+        "n": 2
+      },
+      "ganho_ingenuo_modelo_contra_modelo_pct": {
+        "media": 20.791642390241105,
+        "desvio": 0.8000233442915728,
+        "erro_padrao": 0.5657019318561112,
+        "min": 20.225940458384994,
+        "max": 21.357344322097216,
+        "amplitude": 1.1314038637122223,
+        "n": 2
+      },
+      "ganho_sequencial_modelo_contra_modelo_pct": {
+        "media": 9.908499775159441,
+        "desvio": 4.41119698139072,
+        "erro_padrao": 3.1191872986910067,
+        "min": 6.789312476468434,
+        "max": 13.027687073850448,
+        "amplitude": 6.2383745973820135,
+        "n": 2
+      },
+      "calibracao_do_objetivo_no_ponto_historico": {
+        "media": 0.9292639958854921,
+        "desvio": 0.042469148170730824,
+        "erro_padrao": 0.030030222662740025,
+        "min": 0.8992337732227521,
+        "max": 0.9592942185482322,
+        "amplitude": 0.06006044532548005,
+        "n": 2
+      },
+      "ganho_sequencial_contra_o_OBSERVADO_pct": {
+        "media": 2.2276815719508516,
+        "desvio": 8.76688689573914,
+        "erro_padrao": 6.199125173872626,
+        "min": -3.971443601921776,
+        "max": 8.426806745823479,
+        "amplitude": 12.398250347745254,
+        "n": 2
+      },
+      "pct_sementes_decisao_negativa": 100.0,
+      "pct_sementes_superestima": 100.0,
+      "correlacao_ganho_calibracao": null
+    },
+    "receita": {
+      "superestimacao_da_avaliacao_ingenua_pct": {
+        "media": 1.8342627160072067,
+        "desvio": 7.013302825633239,
+        "erro_padrao": 4.959153986520038,
+        "min": -3.1248912705128307,
+        "max": 6.793416702527244,
+        "amplitude": 9.918307973040076,
+        "n": 2
+      },
+      "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": {
+        "media": -0.8700234295049791,
+        "desvio": 0.3201747573697045,
+        "erro_padrao": 0.22639774210087557,
+        "min": -1.0964211716058547,
+        "max": -0.6436256874041035,
+        "amplitude": 0.4527954842017512,
+        "n": 2
+      },
+      "ganho_ingenuo_modelo_contra_modelo_pct": {
+        "media": 39.82088651466713,
+        "desvio": 1.3438163292555962,
+        "erro_padrao": 0.9502216390858463,
+        "min": 38.870664875581284,
+        "max": 40.77110815375298,
+        "amplitude": 1.900443278171693,
+        "n": 2
+      },
+      "ganho_sequencial_modelo_contra_modelo_pct": {
+        "media": 36.459247933321166,
+        "desvio": 10.2664404302631,
+        "erro_padrao": 7.259469646886774,
+        "min": 29.199778286434388,
+        "max": 43.71871758020794,
+        "amplitude": 14.518939293773549,
+        "n": 2
+      },
+      "calibracao_do_objetivo_no_ponto_historico": {
+        "media": 0.9121940100605563,
+        "desvio": 0.043256890195346606,
+        "erro_padrao": 0.030587240390171463,
+        "min": 0.8816067696703849,
+        "max": 0.9427812504507278,
+        "amplitude": 0.06117448078034293,
+        "n": 2
+      },
+      "ganho_sequencial_contra_o_OBSERVADO_pct": {
+        "media": 24.6993557253384,
+        "desvio": 15.267788169120777,
+        "erro_padrao": 10.795956548105044,
+        "min": 13.903399177233355,
+        "max": 35.495312273443446,
+        "amplitude": 21.591913096210092,
+        "n": 2
+      },
+      "pct_sementes_decisao_negativa": 100.0,
+      "pct_sementes_superestima": 50.0,
+      "correlacao_ganho_calibracao": null
+    },
+    "wmape_teste": {
+      "media": 47.94552915144213,
+      "desvio": 0.5720430956064009,
+      "erro_padrao": 0.40449555203423054,
+      "min": 47.5410335994079,
+      "max": 48.350024703476365,
+      "amplitude": 0.8089911040684612,
+      "n": 2
+    },
+    "vies_de_nivel_teste": {
+      "media": 0.9237674002436795,
+      "desvio": 0.05238820172752984,
+      "erro_padrao": 0.03704405269570515,
+      "min": 0.8867233475479744,
+      "max": 0.9608114529393847,
+      "amplitude": 0.07408810539141031,
+      "n": 2
+    }
+  },
+  "por_semente": [
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.582325932921717,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.6645744619955272,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.357344322097216,
+        "ganho_sequencial_modelo_contra_modelo_pct": 13.027687073850448,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9592942185482322,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 8.426806745823479
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -3.1248912705128307,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.0964211716058547,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.77110815375298,
+        "ganho_sequencial_modelo_contra_modelo_pct": 43.71871758020794,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9427812504507278,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 35.495312273443446
+      },
+      "wmape_teste": 48.350024703476365,
+      "vies_de_nivel_teste": 0.9608114529393847,
+      "semente": 0,
+      "tempo_s": 110.70479016699937
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 11.409536041865431,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.0417576117752403,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 20.225940458384994,
+        "ganho_sequencial_modelo_contra_modelo_pct": 6.789312476468434,
+        "calibracao_do_objetivo_no_ponto_historico": 0.8992337732227521,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": -3.971443601921776
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.793416702527244,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.6436256874041035,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 38.870664875581284,
+        "ganho_sequencial_modelo_contra_modelo_pct": 29.199778286434388,
+        "calibracao_do_objetivo_no_ponto_historico": 0.8816067696703849,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 13.903399177233355
+      },
+      "wmape_teste": 47.5410335994079,
+      "vies_de_nivel_teste": 0.8867233475479744,
+      "semente": 1,
+      "tempo_s": 114.20895487499911
+    }
+  ],
+  "tempo_total_min": 3.748565738899985
+}

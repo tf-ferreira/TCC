@@ -1,0 +1,32 @@
+{
+  "categoria": "frj",
+  "particao": {
+    "semana_de_corte": 319,
+    "zona_morta_semanas": 8,
+    "n_treino": 409120,
+    "n_teste": 86460
+  },
+  "lojas": {
+    "no_treino": 86,
+    "no_teste": 87,
+    "so_no_teste": 7,
+    "so_no_treino": 6,
+    "pct_linhas_teste_em_loja_nunca_vista": 4.464492250751793,
+    "pct_volume_teste_em_loja_nunca_vista": 4.446085897045386
+  },
+  "tempo": {
+    "semana_max_treino": 310,
+    "semana_max_teste": 399,
+    "semanas_de_extrapolacao": 89
+  },
+  "cobertura_defasagem": {
+    "preco_lag1": {
+      "treino": 0.879155260070395,
+      "teste": 0.8357622021744159
+    },
+    "preco_lag2": {
+      "treino": 0.8602854908095424,
+      "teste": 0.8056904927133934
+    }
+  }
+}

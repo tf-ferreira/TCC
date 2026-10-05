@@ -1,0 +1,305 @@
+{
+  "categoria": "frj",
+  "artefato": "rede_frj.pt",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle",
+    "semente": 0,
+    "gama_contextual": false
+  },
+  "hierarquia": "nao_piorar",
+  "n_pares": 12,
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "corridas": {
+    "n_celulas_do_escopo": 4022,
+    "n_corridas": 886,
+    "tamanho_das_corridas": {
+      "mediana": 2.0,
+      "p10": 1.0,
+      "p90": 11.0,
+      "media": 4.539503386004514
+    },
+    "n_corridas_curtas_demais": 496,
+    "n_celulas_resolvidas": 3388,
+    "n_celulas_de_aquecimento": 780,
+    "n_celulas_elegiveis": 2608,
+    "pct_do_escopo_elegivel": 64.84336151168573,
+    "n_excluidas_por_quebra_de_cadeia": 1414,
+    "semanas_de_aquecimento_por_corrida": 2
+  },
+  "indicadores_de_falta": {
+    "falta1": {
+      "pct_entradas_com_falta_1": 0.0,
+      "maximo": 0.0
+    },
+    "falta2": {
+      "pct_entradas_com_falta_1": 0.0,
+      "maximo": 0.0
+    }
+  },
+  "k": 50,
+  "semente_partidas": 0,
+  "objetivos": [
+    "margem",
+    "receita"
+  ],
+  "resultados": [
+    {
+      "objetivo": "margem",
+      "n_celulas_elegiveis": 2608,
+      "agregados": {
+        "A_ingenua_reportada": 947014.2338638306,
+        "B_ingenua_honesta": 895222.0045013428,
+        "C_sequencial": 879754.131904602,
+        "M_modelo_no_historico": 779927.727722168,
+        "R_observado_no_historico": 813022.441543
+      },
+      "superestimacao_da_avaliacao_ingenua_pct": 5.785406201150867,
+      "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.7278253348292805,
+      "ganho_ingenuo_modelo_contra_modelo_pct": 21.423331957904622,
+      "ganho_sequencial_modelo_contra_modelo_pct": 12.799442901457535,
+      "calibracao_do_objetivo_no_ponto_historico": 0.9592942185482322,
+      "ganho_sequencial_contra_o_OBSERVADO_pct": 8.207853430829637,
+      "erro_da_identidade_de_dois_fatores": 0.0,
+      "por_celula": {
+        "sequencial_sobre_modelo_pct": {
+          "mediana": 9.765848545017109,
+          "p10": -10.041436922590135,
+          "p90": 33.27774869324339,
+          "media": 11.559938123171849
+        },
+        "sequencial_sobre_observado_pct": {
+          "mediana": 7.099294119082666,
+          "p10": -29.27265855900402,
+          "p90": 65.72058397455541,
+          "media": 13.929713293695292
+        },
+        "superestimacao_ingenua_pct": {
+          "mediana": 9.237579424584052,
+          "p10": -15.452426592078533,
+          "p90": 36.80075953191455,
+          "media": 10.60907494542193
+        },
+        "calibracao": {
+          "mediana": 0.9851085957317727,
+          "p10": 0.6987505662107703,
+          "p90": 1.3700642772691216,
+          "media": 1.0141272275332929
+        }
+      },
+      "pct_celulas_em_que_a_sequencial_PERDE_para_o_historico_no_modelo": 26.725460122699385,
+      "pct_celulas_em_que_a_sequencial_PERDE_para_o_observado": 40.45245398773007,
+      "pct_celulas_em_que_a_ingenua_superestima": 70.36042944785275,
+      "bootstrap_por_loja": {
+        "n_lojas": 83,
+        "n_boot": 2000,
+        "superestimacao_da_avaliacao_ingenua_pct": {
+          "ep": 1.3881666335300789,
+          "ic95": [
+            3.1137079775072714,
+            8.441281860737801
+          ],
+          "pct_boot_abaixo_de_zero": 0.0
+        },
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": {
+          "ep": 0.2607545807581875,
+          "ic95": [
+            -2.2468884837361176,
+            -1.197938759420181
+          ],
+          "pct_boot_abaixo_de_zero": 100.0
+        },
+        "ganho_ingenuo_modelo_contra_modelo_pct": {
+          "ep": 0.280227378174475,
+          "ic95": [
+            20.88969695187596,
+            21.989475839588593
+          ],
+          "pct_boot_abaixo_de_zero": 0.0
+        },
+        "ganho_sequencial_modelo_contra_modelo_pct": {
+          "ep": 1.3952803154626203,
+          "ic95": [
+            10.22540503055807,
+            15.622799368220997
+          ],
+          "pct_boot_abaixo_de_zero": 0.0
+        },
+        "ganho_sequencial_contra_o_OBSERVADO_pct": {
+          "ep": 2.7567342542846034,
+          "ic95": [
+            3.0513154252458543,
+            13.645322766368977
+          ],
+          "pct_boot_abaixo_de_zero": 0.15
+        },
+        "calibracao_do_objetivo_no_ponto_historico": {
+          "ep": 0.01664221192481008,
+          "ic95": [
+            0.9248876937601128,
+            0.9903595062103919
+          ]
+        }
+      }
+    },
+    {
+      "objetivo": "receita",
+      "n_celulas_elegiveis": 2608,
+      "agregados": {
+        "A_ingenua_reportada": 3233361.4700012207,
+        "B_ingenua_honesta": 3341121.713256836,
+        "C_sequencial": 3312203.674194336,
+        "M_modelo_no_historico": 2274218.725830078,
+        "R_observado_no_historico": 2412244.33
+      },
+      "superestimacao_da_avaliacao_ingenua_pct": -3.225271405948671,
+      "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.8655188749263298,
+      "ganho_ingenuo_modelo_contra_modelo_pct": 42.17460410810136,
+      "ganho_sequencial_modelo_contra_modelo_pct": 45.64138605381498,
+      "calibracao_do_objetivo_no_ponto_historico": 0.9427812504507278,
+      "ganho_sequencial_contra_o_OBSERVADO_pct": 37.307968061192874,
+      "erro_da_identidade_de_dois_fatores": 0.0,
+      "por_celula": {
+        "sequencial_sobre_modelo_pct": {
+          "mediana": 41.36070114746888,
+          "p10": 17.307914227735246,
+          "p90": 74.80078879436711,
+          "media": 44.02872956163893
+        },
+        "sequencial_sobre_observado_pct": {
+          "mediana": 37.520345927333466,
+          "p10": -10.682077781276721,
+          "p90": 107.25491319752946,
+          "media": 44.56339370978705
+        },
+        "superestimacao_ingenua_pct": {
+          "mediana": -1.844436554231571,
+          "p10": -18.015962557295083,
+          "p90": 17.550917316933038,
+          "media": -0.8729342942226196
+        },
+        "calibracao": {
+          "mediana": 0.972982515173856,
+          "p10": 0.6692907465343172,
+          "p90": 1.3514394778203196,
+          "media": 0.9991581273218683
+        }
+      },
+      "pct_celulas_em_que_a_sequencial_PERDE_para_o_historico_no_modelo": 0.6901840490797546,
+      "pct_celulas_em_que_a_sequencial_PERDE_para_o_observado": 16.219325153374236,
+      "pct_celulas_em_que_a_ingenua_superestima": 44.90030674846626,
+      "bootstrap_por_loja": {
+        "n_lojas": 83,
+        "n_boot": 2000,
+        "superestimacao_da_avaliacao_ingenua_pct": {
+          "ep": 0.5145965249471403,
+          "ic95": [
+            -4.240720589295188,
+            -2.2571189326090644
+          ],
+          "pct_boot_abaixo_de_zero": 100.0
+        },
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": {
+          "ep": 0.2251805550004456,
+          "ic95": [
+            -1.3108777902293827,
+            -0.43529715028453625
+          ],
+          "pct_boot_abaixo_de_zero": 100.0
+        },
+        "ganho_ingenuo_modelo_contra_modelo_pct": {
+          "ep": 0.5331401362097966,
+          "ic95": [
+            41.1868571003659,
+            43.24503088429608
+          ],
+          "pct_boot_abaixo_de_zero": 0.0
+        },
+        "ganho_sequencial_modelo_contra_modelo_pct": {
+          "ep": 1.2108446998062086,
+          "ic95": [
+            43.500010440217785,
+            48.17335598494285
+          ],
+          "pct_boot_abaixo_de_zero": 0.0
+        },
+        "ganho_sequencial_contra_o_OBSERVADO_pct": {
+          "ep": 3.2197275139401866,
+          "ic95": [
+            31.200403135147315,
+            43.76395869746224
+          ],
+          "pct_boot_abaixo_de_zero": 0.0
+        },
+        "calibracao_do_objetivo_no_ponto_historico": {
+          "ep": 0.01668963148040915,
+          "ic95": [
+            0.9094052016646749,
+            0.9741210101823712
+          ]
+        }
+      }
+    }
+  ],
+  "diagnosticos": [
+    {
+      "objetivo": "margem",
+      "ingenua": {
+        "sequencial": false,
+        "n_resolvidas": 3388,
+        "n_inviaveis_na_caixa": 0,
+        "pct_partidas_descartadas": 0.0,
+        "pct_solves_com_reserva": 1.0938606847697756,
+        "tempo_total_s": 782.734514666
+      },
+      "sequencial": {
+        "sequencial": true,
+        "n_resolvidas": 3388,
+        "n_inviaveis_na_caixa": 0,
+        "pct_partidas_descartadas": 0.0,
+        "pct_solves_com_reserva": 1.0850059031877213,
+        "tempo_total_s": 755.2013084169994
+      }
+    },
+    {
+      "objetivo": "receita",
+      "ingenua": {
+        "sequencial": false,
+        "n_resolvidas": 3388,
+        "n_inviaveis_na_caixa": 0,
+        "pct_partidas_descartadas": 0.0,
+        "pct_solves_com_reserva": 7.852420306965762,
+        "tempo_total_s": 1770.3655130829993
+      },
+      "sequencial": {
+        "sequencial": true,
+        "n_resolvidas": 3388,
+        "n_inviaveis_na_caixa": 0,
+        "pct_partidas_descartadas": 0.0,
+        "pct_solves_com_reserva": 7.024793388429752,
+        "tempo_total_s": 1562.865068666999
+      }
+    }
+  ]
+}

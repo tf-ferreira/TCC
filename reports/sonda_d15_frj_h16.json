@@ -1,0 +1,1143 @@
+{
+  "categoria": "frj",
+  "tamanhos": [
+    2,
+    3,
+    4,
+    5,
+    8,
+    10
+  ],
+  "h": 16,
+  "epocas": 15,
+  "semente": 0,
+  "celulas": [
+    1166,
+    1330,
+    2208,
+    2751,
+    3673
+  ],
+  "limite_s": 300.0,
+  "k_aproximado": 50,
+  "caixa": [
+    0.85,
+    1.15
+  ],
+  "resultados": [
+    {
+      "n_prod": 2,
+      "h": 16,
+      "rmse_teste_reduzida": 9.828960418701172,
+      "n_binarias": 18,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.0018636669992702082,
+        "min": 0.0004971670023223851,
+        "max": 0.0033966249975492246
+      },
+      "gap_pct": {
+        "mediana": 3.568071898915727e-07,
+        "max": 6.420243761662866e-07
+      },
+      "pct_relus_fixos_na_caixa": 98.88888888888889,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0033966249975492246,
+            "fechou": true,
+            "valor": 19.019927715055793,
+            "limite_superior": 19.019927715055793,
+            "gap_scip": 0.0,
+            "p": [
+              1.253500012523541,
+              1.011499990183195
+            ],
+            "n_binarias": 18,
+            "n_relus_fixos_na_caixa": 17,
+            "pct_relus_fixos_na_caixa": 94.44444444444444,
+            "n_variaveis": 21,
+            "n_restricoes": 16
+          },
+          "aproximado": {
+            "melhor": 19.019927647191324,
+            "historico": 19.01992764719127,
+            "dispersao_relativa": 8.965873043560514e-15,
+            "k": 50,
+            "tempo_s": 0.003755749999982072
+          },
+          "receita_no_historico": 18.16087790330854,
+          "gap_pct_do_aproximado": 3.568071898915727e-07,
+          "ganho_global_pct": 4.730221833553294
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.002118958000210114,
+            "fechou": true,
+            "valor": 30.889473854091523,
+            "limite_superior": 30.889473854091523,
+            "gap_scip": 0.0,
+            "p": [
+              0.9660000099381129,
+              1.4375000127376811
+            ],
+            "n_binarias": 18,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 19,
+            "n_restricoes": 14
+          },
+          "aproximado": {
+            "melhor": 30.88947371311081,
+            "historico": 30.88947371311081,
+            "dispersao_relativa": 3.0432633723106006e-13,
+            "k": 50,
+            "tempo_s": 0.0034416250018693972
+          },
+          "receita_no_historico": 28.855293577922673,
+          "gap_pct_do_aproximado": 4.564037380229291e-07,
+          "ganho_global_pct": 7.049591336423666
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0006290000019362196,
+            "fechou": true,
+            "valor": 32.80866786397674,
+            "limite_superior": 32.80866786397674,
+            "gap_scip": 0.0,
+            "p": [
+              1.0924999999999998,
+              1.2535
+            ],
+            "n_binarias": 18,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 19,
+            "n_restricoes": 14
+          },
+          "aproximado": {
+            "melhor": 32.80866786397675,
+            "historico": 32.80866786397095,
+            "dispersao_relativa": 2.1917051054021756e-13,
+            "k": 50,
+            "tempo_s": 0.003283583999291295
+          },
+          "receita_no_historico": 30.298841372037558,
+          "gap_pct_do_aproximado": -4.3314330146288074e-14,
+          "ganho_global_pct": 8.283572500747404
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0018636669992702082,
+            "fechou": true,
+            "valor": 44.62687168230496,
+            "limite_superior": 44.62687168230496,
+            "gap_scip": 0.0,
+            "p": [
+              1.1385000113063417,
+              1.1385000099239788
+            ],
+            "n_binarias": 18,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 17,
+            "n_restricoes": 12
+          },
+          "aproximado": {
+            "melhor": 44.626871395789564,
+            "historico": 44.62687139578781,
+            "dispersao_relativa": 1.186337683678181e-12,
+            "k": 50,
+            "tempo_s": 0.00334929200107581
+          },
+          "receita_no_historico": 40.45751214327524,
+          "gap_pct_do_aproximado": 6.420243761662866e-07,
+          "ganho_global_pct": 10.305526262377306
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0004971670023223851,
+            "fechou": true,
+            "valor": 24.87076039057125,
+            "limite_superior": 24.87076039057125,
+            "gap_scip": 0.0,
+            "p": [
+              1.0234999999999999,
+              1.1384999999999998
+            ],
+            "n_binarias": 18,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 19,
+            "n_restricoes": 14
+          },
+          "aproximado": {
+            "melhor": 24.87076039057125,
+            "historico": 24.87076039057068,
+            "dispersao_relativa": 9.885012871025769e-14,
+            "k": 50,
+            "tempo_s": 0.0032264580004266463
+          },
+          "receita_no_historico": 22.99101748666471,
+          "gap_pct_do_aproximado": 0.0,
+          "ganho_global_pct": 8.175988318032612
+        }
+      ]
+    },
+    {
+      "n_prod": 3,
+      "h": 16,
+      "rmse_teste_reduzida": 27.335142135620117,
+      "n_binarias": 19,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.0022557090014743153,
+        "min": 0.0005718330030504148,
+        "max": 0.0034097079987986945
+      },
+      "gap_pct": {
+        "mediana": 5.449180169833852e-07,
+        "max": 1.0216267908399493e-06
+      },
+      "pct_relus_fixos_na_caixa": 93.6842105263158,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0005718330030504148,
+            "fechou": true,
+            "valor": 90.06596903688914,
+            "limite_superior": 90.06596903688914,
+            "gap_scip": 0.0,
+            "p": [
+              1.2535,
+              1.3684999999999998,
+              1.2665
+            ],
+            "n_binarias": 19,
+            "n_relus_fixos_na_caixa": 19,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 20,
+            "n_restricoes": 13
+          },
+          "aproximado": {
+            "melhor": 90.06596903688914,
+            "historico": 90.06596903674975,
+            "dispersao_relativa": 1.3475749849137232e-11,
+            "k": 50,
+            "tempo_s": 0.003437750001467066
+          },
+          "receita_no_historico": 76.9837856093538,
+          "gap_pct_do_aproximado": 0.0,
+          "ganho_global_pct": 16.993427023606667
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0022557090014743153,
+            "fechou": true,
+            "valor": 109.15442110154322,
+            "limite_superior": 109.15442110154322,
+            "gap_scip": 0.0,
+            "p": [
+              0.9660000099956338,
+              1.4375000143655066,
+              1.4024999974788137
+            ],
+            "n_binarias": 19,
+            "n_relus_fixos_na_caixa": 19,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 26,
+            "n_restricoes": 19
+          },
+          "aproximado": {
+            "melhor": 109.15442033618888,
+            "historico": 109.15442033618888,
+            "dispersao_relativa": 1.9453123671202584e-10,
+            "k": 50,
+            "tempo_s": 0.003352791001816513
+          },
+          "receita_no_historico": 85.94383455731456,
+          "gap_pct_do_aproximado": 7.011666002471492e-07,
+          "ganho_global_pct": 27.00669182819613
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0029994169999554288,
+            "fechou": true,
+            "valor": 82.75419557708855,
+            "limite_superior": 82.75419557708855,
+            "gap_scip": 0.0,
+            "p": [
+              1.0925000108893907,
+              1.2535000124838038,
+              1.4024999973878196
+            ],
+            "n_binarias": 19,
+            "n_relus_fixos_na_caixa": 16,
+            "pct_relus_fixos_na_caixa": 84.21052631578948,
+            "n_variaveis": 28,
+            "n_restricoes": 23
+          },
+          "aproximado": {
+            "melhor": 82.75419473164952,
+            "historico": 82.75419473164952,
+            "dispersao_relativa": 1.815145038326909e-10,
+            "k": 50,
+            "tempo_s": 0.0034123749974241946
+          },
+          "receita_no_historico": 57.82602259683583,
+          "gap_pct_do_aproximado": 1.0216267908399493e-06,
+          "ganho_global_pct": 43.10891854702241
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0034097079987986945,
+            "fechou": true,
+            "valor": 130.3185501524634,
+            "limite_superior": 130.3185501524634,
+            "gap_scip": 0.0,
+            "p": [
+              1.1385000113791999,
+              1.138500011378469,
+              1.1814999962154142
+            ],
+            "n_binarias": 19,
+            "n_relus_fixos_na_caixa": 16,
+            "pct_relus_fixos_na_caixa": 84.21052631578948,
+            "n_variaveis": 29,
+            "n_restricoes": 25
+          },
+          "aproximado": {
+            "melhor": 130.3185494572038,
+            "historico": 130.31854945718345,
+            "dispersao_relativa": 1.670491916069632e-11,
+            "k": 50,
+            "tempo_s": 0.0035017080008401535
+          },
+          "receita_no_historico": 118.11135786463917,
+          "gap_pct_do_aproximado": 5.335077669127718e-07,
+          "ganho_global_pct": 10.335324653378542
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.002100417001202004,
+            "fechou": true,
+            "valor": 113.46479854496631,
+            "limite_superior": 113.46479854496631,
+            "gap_scip": 0.0,
+            "p": [
+              1.0235000102104352,
+              1.1385000113486667,
+              1.1814999962416146
+            ],
+            "n_binarias": 19,
+            "n_relus_fixos_na_caixa": 19,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 26,
+            "n_restricoes": 19
+          },
+          "aproximado": {
+            "melhor": 113.46479792667618,
+            "historico": 113.46479792603138,
+            "dispersao_relativa": 1.562113436714505e-11,
+            "k": 50,
+            "tempo_s": 0.003534709001542069
+          },
+          "receita_no_historico": 100.31472416281406,
+          "gap_pct_do_aproximado": 5.449180169833852e-07,
+          "ganho_global_pct": 13.108817765185954
+        }
+      ]
+    },
+    {
+      "n_prod": 4,
+      "h": 16,
+      "rmse_teste_reduzida": 50.310054779052734,
+      "n_binarias": 20,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.0022322080003505107,
+        "min": 0.0009368339997308794,
+        "max": 0.005511791998287663
+      },
+      "gap_pct": {
+        "mediana": 1.037513085995921e-06,
+        "max": 1.285893763580982e-06
+      },
+      "pct_relus_fixos_na_caixa": 94.0,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0009368339997308794,
+            "fechou": true,
+            "valor": 288.5554083642266,
+            "limite_superior": 288.5554083642266,
+            "gap_scip": 0.0,
+            "p": [
+              1.2535,
+              1.3684999999999998,
+              1.2665,
+              1.2665000000000006
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 19,
+            "pct_relus_fixos_na_caixa": 95.0,
+            "n_variaveis": 31,
+            "n_restricoes": 23
+          },
+          "aproximado": {
+            "melhor": 288.55540836422654,
+            "historico": 288.5554083569143,
+            "dispersao_relativa": 2.6815722515740426e-09,
+            "k": 50,
+            "tempo_s": 0.003519417001371039
+          },
+          "receita_no_historico": 214.95623969406537,
+          "gap_pct_do_aproximado": 1.9699308075022422e-14,
+          "ganho_global_pct": 34.239140382670726
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0011618749995250255,
+            "fechou": true,
+            "valor": 189.02031837055284,
+            "limite_superior": 189.02031837055284,
+            "gap_scip": 0.0,
+            "p": [
+              0.9659999999999999,
+              1.4375,
+              1.4024999999999999,
+              1.4024999999999996
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 17,
+            "pct_relus_fixos_na_caixa": 85.0,
+            "n_variaveis": 33,
+            "n_restricoes": 26
+          },
+          "aproximado": {
+            "melhor": 189.0203183705528,
+            "historico": 189.02031758859727,
+            "dispersao_relativa": 4.136886063465043e-09,
+            "k": 50,
+            "tempo_s": 0.0035430830030236393
+          },
+          "receita_no_historico": 78.08916826772524,
+          "gap_pct_do_aproximado": 3.007265004673887e-14,
+          "ganho_global_pct": 142.05702604297832
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.005511791998287663,
+            "fechou": true,
+            "valor": 238.36394761371994,
+            "limite_superior": 238.36394761371994,
+            "gap_scip": 0.0,
+            "p": [
+              1.0925000109142364,
+              1.2535000125200537,
+              1.4024999859890166,
+              1.4025000132625283
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 90.0,
+            "n_variaveis": 32,
+            "n_restricoes": 25
+          },
+          "aproximado": {
+            "melhor": 238.3639445486128,
+            "historico": 238.36394417460946,
+            "dispersao_relativa": 4.078330362181578e-09,
+            "k": 50,
+            "tempo_s": 0.003537500000675209
+          },
+          "receita_no_historico": 132.94360554567095,
+          "gap_pct_do_aproximado": 1.285893763580982e-06,
+          "ganho_global_pct": 79.2970384963971
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0023881250017439015,
+            "fechou": true,
+            "valor": 256.2640707853765,
+            "limite_superior": 256.2640707853765,
+            "gap_scip": 0.0,
+            "p": [
+              1.138500011381106,
+              1.1385000113799346,
+              1.1814999881894284,
+              1.2240000109285347
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 20,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 30,
+            "n_restricoes": 21
+          },
+          "aproximado": {
+            "melhor": 256.2640681266032,
+            "historico": 256.2640681266032,
+            "dispersao_relativa": 3.3437673540425986e-09,
+            "k": 50,
+            "tempo_s": 0.0034181670016550925
+          },
+          "receita_no_historico": 186.70800693305162,
+          "gap_pct_do_aproximado": 1.037513085995921e-06,
+          "ganho_global_pct": 37.25392659633808
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0022322080003505107,
+            "fechou": true,
+            "valor": 212.39540575093795,
+            "limite_superior": 212.39540575093795,
+            "gap_scip": 0.0,
+            "p": [
+              1.0235000101986715,
+              1.138500011332698,
+              1.1814999882336732,
+              1.1815000103062192
+            ],
+            "n_binarias": 20,
+            "n_relus_fixos_na_caixa": 20,
+            "pct_relus_fixos_na_caixa": 100.0,
+            "n_variaveis": 30,
+            "n_restricoes": 21
+          },
+          "aproximado": {
+            "melhor": 212.39540337906777,
+            "historico": 212.39540337906777,
+            "dispersao_relativa": 2.5504093134230154e-09,
+            "k": 50,
+            "tempo_s": 0.003462000000581611
+          },
+          "receita_no_historico": 143.88247203382085,
+          "gap_pct_do_aproximado": 1.1167238635715623e-06,
+          "ganho_global_pct": 47.61728982597167
+        }
+      ]
+    },
+    {
+      "n_prod": 5,
+      "h": 16,
+      "rmse_teste_reduzida": 44.979061126708984,
+      "n_binarias": 21,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.0033152500000142027,
+        "min": 0.0010643329987942707,
+        "max": 0.0038131660003273282
+      },
+      "gap_pct": {
+        "mediana": 1.2594846602061367e-06,
+        "max": 1.681326396193636e-06
+      },
+      "pct_relus_fixos_na_caixa": 92.38095238095238,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0010643329987942707,
+            "fechou": true,
+            "valor": 304.9577741869335,
+            "limite_superior": 304.9577741869335,
+            "gap_scip": 0.0,
+            "p": [
+              1.2535,
+              1.3684999999999998,
+              1.2665,
+              1.2665,
+              2.4034999999999997
+            ],
+            "n_binarias": 21,
+            "n_relus_fixos_na_caixa": 20,
+            "pct_relus_fixos_na_caixa": 95.23809523809524,
+            "n_variaveis": 31,
+            "n_restricoes": 21
+          },
+          "aproximado": {
+            "melhor": 304.95777418693353,
+            "historico": 304.95777418693353,
+            "dispersao_relativa": 1.0191165911332964e-09,
+            "k": 50,
+            "tempo_s": 0.0036301250001997687
+          },
+          "receita_no_historico": 232.1210347669694,
+          "gap_pct_do_aproximado": -1.8639767099678543e-14,
+          "ganho_global_pct": 31.378775944664493
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0037802080005349126,
+            "fechou": true,
+            "valor": 248.54176958218756,
+            "limite_superior": 248.54176958218756,
+            "gap_scip": 0.0,
+            "p": [
+              0.9660000099962495,
+              1.4375000143694336,
+              1.4024999859867686,
+              1.402500008218254,
+              2.702500027017324
+            ],
+            "n_binarias": 21,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 85.71428571428571,
+            "n_variaveis": 35,
+            "n_restricoes": 26
+          },
+          "aproximado": {
+            "melhor": 248.54176540338918,
+            "historico": 248.54176450528587,
+            "dispersao_relativa": 4.728379313061284e-09,
+            "k": 50,
+            "tempo_s": 0.003762457999982871
+          },
+          "receita_no_historico": 117.45392719896438,
+          "gap_pct_do_aproximado": 1.681326396193636e-06,
+          "ganho_global_pct": 111.607883626712
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0038131660003273282,
+            "fechou": true,
+            "valor": 293.3985556166218,
+            "limite_superior": 293.3985556166218,
+            "gap_scip": 0.0,
+            "p": [
+              1.0925000109135485,
+              1.2535000125192268,
+              1.4024999859934622,
+              1.4025000105503738,
+              2.518500025161977
+            ],
+            "n_binarias": 21,
+            "n_relus_fixos_na_caixa": 19,
+            "pct_relus_fixos_na_caixa": 90.47619047619048,
+            "n_variaveis": 35,
+            "n_restricoes": 26
+          },
+          "aproximado": {
+            "melhor": 293.3985515025132,
+            "historico": 293.3985514979175,
+            "dispersao_relativa": 3.825939978628878e-09,
+            "k": 50,
+            "tempo_s": 0.0036472920000960585
+          },
+          "receita_no_historico": 168.5025782754057,
+          "gap_pct_do_aproximado": 1.4022252417514828e-06,
+          "ganho_global_pct": 74.12110759342943
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0033152500000142027,
+            "fechou": true,
+            "valor": 300.51609945454067,
+            "limite_superior": 300.51609945454067,
+            "gap_scip": 0.0,
+            "p": [
+              1.1385000113014645,
+              1.1385000112709518,
+              1.181499988329461,
+              1.2240000040531194,
+              2.472500024568759
+            ],
+            "n_binarias": 21,
+            "n_relus_fixos_na_caixa": 20,
+            "pct_relus_fixos_na_caixa": 95.23809523809524,
+            "n_variaveis": 34,
+            "n_restricoes": 24
+          },
+          "aproximado": {
+            "melhor": 300.5160956695865,
+            "historico": 300.5160956444741,
+            "dispersao_relativa": 2.128348378161118e-09,
+            "k": 50,
+            "tempo_s": 0.0037135840029804967
+          },
+          "receita_no_historico": 213.8346630302452,
+          "gap_pct_do_aproximado": 1.2594846602061367e-06,
+          "ganho_global_pct": 40.53666285715103
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.00266149999879417,
+            "fechou": true,
+            "valor": 234.07155387170494,
+            "limite_superior": 234.07155387170494,
+            "gap_scip": 0.0,
+            "p": [
+              1.0235000102287415,
+              1.1385000113755253,
+              1.18149998819557,
+              1.1815000121521047,
+              2.3575000235620376
+            ],
+            "n_binarias": 21,
+            "n_relus_fixos_na_caixa": 20,
+            "pct_relus_fixos_na_caixa": 95.23809523809524,
+            "n_variaveis": 33,
+            "n_restricoes": 22
+          },
+          "aproximado": {
+            "melhor": 234.07155100832634,
+            "historico": 234.0715508960505,
+            "dispersao_relativa": 3.166619830195778e-09,
+            "k": 50,
+            "tempo_s": 0.0035921249982493464
+          },
+          "receita_no_historico": 145.88685964191038,
+          "gap_pct_do_aproximado": 1.2232920019444927e-06,
+          "ganho_global_pct": 60.44731817947835
+        }
+      ]
+    },
+    {
+      "n_prod": 8,
+      "h": 16,
+      "rmse_teste_reduzida": 42.57114028930664,
+      "n_binarias": 24,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.003959249999752501,
+        "min": 0.0018190830014646053,
+        "max": 0.00645483300104388
+      },
+      "gap_pct": {
+        "mediana": 0.0,
+        "max": 1.8701068252397799e-07
+      },
+      "pct_relus_fixos_na_caixa": 72.5,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.00645483300104388,
+            "fechou": true,
+            "valor": 450.9935668086699,
+            "limite_superior": 450.9935668086699,
+            "gap_scip": 0.0,
+            "p": [
+              1.2535,
+              1.3684999999999998,
+              1.2665,
+              1.2665,
+              2.4034999999999997,
+              1.2665,
+              1.2535,
+              1.2535
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 15,
+            "pct_relus_fixos_na_caixa": 62.5,
+            "n_variaveis": 50,
+            "n_restricoes": 30
+          },
+          "aproximado": {
+            "melhor": 450.9935668086699,
+            "historico": 450.9935667011569,
+            "dispersao_relativa": 3.62395753178318e-09,
+            "k": 50,
+            "tempo_s": 0.004303458001231775
+          },
+          "receita_no_historico": 288.4754249251602,
+          "gap_pct_do_aproximado": 0.0,
+          "ganho_global_pct": 56.336910475362735
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.006259124998905463,
+            "fechou": true,
+            "valor": 334.55839967964545,
+            "limite_superior": 334.55839967964545,
+            "gap_scip": 0.0,
+            "p": [
+              0.9659999999999999,
+              1.4374999999999967,
+              1.4024999999999999,
+              1.4024999999999999,
+              2.7024999999999997,
+              1.4024999999999999,
+              1.3224999999999998,
+              1.3224999999999998
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 13,
+            "pct_relus_fixos_na_caixa": 54.166666666666664,
+            "n_variaveis": 51,
+            "n_restricoes": 46
+          },
+          "aproximado": {
+            "melhor": 334.55839967964573,
+            "historico": 334.55839967964573,
+            "dispersao_relativa": 6.360377605678816e-09,
+            "k": 50,
+            "tempo_s": 0.004412999998749001
+          },
+          "receita_no_historico": 100.05534813899207,
+          "gap_pct_do_aproximado": -8.495290944008299e-14,
+          "ganho_global_pct": 234.3733302640585
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0031387090020871256,
+            "fechou": true,
+            "valor": 496.30434854413267,
+            "limite_superior": 496.30434854413267,
+            "gap_scip": 0.0,
+            "p": [
+              1.0924999999999998,
+              1.2535,
+              1.4024999999999999,
+              1.4024999999999999,
+              2.5185,
+              1.4024999999999999,
+              1.1384999999999998,
+              1.1384999999999998
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 17,
+            "pct_relus_fixos_na_caixa": 70.83333333333333,
+            "n_variaveis": 47,
+            "n_restricoes": 36
+          },
+          "aproximado": {
+            "melhor": 496.3043485441326,
+            "historico": 496.3043485441326,
+            "dispersao_relativa": 2.269650896993977e-09,
+            "k": 50,
+            "tempo_s": 0.0042281249989173375
+          },
+          "receita_no_historico": 253.4540807183641,
+          "gap_pct_do_aproximado": 1.145333886909382e-14,
+          "ganho_global_pct": 95.81627849015445
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0018190830014646053,
+            "fechou": true,
+            "valor": 515.6552309927338,
+            "limite_superior": 515.6552309927338,
+            "gap_scip": 0.0,
+            "p": [
+              1.1384999999999998,
+              1.1384999999999998,
+              1.1815,
+              1.224,
+              2.4724999999999997,
+              1.1985,
+              1.2535,
+              1.2535000000000007
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 21,
+            "pct_relus_fixos_na_caixa": 87.5,
+            "n_variaveis": 43,
+            "n_restricoes": 30
+          },
+          "aproximado": {
+            "melhor": 515.6552309927338,
+            "historico": 515.6552309070789,
+            "dispersao_relativa": 2.0404544310874187e-09,
+            "k": 50,
+            "tempo_s": 0.004232250001223292
+          },
+          "receita_no_historico": 360.4898072491351,
+          "gap_pct_do_aproximado": 0.0,
+          "ganho_global_pct": 43.04294341292252
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.003959249999752501,
+            "fechou": true,
+            "valor": 481.2559777497166,
+            "limite_superior": 481.2559777497166,
+            "gap_scip": 0.0,
+            "p": [
+              1.0235000060564565,
+              1.1385000052371812,
+              1.1814999929731071,
+              1.1815000214846698,
+              2.357500015932422,
+              1.1814999971594797,
+              1.2535000024141514,
+              1.253499983699048
+            ],
+            "n_binarias": 24,
+            "n_relus_fixos_na_caixa": 21,
+            "pct_relus_fixos_na_caixa": 87.5,
+            "n_variaveis": 43,
+            "n_restricoes": 29
+          },
+          "aproximado": {
+            "melhor": 481.2559768497165,
+            "historico": 481.2559768497165,
+            "dispersao_relativa": 2.380251780706963e-09,
+            "k": 50,
+            "tempo_s": 0.004293165999115445
+          },
+          "receita_no_historico": 344.8884706219897,
+          "gap_pct_do_aproximado": 1.8701068252397799e-07,
+          "ganho_global_pct": 39.5395957660732
+        }
+      ]
+    },
+    {
+      "n_prod": 10,
+      "h": 16,
+      "rmse_teste_reduzida": 39.5966682434082,
+      "n_binarias": 26,
+      "pct_fechou": 100.0,
+      "tempo_s": {
+        "mediana": 0.003623749998951098,
+        "min": 0.002483583000866929,
+        "max": 0.004781125000590691
+      },
+      "gap_pct": {
+        "mediana": 0.0,
+        "max": 2.5904451887653543e-14
+      },
+      "pct_relus_fixos_na_caixa": 76.92307692307692,
+      "por_celula": [
+        {
+          "celula": 1166,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.004781125000590691,
+            "fechou": true,
+            "valor": 544.4264344004957,
+            "limite_superior": 544.4264344004957,
+            "gap_scip": 0.0,
+            "p": [
+              1.2535,
+              1.3684999999999998,
+              1.2665,
+              1.2665,
+              2.4034999999999997,
+              1.2665,
+              1.2535,
+              1.2535,
+              1.5984999999999998,
+              0.9085
+            ],
+            "n_binarias": 26,
+            "n_relus_fixos_na_caixa": 21,
+            "pct_relus_fixos_na_caixa": 80.76923076923077,
+            "n_variaveis": 50,
+            "n_restricoes": 36
+          },
+          "aproximado": {
+            "melhor": 544.426434400496,
+            "historico": 544.42643436975,
+            "dispersao_relativa": 3.074654069825362e-09,
+            "k": 50,
+            "tempo_s": 0.00467433299854747
+          },
+          "receita_no_historico": 391.4332983643353,
+          "gap_pct_do_aproximado": -4.176389335202071e-14,
+          "ganho_global_pct": 39.085365674168735
+        },
+        {
+          "celula": 1330,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0037717500017606653,
+            "fechou": true,
+            "valor": 438.86988311766174,
+            "limite_superior": 438.86988311766174,
+            "gap_scip": 0.0,
+            "p": [
+              0.9659999999999999,
+              1.4375,
+              1.4024999999999999,
+              1.4024999999999999,
+              2.7024999999999997,
+              1.4024999999999999,
+              1.3224999999999998,
+              1.3224999999999998,
+              1.7249999999999999,
+              1.0234999999999999
+            ],
+            "n_binarias": 26,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 69.23076923076923,
+            "n_variaveis": 56,
+            "n_restricoes": 44
+          },
+          "aproximado": {
+            "melhor": 438.86988311766163,
+            "historico": 438.8698815409899,
+            "dispersao_relativa": 1.256122932792491e-08,
+            "k": 50,
+            "tempo_s": 0.004674457999499282
+          },
+          "receita_no_historico": 168.29105694967228,
+          "gap_pct_do_aproximado": 2.5904451887653543e-14,
+          "ganho_global_pct": 160.78027619073455
+        },
+        {
+          "celula": 2208,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.0034074169998348225,
+            "fechou": true,
+            "valor": 643.7193516561045,
+            "limite_superior": 643.7193516561045,
+            "gap_scip": 0.0,
+            "p": [
+              1.0924999999999998,
+              1.2535,
+              1.4024999999999999,
+              1.4024999999999999,
+              2.5185,
+              1.4024999999999999,
+              1.1384999999999998,
+              1.1384999999999998,
+              1.4834999999999998,
+              0.8624999999999999
+            ],
+            "n_binarias": 26,
+            "n_relus_fixos_na_caixa": 21,
+            "pct_relus_fixos_na_caixa": 80.76923076923077,
+            "n_variaveis": 53,
+            "n_restricoes": 38
+          },
+          "aproximado": {
+            "melhor": 643.7193516561045,
+            "historico": 643.7193516561045,
+            "dispersao_relativa": 1.64317105786031e-08,
+            "k": 50,
+            "tempo_s": 0.005178874998819083
+          },
+          "receita_no_historico": 366.30477446956655,
+          "gap_pct_do_aproximado": 0.0,
+          "ganho_global_pct": 75.73326817491053
+        },
+        {
+          "celula": 2751,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.002483583000866929,
+            "fechou": true,
+            "valor": 581.1379137154613,
+            "limite_superior": 581.1379137154613,
+            "gap_scip": 0.0,
+            "p": [
+              1.1384999999999998,
+              1.1384999999999998,
+              1.1815,
+              1.224,
+              2.4724999999999997,
+              1.1985,
+              1.2535,
+              1.2535,
+              1.5755,
+              0.9429999999999998
+            ],
+            "n_binarias": 26,
+            "n_relus_fixos_na_caixa": 22,
+            "pct_relus_fixos_na_caixa": 84.61538461538461,
+            "n_variaveis": 52,
+            "n_restricoes": 36
+          },
+          "aproximado": {
+            "melhor": 581.1379137154613,
+            "historico": 581.1379136214007,
+            "dispersao_relativa": 3.0928271517099733e-09,
+            "k": 50,
+            "tempo_s": 0.004825207997782854
+          },
+          "receita_no_historico": 387.49024840024094,
+          "gap_pct_do_aproximado": 0.0,
+          "ganho_global_pct": 49.97484868708246
+        },
+        {
+          "celula": 3673,
+          "global": {
+            "status": "optimal",
+            "tempo_s": 0.003623749998951098,
+            "fechou": true,
+            "valor": 494.07565508858136,
+            "limite_superior": 494.07565508858136,
+            "gap_scip": 0.0,
+            "p": [
+              1.0234999999999999,
+              1.1384999999999998,
+              1.1815,
+              1.1815,
+              2.3574999999999995,
+              1.1815,
+              1.2535,
+              1.2535,
+              1.541,
+              0.9429999999999998
+            ],
+            "n_binarias": 26,
+            "n_relus_fixos_na_caixa": 18,
+            "pct_relus_fixos_na_caixa": 69.23076923076923,
+            "n_variaveis": 55,
+            "n_restricoes": 42
+          },
+          "aproximado": {
+            "melhor": 494.07565508858136,
+            "historico": 494.07565508858136,
+            "dispersao_relativa": 3.5479644776474213e-09,
+            "k": 50,
+            "tempo_s": 0.004746165999677032
+          },
+          "receita_no_historico": 306.55110222750375,
+          "gap_pct_do_aproximado": 0.0,
+          "ganho_global_pct": 61.17236294322901
+        }
+      ]
+    }
+  ]
+}

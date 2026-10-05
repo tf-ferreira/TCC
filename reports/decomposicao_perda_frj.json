@@ -1,0 +1,29 @@
+{
+  "par_de_nivel_puro": [
+    "msle",
+    "msle_smearing"
+  ],
+  "par_total": [
+    "msle",
+    "poisson"
+  ],
+  "deslocamento_de_nivel_puro": -0.06626872173029284,
+  "deslocamento_de_nivel_total": -0.10514090141155136,
+  "aviso": "taxa medida num ponto e extrapolada linearmente; a leitura e de proporcao grosseira, nao de terceira casa",
+  "eixos": {
+    "wmape": {
+      "diferenca_total": -1.6458105036658544,
+      "taxa_por_unidade_de_nivel": 9.958686289382097,
+      "atribuido_ao_nivel": -1.0470652533404914,
+      "residuo_de_ponderacao": -0.598745250325363,
+      "pct_explicado_pelo_nivel": 63.62003711899234
+    },
+    "elast_h10": {
+      "diferenca_total": -0.1502167708076348,
+      "taxa_por_unidade_de_nivel": 0.13759243380952815,
+      "atribuido_ao_nivel": -0.014466592518143005,
+      "residuo_de_ponderacao": -0.1357501782894918,
+      "pct_explicado_pelo_nivel": 9.630477635994913
+    }
+  }
+}

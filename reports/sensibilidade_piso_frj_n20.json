@@ -1,0 +1,396 @@
+{
+  "categoria": "frj",
+  "n": 20,
+  "pisos": {
+    "0.40": {
+      "n_elegiveis": 89,
+      "celulas_completas": 25234,
+      "upcs": [
+        2500000300,
+        2500000425,
+        2500002513,
+        2500002519,
+        2500002521,
+        2500002544,
+        2500002549,
+        2500002561,
+        2870000013,
+        3828190009,
+        3828190013,
+        3828190021,
+        3828190029,
+        3828190033,
+        3828190041,
+        3828190053,
+        4180012100,
+        4850000145,
+        4850000147,
+        4850000225
+      ],
+      "iguais_ao_piso_050": 20,
+      "cv_dois_estagios": 0.16202912206791842,
+      "curva": [
+        {
+          "n": 1,
+          "celulas": 32195,
+          "custo_marginal": null
+        },
+        {
+          "n": 2,
+          "celulas": 32088,
+          "custo_marginal": 107
+        },
+        {
+          "n": 3,
+          "celulas": 31920,
+          "custo_marginal": 168
+        },
+        {
+          "n": 4,
+          "celulas": 31713,
+          "custo_marginal": 207
+        },
+        {
+          "n": 5,
+          "celulas": 31486,
+          "custo_marginal": 227
+        },
+        {
+          "n": 6,
+          "celulas": 31253,
+          "custo_marginal": 233
+        },
+        {
+          "n": 7,
+          "celulas": 31018,
+          "custo_marginal": 235
+        },
+        {
+          "n": 8,
+          "celulas": 30740,
+          "custo_marginal": 278
+        },
+        {
+          "n": 9,
+          "celulas": 30416,
+          "custo_marginal": 324
+        },
+        {
+          "n": 10,
+          "celulas": 30000,
+          "custo_marginal": 416
+        },
+        {
+          "n": 11,
+          "celulas": 29604,
+          "custo_marginal": 396
+        },
+        {
+          "n": 12,
+          "celulas": 29220,
+          "custo_marginal": 384
+        },
+        {
+          "n": 13,
+          "celulas": 28810,
+          "custo_marginal": 410
+        },
+        {
+          "n": 14,
+          "celulas": 28280,
+          "custo_marginal": 530
+        },
+        {
+          "n": 15,
+          "celulas": 27730,
+          "custo_marginal": 550
+        },
+        {
+          "n": 16,
+          "celulas": 27202,
+          "custo_marginal": 528
+        },
+        {
+          "n": 17,
+          "celulas": 26774,
+          "custo_marginal": 428
+        },
+        {
+          "n": 18,
+          "celulas": 26256,
+          "custo_marginal": 518
+        },
+        {
+          "n": 19,
+          "celulas": 25754,
+          "custo_marginal": 502
+        },
+        {
+          "n": 20,
+          "celulas": 25234,
+          "custo_marginal": 520
+        }
+      ]
+    },
+    "0.50": {
+      "n_elegiveis": 76,
+      "celulas_completas": 25234,
+      "upcs": [
+        2500000300,
+        2500000425,
+        2500002513,
+        2500002519,
+        2500002521,
+        2500002544,
+        2500002549,
+        2500002561,
+        2870000013,
+        3828190009,
+        3828190013,
+        3828190021,
+        3828190029,
+        3828190033,
+        3828190041,
+        3828190053,
+        4180012100,
+        4850000145,
+        4850000147,
+        4850000225
+      ],
+      "iguais_ao_piso_050": 20,
+      "cv_dois_estagios": 0.16202912206791842,
+      "curva": [
+        {
+          "n": 1,
+          "celulas": 32195,
+          "custo_marginal": null
+        },
+        {
+          "n": 2,
+          "celulas": 32088,
+          "custo_marginal": 107
+        },
+        {
+          "n": 3,
+          "celulas": 31920,
+          "custo_marginal": 168
+        },
+        {
+          "n": 4,
+          "celulas": 31713,
+          "custo_marginal": 207
+        },
+        {
+          "n": 5,
+          "celulas": 31486,
+          "custo_marginal": 227
+        },
+        {
+          "n": 6,
+          "celulas": 31253,
+          "custo_marginal": 233
+        },
+        {
+          "n": 7,
+          "celulas": 31018,
+          "custo_marginal": 235
+        },
+        {
+          "n": 8,
+          "celulas": 30740,
+          "custo_marginal": 278
+        },
+        {
+          "n": 9,
+          "celulas": 30416,
+          "custo_marginal": 324
+        },
+        {
+          "n": 10,
+          "celulas": 30000,
+          "custo_marginal": 416
+        },
+        {
+          "n": 11,
+          "celulas": 29604,
+          "custo_marginal": 396
+        },
+        {
+          "n": 12,
+          "celulas": 29220,
+          "custo_marginal": 384
+        },
+        {
+          "n": 13,
+          "celulas": 28810,
+          "custo_marginal": 410
+        },
+        {
+          "n": 14,
+          "celulas": 28280,
+          "custo_marginal": 530
+        },
+        {
+          "n": 15,
+          "celulas": 27730,
+          "custo_marginal": 550
+        },
+        {
+          "n": 16,
+          "celulas": 27202,
+          "custo_marginal": 528
+        },
+        {
+          "n": 17,
+          "celulas": 26774,
+          "custo_marginal": 428
+        },
+        {
+          "n": 18,
+          "celulas": 26256,
+          "custo_marginal": 518
+        },
+        {
+          "n": 19,
+          "celulas": 25754,
+          "custo_marginal": 502
+        },
+        {
+          "n": 20,
+          "celulas": 25234,
+          "custo_marginal": 520
+        }
+      ]
+    },
+    "0.60": {
+      "n_elegiveis": 69,
+      "celulas_completas": 25234,
+      "upcs": [
+        2500000300,
+        2500000425,
+        2500002513,
+        2500002519,
+        2500002521,
+        2500002544,
+        2500002549,
+        2500002561,
+        2870000013,
+        3828190009,
+        3828190013,
+        3828190021,
+        3828190029,
+        3828190033,
+        3828190041,
+        3828190053,
+        4180012100,
+        4850000145,
+        4850000147,
+        4850000225
+      ],
+      "iguais_ao_piso_050": 20,
+      "cv_dois_estagios": 0.16202912206791842,
+      "curva": [
+        {
+          "n": 1,
+          "celulas": 32195,
+          "custo_marginal": null
+        },
+        {
+          "n": 2,
+          "celulas": 32088,
+          "custo_marginal": 107
+        },
+        {
+          "n": 3,
+          "celulas": 31920,
+          "custo_marginal": 168
+        },
+        {
+          "n": 4,
+          "celulas": 31713,
+          "custo_marginal": 207
+        },
+        {
+          "n": 5,
+          "celulas": 31486,
+          "custo_marginal": 227
+        },
+        {
+          "n": 6,
+          "celulas": 31253,
+          "custo_marginal": 233
+        },
+        {
+          "n": 7,
+          "celulas": 31018,
+          "custo_marginal": 235
+        },
+        {
+          "n": 8,
+          "celulas": 30740,
+          "custo_marginal": 278
+        },
+        {
+          "n": 9,
+          "celulas": 30416,
+          "custo_marginal": 324
+        },
+        {
+          "n": 10,
+          "celulas": 30000,
+          "custo_marginal": 416
+        },
+        {
+          "n": 11,
+          "celulas": 29604,
+          "custo_marginal": 396
+        },
+        {
+          "n": 12,
+          "celulas": 29220,
+          "custo_marginal": 384
+        },
+        {
+          "n": 13,
+          "celulas": 28810,
+          "custo_marginal": 410
+        },
+        {
+          "n": 14,
+          "celulas": 28280,
+          "custo_marginal": 530
+        },
+        {
+          "n": 15,
+          "celulas": 27730,
+          "custo_marginal": 550
+        },
+        {
+          "n": 16,
+          "celulas": 27202,
+          "custo_marginal": 528
+        },
+        {
+          "n": 17,
+          "celulas": 26774,
+          "custo_marginal": 428
+        },
+        {
+          "n": 18,
+          "celulas": 26256,
+          "custo_marginal": 518
+        },
+        {
+          "n": 19,
+          "celulas": 25754,
+          "custo_marginal": 502
+        },
+        {
+          "n": 20,
+          "celulas": 25234,
+          "custo_marginal": 520
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "categoria": "frj",
+  "linhas_serie": 631365,
+  "linhas_com_clientes": 554619,
+  "pct_serie_com_clientes": 87.84443230144211,
+  "sem_controle_de_trafego": {
+    "n": 554619,
+    "iv_preco": -1.6715202155282025,
+    "iv_ep_agrupado_loja": 0.04606190841632256,
+    "ols_preco": -2.6182798636362565,
+    "ols_ep_agrupado_loja": 0.03874668086182664,
+    "coef_clientes_iv": null
+  },
+  "com_controle_de_trafego": {
+    "n": 554619,
+    "iv_preco": -1.672899200112156,
+    "iv_ep_agrupado_loja": 0.0460363937447049,
+    "ols_preco": -2.6124515763346854,
+    "ols_ep_agrupado_loja": 0.03906334619069704,
+    "coef_clientes_iv": 1.0124765526588468
+  },
+  "atenuacao_iv_pct": -0.08249882778221806,
+  "atenuacao_ols_pct": 0.22259985964513396,
+  "celula_sem_controle": {
+    "n": 20940,
+    "iv_preco": -1.941296308854464,
+    "iv_ep_agrupado_loja": 1.401517711424601,
+    "ols_preco": -1.2474728937915416,
+    "ols_ep_agrupado_loja": 0.21390136041016725,
+    "coef_clientes_iv": null
+  },
+  "celula_com_controle": {
+    "n": 20940,
+    "iv_preco": -1.9835356758677003,
+    "iv_ep_agrupado_loja": 1.3160338737412598,
+    "ols_preco": -1.2058016390410409,
+    "ols_ep_agrupado_loja": 0.16185771588728237,
+    "coef_clientes_iv": 1.0304189516784208
+  },
+  "atenuacao_celula_iv_pct": -2.1758330668315784
+}

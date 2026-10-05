@@ -1,0 +1,1573 @@
+{
+  "categoria": "frj",
+  "configuracao": {
+    "epocas": 15,
+    "lote": 256,
+    "lr": 0.003,
+    "l2": 0.0001,
+    "largura": 64,
+    "profundidade": 3,
+    "dim_emb": 32,
+    "h_monotona": 8,
+    "p_reserva": 0.05,
+    "intercepto": false,
+    "restrita": true,
+    "perda": "msle"
+  },
+  "hierarquia": "nao_piorar",
+  "n_pares": 12,
+  "escopo": {
+    "particao": "teste",
+    "n_celulas_da_particao": 4323,
+    "n_celulas_com_custo_completo": 4022,
+    "n_celulas_excluidas_por_custo": 301,
+    "pct_excluidas_por_custo": 6.962757344436733,
+    "pct_entradas_de_custo_ausentes": 0.5089058524173028,
+    "margem_relativa_mediana": 0.3611,
+    "semana_min": 319,
+    "semana_max": 399,
+    "n_lojas": 87
+  },
+  "corridas": {
+    "n_celulas_do_escopo": 4022,
+    "n_corridas": 886,
+    "tamanho_das_corridas": {
+      "mediana": 2.0,
+      "p10": 1.0,
+      "p90": 11.0,
+      "media": 4.539503386004514
+    },
+    "n_corridas_curtas_demais": 496,
+    "n_celulas_resolvidas": 3388,
+    "n_celulas_de_aquecimento": 780,
+    "n_celulas_elegiveis": 2608,
+    "pct_do_escopo_elegivel": 64.84336151168573,
+    "n_excluidas_por_quebra_de_cadeia": 1414,
+    "semanas_de_aquecimento_por_corrida": 2
+  },
+  "n_sementes": 50,
+  "partidas_por_celula": 1,
+  "agregado": {
+    "margem": {
+      "superestimacao_da_avaliacao_ingenua_pct": {
+        "media": 7.732121654618433,
+        "desvio": 4.805034839774783,
+        "erro_padrao": 0.679534543808473,
+        "min": -4.181840980585982,
+        "max": 20.05718663080216,
+        "amplitude": 24.239027611388142,
+        "n": 50
+      },
+      "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": {
+        "media": -0.3381977375083495,
+        "desvio": 1.1823312969181061,
+        "erro_padrao": 0.16720689553197562,
+        "min": -2.696801306218455,
+        "max": 2.5318045670824185,
+        "amplitude": 5.228605873300873,
+        "n": 50
+      },
+      "ganho_ingenuo_modelo_contra_modelo_pct": {
+        "media": 22.370590964833,
+        "desvio": 0.9864619847322554,
+        "erro_padrao": 0.13950679175738367,
+        "min": 20.225940458384994,
+        "max": 24.670872064827478,
+        "amplitude": 4.444931606442484,
+        "n": 50
+      },
+      "ganho_sequencial_modelo_contra_modelo_pct": {
+        "media": 13.413428832562875,
+        "desvio": 5.059992255532804,
+        "erro_padrao": 0.7155909673277319,
+        "min": 0.7403120174877653,
+        "max": 28.178111978601518,
+        "amplitude": 27.437799961113754,
+        "n": 50
+      },
+      "calibracao_do_objetivo_no_ponto_historico": {
+        "media": 0.9942285263925125,
+        "desvio": 0.051804052012261716,
+        "erro_padrao": 0.007326199294162174,
+        "min": 0.8934190311550245,
+        "max": 1.083256014121394,
+        "amplitude": 0.18983698296636953,
+        "n": 50
+      },
+      "ganho_sequencial_contra_o_OBSERVADO_pct": {
+        "media": 12.712287388641965,
+        "desvio": 6.976715589722388,
+        "erro_padrao": 0.9866565807805207,
+        "min": -3.971443601921776,
+        "max": 26.93729885496787,
+        "amplitude": 30.908742456889648,
+        "n": 50
+      },
+      "pct_sementes_decisao_negativa": 60.0,
+      "pct_sementes_superestima": 94.0,
+      "correlacao_ganho_calibracao": -0.1813213491449467,
+      "correlacao_vies_ingenuo_defasagem_sustentada": -0.05261818086709171,
+      "pct_sementes_sinal_previsto_pela_defasagem": 18.0
+    },
+    "receita": {
+      "superestimacao_da_avaliacao_ingenua_pct": {
+        "media": 2.143903398103742,
+        "desvio": 5.141777073083616,
+        "erro_padrao": 0.7271570871453886,
+        "min": -7.90714723799214,
+        "max": 15.153526573620724,
+        "amplitude": 23.060673811612865,
+        "n": 50
+      },
+      "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": {
+        "media": 0.048698116073343706,
+        "desvio": 1.3824862146807497,
+        "erro_padrao": 0.19551307545953583,
+        "min": -2.126677234138119,
+        "max": 3.2086678016497894,
+        "amplitude": 5.335345035787908,
+        "n": 50
+      },
+      "ganho_ingenuo_modelo_contra_modelo_pct": {
+        "media": 41.3048080667007,
+        "desvio": 1.2981271188158854,
+        "erro_padrao": 0.1835828977113735,
+        "min": 38.52043165726074,
+        "max": 43.99275912282914,
+        "amplitude": 5.472327465568405,
+        "n": 50
+      },
+      "ganho_sequencial_modelo_contra_modelo_pct": {
+        "media": 38.74755080104786,
+        "desvio": 7.324223660718745,
+        "erro_padrao": 1.0358016434842368,
+        "min": 22.185506400634793,
+        "max": 57.19778424320345,
+        "amplitude": 35.01227784256866,
+        "n": 50
+      },
+      "calibracao_do_objetivo_no_ponto_historico": {
+        "media": 0.9745342792255686,
+        "desvio": 0.05078455861455764,
+        "erro_padrao": 0.007182021155183882,
+        "min": 0.8738548280291715,
+        "max": 1.0645581790489551,
+        "amplitude": 0.19070335101978364,
+        "n": 50
+      },
+      "ganho_sequencial_contra_o_OBSERVADO_pct": {
+        "media": 35.22207593714805,
+        "desvio": 10.064633792620368,
+        "erro_padrao": 1.4233541609842284,
+        "min": 13.903399177233355,
+        "max": 53.23299123649501,
+        "amplitude": 39.32959205926166,
+        "n": 50
+      },
+      "pct_sementes_decisao_negativa": 52.0,
+      "pct_sementes_superestima": 57.99999999999999,
+      "correlacao_ganho_calibracao": 0.021484580010620258,
+      "correlacao_vies_ingenuo_defasagem_sustentada": 0.1900631845094687,
+      "pct_sementes_sinal_previsto_pela_defasagem": 62.0
+    },
+    "defasagem_sustentada": {
+      "media": 0.3877151096128686,
+      "desvio": 0.2960822139174839,
+      "erro_padrao": 0.04187234824995577,
+      "min": -0.22517269248798927,
+      "max": 0.9641598770156392,
+      "amplitude": 1.1893325695036285,
+      "n": 50
+    },
+    "defasagem_lag1_agregada": {
+      "media": 0.31807618611722516,
+      "desvio": 0.2517754641306015,
+      "erro_padrao": 0.03560642760462773,
+      "min": -0.29682689641925397,
+      "max": 0.7493332713501338,
+      "amplitude": 1.0461601677693877,
+      "n": 50
+    },
+    "defasagem_lag2_agregada": {
+      "media": 0.06963892349564337,
+      "desvio": 0.19600900285779138,
+      "erro_padrao": 0.027719859018871532,
+      "min": -0.376573833153622,
+      "max": 0.4099450937779802,
+      "amplitude": 0.7865189269316022,
+      "n": 50
+    },
+    "pct_sementes_defasagem_sustentada_negativa": 12.0,
+    "wmape_teste": {
+      "media": 48.609698184685264,
+      "desvio": 1.0731431999719874,
+      "erro_padrao": 0.15176536677688468,
+      "min": 46.714410538140356,
+      "max": 52.32079681887556,
+      "amplitude": 5.606386280735201,
+      "n": 50
+    },
+    "vies_de_nivel_teste": {
+      "media": 0.9662645156868718,
+      "desvio": 0.04287122513130656,
+      "erro_padrao": 0.006062906801624401,
+      "min": 0.8777953091684435,
+      "max": 1.0449681693572952,
+      "amplitude": 0.1671728601888517,
+      "n": 50
+    }
+  },
+  "por_semente": [
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.582325932921717,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.6645744619955272,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.357344322097216,
+        "ganho_sequencial_modelo_contra_modelo_pct": 13.027687073850448,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9592942185482322,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 8.426806745823479
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -3.1248912705128307,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.0964211716058547,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.77110815375298,
+        "ganho_sequencial_modelo_contra_modelo_pct": 43.71871758020794,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9427812504507278,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 35.495312273443446
+      },
+      "defasagem_lag1_agregada": 0.0664871034976624,
+      "defasagem_lag1_propria_mediana": 0.16128436396610057,
+      "defasagem_lag2_agregada": -0.2492214765054265,
+      "defasagem_lag2_propria_mediana": 0.03024001710814831,
+      "defasagem_sustentada": -0.1827343730077641,
+      "wmape_teste": 48.350024703476365,
+      "vies_de_nivel_teste": 0.9608114529393847,
+      "semente": 0,
+      "tempo_s": 107.21311054199941
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 11.409536041865431,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.0417576117752403,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 20.225940458384994,
+        "ganho_sequencial_modelo_contra_modelo_pct": 6.789312476468434,
+        "calibracao_do_objetivo_no_ponto_historico": 0.8992337732227521,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": -3.971443601921776
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.793416702527244,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.6436256874041035,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 38.870664875581284,
+        "ganho_sequencial_modelo_contra_modelo_pct": 29.199778286434388,
+        "calibracao_do_objetivo_no_ponto_historico": 0.8816067696703849,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 13.903399177233355
+      },
+      "defasagem_lag1_agregada": 0.4535506067485447,
+      "defasagem_lag1_propria_mediana": 0.17457230195613116,
+      "defasagem_lag2_agregada": -0.07521303034980788,
+      "defasagem_lag2_propria_mediana": 0.037623817569411126,
+      "defasagem_sustentada": 0.37833757639873683,
+      "wmape_teste": 47.5410335994079,
+      "vies_de_nivel_teste": 0.8867233475479744,
+      "semente": 1,
+      "tempo_s": 112.2584779580011
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.721008958179774,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -2.0590959811467857,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.653682830187094,
+        "ganho_sequencial_modelo_contra_modelo_pct": 13.627487062501874,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0414724233675419,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 18.33989431214784
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 2.1124324184621512,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.0404145916095509,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 42.46636409508761,
+        "ganho_sequencial_modelo_contra_modelo_pct": 38.06753978511288,
+        "calibracao_do_objetivo_no_ponto_historico": 1.017521906744543,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 40.4867463416761
+      },
+      "defasagem_lag1_agregada": 0.578996856859809,
+      "defasagem_lag1_propria_mediana": 0.17709177233891776,
+      "defasagem_lag2_agregada": 0.20049092374960842,
+      "defasagem_lag2_propria_mediana": 0.06191321619452833,
+      "defasagem_sustentada": 0.7794877806094174,
+      "wmape_teste": 48.68140773908997,
+      "vies_de_nivel_teste": 0.9780536095035028,
+      "semente": 2,
+      "tempo_s": 101.72485091700037
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.009643468665395,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.5301878734127574,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 20.645285105663056,
+        "ganho_sequencial_modelo_contra_modelo_pct": 11.106411039124776,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0294189490706576,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 14.375044886908327
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.998243280158788,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 2.165189599745232,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.46350499682288,
+        "ganho_sequencial_modelo_contra_modelo_pct": 35.38413633814772,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0115335476953775,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 36.94559573180125
+      },
+      "defasagem_lag1_agregada": 0.26166430144568803,
+      "defasagem_lag1_propria_mediana": 0.1587128853858891,
+      "defasagem_lag2_agregada": 0.2722664992865562,
+      "defasagem_lag2_propria_mediana": -0.0044465227634993346,
+      "defasagem_sustentada": 0.5339308007322443,
+      "wmape_teste": 49.05579213793961,
+      "vies_de_nivel_teste": 1.0030805665549802,
+      "semente": 3,
+      "tempo_s": 112.15638695800044
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 14.931611684172408,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.49672771929256676,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.775831710488557,
+        "ganho_sequencial_modelo_contra_modelo_pct": 6.481345061349253,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9773815907756336,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 4.0729064239906965
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 15.153526573620724,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.5690118435953906,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.90484444749804,
+        "ganho_sequencial_modelo_contra_modelo_pct": 22.185506400634793,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9535916505922977,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 16.51507872703708
+      },
+      "defasagem_lag1_agregada": 0.3255927162013684,
+      "defasagem_lag1_propria_mediana": 0.15379325261447122,
+      "defasagem_lag2_agregada": 0.11081860501360237,
+      "defasagem_lag2_propria_mediana": 0.06428262408207527,
+      "defasagem_sustentada": 0.4364113212149708,
+      "wmape_teste": 48.401741701889215,
+      "vies_de_nivel_teste": 0.9374501218397807,
+      "semente": 4,
+      "tempo_s": 114.12428966699918
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.940939903532596,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.9331216642957783,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.633831830907816,
+        "ganho_sequencial_modelo_contra_modelo_pct": 15.680867385598507,
+        "calibracao_do_objetivo_no_ponto_historico": 0.968319652078648,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 12.016057258978963
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -1.6528966390561228,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 2.1109145769072413,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 43.54646400727702,
+        "ganho_sequencial_modelo_contra_modelo_pct": 49.040085809838715,
+        "calibracao_do_objetivo_no_ponto_historico": 0.952517739396143,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 41.96332561499474
+      },
+      "defasagem_lag1_agregada": -0.018608387841156072,
+      "defasagem_lag1_propria_mediana": 0.12752003884685192,
+      "defasagem_lag2_agregada": 0.11412174549038176,
+      "defasagem_lag2_propria_mediana": 0.05067224582487566,
+      "defasagem_sustentada": 0.0955133576492257,
+      "wmape_teste": 47.107746780968064,
+      "vies_de_nivel_teste": 0.9421014316174231,
+      "semente": 5,
+      "tempo_s": 112.73707258399918
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.92872769867605,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.7611121652933761,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.25048736506596,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.434595419592135,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0125491254494623,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 17.89574776417
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 0.7564394695754428,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.4118015438516198,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.587224778496896,
+        "ganho_sequencial_modelo_contra_modelo_pct": 37.96875233350798,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9917973949160529,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 36.837049144191305
+      },
+      "defasagem_lag1_agregada": 0.14435373214546962,
+      "defasagem_lag1_propria_mediana": 0.14531099565401243,
+      "defasagem_lag2_agregada": 0.4099450937779802,
+      "defasagem_lag2_propria_mediana": 0.021013783725490676,
+      "defasagem_sustentada": 0.5542988259234498,
+      "wmape_teste": 48.76164593523753,
+      "vies_de_nivel_teste": 0.9794686262564727,
+      "semente": 6,
+      "tempo_s": 115.34254724999846
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 7.417003095654473,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.3963718155458715,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 20.29140596446597,
+        "ganho_sequencial_modelo_contra_modelo_pct": 10.421709093327625,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9594967547640036,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 5.949271530542721
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 2.526651416224923,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.1474367424007759,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.396450249751666,
+        "ganho_sequencial_modelo_contra_modelo_pct": 35.36528100497065,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9422998096363324,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 27.554678522352493
+      },
+      "defasagem_lag1_agregada": 0.25179936268210845,
+      "defasagem_lag1_propria_mediana": 0.14909344611917613,
+      "defasagem_lag2_agregada": 0.23006633141904206,
+      "defasagem_lag2_propria_mediana": 0.0712976119781541,
+      "defasagem_sustentada": 0.48186569410115054,
+      "wmape_teste": 48.92098679930344,
+      "vies_de_nivel_teste": 0.947477155041121,
+      "semente": 7,
+      "tempo_s": 89.62274375000015
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 9.557570356627764,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.162090734671283,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.868223796951348,
+        "ganho_sequencial_modelo_contra_modelo_pct": 11.417002493657646,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9894899801074301,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 10.246007581078786
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 2.826287191162158,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.06618876388089223,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 43.5074434286236,
+        "ganho_sequencial_modelo_contra_modelo_pct": 39.655367468960414,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9733691269958434,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 35.936223113545715
+      },
+      "defasagem_lag1_agregada": -0.045110005701922036,
+      "defasagem_lag1_propria_mediana": 0.08321429259289678,
+      "defasagem_lag2_agregada": 0.009188179436821407,
+      "defasagem_lag2_propria_mediana": 0.03657799416860592,
+      "defasagem_sustentada": -0.035921826265100626,
+      "wmape_teste": 49.915349174446355,
+      "vies_de_nivel_teste": 0.9881570971672251,
+      "semente": 8,
+      "tempo_s": 94.55261545800022
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 0.4641042783678273,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.7955087251003912,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.568121973157005,
+        "ganho_sequencial_modelo_contra_modelo_pct": 21.96914297953756,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9241349948239911,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 12.715953316081574
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -1.3868720282679714,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 2.4231906575334916,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.15160776156041,
+        "ganho_sequencial_modelo_contra_modelo_pct": 46.6052069408438,
+        "calibracao_do_objetivo_no_ponto_historico": 0.907622327145843,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 33.06215909534653
+      },
+      "defasagem_lag1_agregada": 0.43605660819911357,
+      "defasagem_lag1_propria_mediana": 0.1556481108497053,
+      "defasagem_lag2_agregada": 0.03436589341340811,
+      "defasagem_lag2_propria_mediana": 0.038076173472470554,
+      "defasagem_sustentada": 0.4704225016125217,
+      "wmape_teste": 48.31260162675087,
+      "vies_de_nivel_teste": 0.9211491775814804,
+      "semente": 9,
+      "tempo_s": 89.34718445800172
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 10.942118103133215,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.8711981787692946,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.550823315212455,
+        "ganho_sequencial_modelo_contra_modelo_pct": 8.607873020957136,
+        "calibracao_do_objetivo_no_ponto_historico": 1.05923745209156,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 15.041526695802322
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -2.4750981022470198,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.3527584740570808,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.528271018353855,
+        "ganho_sequencial_modelo_contra_modelo_pct": 42.14550358537832,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0437656889004612,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 48.36659947389539
+      },
+      "defasagem_lag1_agregada": 0.4787979068570557,
+      "defasagem_lag1_propria_mediana": 0.12528404281780858,
+      "defasagem_lag2_agregada": -0.046370275601494156,
+      "defasagem_lag2_propria_mediana": 0.035495983124227984,
+      "defasagem_sustentada": 0.43242763125556155,
+      "wmape_teste": 49.98050081028359,
+      "vies_de_nivel_teste": 1.0221018885166007,
+      "semente": 10,
+      "tempo_s": 114.83920449999823
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 2.765316298125531,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.6478783442418035,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.53363799062098,
+        "ganho_sequencial_modelo_contra_modelo_pct": 20.008881729898786,
+        "calibracao_do_objetivo_no_ponto_historico": 0.8934190311550245,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 7.2182188451241025
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -0.36513300396084913,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.053599199143096,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.976236024941,
+        "ganho_sequencial_modelo_contra_modelo_pct": 43.99788029664036,
+        "calibracao_do_objetivo_no_ponto_historico": 0.8738548280291715,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 25.83324292318587
+      },
+      "defasagem_lag1_agregada": 0.6861033369990046,
+      "defasagem_lag1_propria_mediana": 0.15630854529742005,
+      "defasagem_lag2_agregada": 0.1270011517332472,
+      "defasagem_lag2_propria_mediana": 0.04297618865626307,
+      "defasagem_sustentada": 0.8131044887322518,
+      "wmape_teste": 46.93013549004246,
+      "vies_de_nivel_teste": 0.8777953091684435,
+      "semente": 11,
+      "tempo_s": 115.11500454199995
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 20.05718663080216,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.7023422708903548,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.801447463379354,
+        "ganho_sequencial_modelo_contra_modelo_pct": 0.7403120174877653,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9735843243351372,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": -1.9208113911432623
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 14.716056095852847,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.2513370770278689,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.79713981930282,
+        "ganho_sequencial_modelo_contra_modelo_pct": 23.91772646634149,
+        "calibracao_do_objetivo_no_ponto_historico": 0.956924778416488,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 18.579942940678794
+      },
+      "defasagem_lag1_agregada": -0.07729536111381674,
+      "defasagem_lag1_propria_mediana": 0.13310013211861743,
+      "defasagem_lag2_agregada": 0.34090326420736006,
+      "defasagem_lag2_propria_mediana": 0.03902125866582054,
+      "defasagem_sustentada": 0.2636079030935433,
+      "wmape_teste": 47.7503734830237,
+      "vies_de_nivel_teste": 0.9414119707584526,
+      "semente": 12,
+      "tempo_s": 96.17592687499928
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 0.4513678472200633,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -2.696801306218455,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.56574533346587,
+        "ganho_sequencial_modelo_contra_modelo_pct": 18.72450646339012,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0678396909038503,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 26.778740284578696
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 0.6440518218904012,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.6562702521196284,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.648544588176414,
+        "ganho_sequencial_modelo_contra_modelo_pct": 39.66549825774533,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0376725974139016,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 44.92706034622132
+      },
+      "defasagem_lag1_agregada": 0.27019067170654815,
+      "defasagem_lag1_propria_mediana": 0.17666413091793257,
+      "defasagem_lag2_agregada": 0.31275935370411506,
+      "defasagem_lag2_propria_mediana": 0.04440543320033276,
+      "defasagem_sustentada": 0.5829500254106632,
+      "wmape_teste": 49.60631595170611,
+      "vies_de_nivel_teste": 1.020119098385623,
+      "semente": 13,
+      "tempo_s": 111.29040358299972
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 13.962626977180758,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.38656259175293695,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.665645897652386,
+        "ganho_sequencial_modelo_contra_modelo_pct": 6.346558725664453,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0173544893119388,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 8.192148942430478
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.627133437623709,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.47654357670011693,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.568090150379206,
+        "ganho_sequencial_modelo_contra_modelo_pct": 32.76000480741001,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9934811749385583,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 31.894565560914344
+      },
+      "defasagem_lag1_agregada": 0.6460734230682731,
+      "defasagem_lag1_propria_mediana": 0.1860405981879898,
+      "defasagem_lag2_agregada": 0.20606969352530152,
+      "defasagem_lag2_propria_mediana": 0.02549494273433893,
+      "defasagem_sustentada": 0.8521431165935747,
+      "wmape_teste": 49.20571213929057,
+      "vies_de_nivel_teste": 0.9765592445933597,
+      "semente": 14,
+      "tempo_s": 94.33385045899922
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 13.232527850854293,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.3388256024887468,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 24.103421208700105,
+        "ganho_sequencial_modelo_contra_modelo_pct": 11.067863601048966,
+        "calibracao_do_objetivo_no_ponto_historico": 1.083256014121394,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 20.314931221450962
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 1.9315869937224228,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.4199257933422684,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 42.663816119910635,
+        "ganho_sequencial_modelo_contra_modelo_pct": 40.54808966173316,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0645581790489551,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 49.62161839910391
+      },
+      "defasagem_lag1_agregada": 0.4144858321085001,
+      "defasagem_lag1_propria_mediana": 0.14370330914410942,
+      "defasagem_lag2_agregada": -0.18576635377004536,
+      "defasagem_lag2_propria_mediana": 0.05536084481191461,
+      "defasagem_sustentada": 0.22871947833845474,
+      "wmape_teste": 49.012418370838034,
+      "vies_de_nivel_teste": 1.0409206518428267,
+      "semente": 15,
+      "tempo_s": 123.90251474999968
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": -0.28224752939904896,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.7127372402330745,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.77456697905107,
+        "ganho_sequencial_modelo_contra_modelo_pct": 22.244539110120055,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0383882975796612,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 26.93729885496787
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.595328878381013,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.9107946392408861,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.69487848558116,
+        "ganho_sequencial_modelo_contra_modelo_pct": 34.138549359929904,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0186582594117375,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 36.641341211001624
+      },
+      "defasagem_lag1_agregada": 0.6658053492405835,
+      "defasagem_lag1_propria_mediana": 0.17107305150036584,
+      "defasagem_lag2_agregada": 0.2983545277750556,
+      "defasagem_lag2_propria_mediana": 0.08740000636090436,
+      "defasagem_sustentada": 0.9641598770156392,
+      "wmape_teste": 49.41685426691993,
+      "vies_de_nivel_teste": 1.0026344806579348,
+      "semente": 16,
+      "tempo_s": 124.64722987499772
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.815058881086468,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.2259928617661675,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.595578314239706,
+        "ganho_sequencial_modelo_contra_modelo_pct": 10.375187440862256,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9660376221958851,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 6.62658362479569
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.469702676020162,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.9911037121412503,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.41282164130331,
+        "ganho_sequencial_modelo_contra_modelo_pct": 27.253133903289072,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9406436644669773,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 19.699854189696797
+      },
+      "defasagem_lag1_agregada": 0.5380485921249407,
+      "defasagem_lag1_propria_mediana": 0.13241310854567284,
+      "defasagem_lag2_agregada": -0.11378773769159911,
+      "defasagem_lag2_propria_mediana": 0.033912497911146575,
+      "defasagem_sustentada": 0.4242608544333416,
+      "wmape_teste": 47.51531551224845,
+      "vies_de_nivel_teste": 0.9203336886993604,
+      "semente": 17,
+      "tempo_s": 108.99753412500286
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.626611589594525,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.8675833147373089,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.387614339788954,
+        "ganho_sequencial_modelo_contra_modelo_pct": 11.467389132411586,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9170846127368021,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 2.225027395280099
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.210270021275342,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.3280862617304767,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 42.16964278676618,
+        "ganho_sequencial_modelo_contra_modelo_pct": 34.613898672294276,
+        "calibracao_do_objetivo_no_ponto_historico": 0.8977647824101137,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 20.851617450909355
+      },
+      "defasagem_lag1_agregada": 0.06306870748051246,
+      "defasagem_lag1_propria_mediana": 0.13994153435074136,
+      "defasagem_lag2_agregada": -0.07792407700118323,
+      "defasagem_lag2_propria_mediana": 0.05850445418185496,
+      "defasagem_sustentada": -0.014855369520670764,
+      "wmape_teste": 47.78444620432957,
+      "vies_de_nivel_teste": 0.9241885470606153,
+      "semente": 18,
+      "tempo_s": 102.11612579100256
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.734895960823328,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.1151778812438007,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.065128430258675,
+        "ganho_sequencial_modelo_contra_modelo_pct": 13.087555883875623,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9919819627862252,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 12.18081565238387
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.05525196438632,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.9806950326800798,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.556162438903186,
+        "ganho_sequencial_modelo_contra_modelo_pct": 32.07561161060304,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9757441416618002,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 28.872004285445165
+      },
+      "defasagem_lag1_agregada": 0.07013019571481482,
+      "defasagem_lag1_propria_mediana": 0.13607085808586972,
+      "defasagem_lag2_agregada": 0.24739494659506836,
+      "defasagem_lag2_propria_mediana": 0.03617835288776197,
+      "defasagem_sustentada": 0.31752514230988316,
+      "wmape_teste": 48.83439648791199,
+      "vies_de_nivel_teste": 0.963138592750533,
+      "semente": 19,
+      "tempo_s": 122.28346600000077
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 7.583590805075224,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.36983407090627196,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.410886301402087,
+        "ganho_sequencial_modelo_contra_modelo_pct": 13.361311167174605,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0429259877981576,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 18.22745742711991
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -3.0482440424987156,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.7246466731394952,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.63670205807117,
+        "ganho_sequencial_modelo_contra_modelo_pct": 45.070683233081276,
+        "calibracao_do_objetivo_no_ponto_historico": 1.019850848811088,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 47.9504594328624
+      },
+      "defasagem_lag1_agregada": -0.1524168293724556,
+      "defasagem_lag1_propria_mediana": 0.16041045352991268,
+      "defasagem_lag2_agregada": 0.2735736708855356,
+      "defasagem_lag2_propria_mediana": 0.021094367013352842,
+      "defasagem_sustentada": 0.12115684151307998,
+      "wmape_teste": 49.79643552378841,
+      "vies_de_nivel_teste": 1.0156368413036856,
+      "semente": 20,
+      "tempo_s": 111.99154758299846
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.951790355364729,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.11384794052469172,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 24.670872064827478,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.70006352431932,
+        "calibracao_do_objetivo_no_ponto_historico": 1.039627630752877,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 21.324610550498324
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -2.3275709954017287,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.22850291890492702,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 43.99275912282914,
+        "ganho_sequencial_modelo_contra_modelo_pct": 47.087292626313456,
+        "calibracao_do_objetivo_no_ponto_historico": 1.023408700056671,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 50.530414941550596
+      },
+      "defasagem_lag1_agregada": -0.06587630042977183,
+      "defasagem_lag1_propria_mediana": 0.14598173732215722,
+      "defasagem_lag2_agregada": 0.208177528263939,
+      "defasagem_lag2_propria_mediana": 0.028494820135233002,
+      "defasagem_sustentada": 0.14230122783416718,
+      "wmape_teste": 48.96966051150487,
+      "vies_de_nivel_teste": 1.008301401157478,
+      "semente": 21,
+      "tempo_s": 101.47775341600209
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 9.162850284154288,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.49088654510638374,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.04530757442067,
+        "ganho_sequencial_modelo_contra_modelo_pct": 13.270512918841204,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9325365606868135,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 5.628894544567453
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 11.639935640084698,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.1964022917881123,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 43.912861576949666,
+        "ganho_sequencial_modelo_contra_modelo_pct": 27.36578894247499,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9159842207312263,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 16.66505293229079
+      },
+      "defasagem_lag1_agregada": 0.43398656291572096,
+      "defasagem_lag1_propria_mediana": 0.17680361412895745,
+      "defasagem_lag2_agregada": 0.2220335738215764,
+      "defasagem_lag2_propria_mediana": 0.058252114328678904,
+      "defasagem_sustentada": 0.6560201367372973,
+      "wmape_teste": 49.99826569157768,
+      "vies_de_nivel_teste": 0.931674687785562,
+      "semente": 22,
+      "tempo_s": 111.7524525000008
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": -4.181840980585982,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.5578879635810496,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.136522207208476,
+        "ganho_sequencial_modelo_contra_modelo_pct": 28.178111978601518,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9402680828849616,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 20.521787617933597
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -7.90714723799214,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 2.1224904363314145,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.75910063463264,
+        "ganho_sequencial_modelo_contra_modelo_pct": 57.19778424320345,
+        "calibracao_do_objetivo_no_ponto_historico": 0.925241999946793,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 45.445992280386015
+      },
+      "defasagem_lag1_agregada": 0.26055742501103285,
+      "defasagem_lag1_propria_mediana": 0.09786916164637827,
+      "defasagem_lag2_agregada": -0.035934376544967395,
+      "defasagem_lag2_propria_mediana": 0.0567580693580028,
+      "defasagem_sustentada": 0.22462304846606546,
+      "wmape_teste": 46.714410538140356,
+      "vies_de_nivel_teste": 0.9322458117575388,
+      "semente": 23,
+      "tempo_s": 123.32538299999942
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.839508567928764,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.8505220102142053,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.035434709225264,
+        "ganho_sequencial_modelo_contra_modelo_pct": 14.321672609718728,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9670662087250432,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 10.556626505786305
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -1.542252848025405,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.4658995460632207,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 38.52043165726074,
+        "ganho_sequencial_modelo_contra_modelo_pct": 38.62785329397494,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9420939107184088,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 30.600456444218693
+      },
+      "defasagem_lag1_agregada": 0.5165717390666468,
+      "defasagem_lag1_propria_mediana": 0.16952602238418102,
+      "defasagem_lag2_agregada": -0.376573833153622,
+      "defasagem_lag2_propria_mediana": 0.032562237954907904,
+      "defasagem_sustentada": 0.1399979059130248,
+      "wmape_teste": 47.63546862926855,
+      "vies_de_nivel_teste": 0.9257080414255254,
+      "semente": 24,
+      "tempo_s": 110.02172820800115
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.573460490440919,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.2897407427253316,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.946877343535554,
+        "ganho_sequencial_modelo_contra_modelo_pct": 12.949394931913293,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0611583022086246,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 19.857188161440554
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -0.8520319985842018,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -2.126677234138119,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.34331626118648,
+        "ganho_sequencial_modelo_contra_modelo_pct": 39.52620807146403,
+        "calibracao_do_objetivo_no_ponto_historico": 1.041027046944962,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 45.25055636006454
+      },
+      "defasagem_lag1_agregada": 0.5886506829302278,
+      "defasagem_lag1_propria_mediana": 0.14825070977236865,
+      "defasagem_lag2_agregada": 0.16369622754833255,
+      "defasagem_lag2_propria_mediana": 0.03124885983868271,
+      "defasagem_sustentada": 0.7523469104785604,
+      "wmape_teste": 49.65739528832187,
+      "vies_de_nivel_teste": 1.01351507767286,
+      "semente": 25,
+      "tempo_s": 104.51069029200153
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 14.177390508056842,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.212020964266447,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.716395852574255,
+        "ganho_sequencial_modelo_contra_modelo_pct": 5.310838759628855,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0704181651436222,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 12.72663479481777
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.194562062632667,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.11323062256691774,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.631132873203924,
+        "ganho_sequencial_modelo_contra_modelo_pct": 34.16174060045898,
+        "calibracao_do_objetivo_no_ponto_historico": 1.036116370136026,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 39.007175682078675
+      },
+      "defasagem_lag1_agregada": 0.04725461878995328,
+      "defasagem_lag1_propria_mediana": 0.1791553491776692,
+      "defasagem_lag2_agregada": 0.1955270375826738,
+      "defasagem_lag2_propria_mediana": 0.06480784988468402,
+      "defasagem_sustentada": 0.2427816563726271,
+      "wmape_teste": 52.32079681887556,
+      "vies_de_nivel_teste": 1.0449681693572952,
+      "semente": 26,
+      "tempo_s": 116.21667554099986
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 15.682769707427124,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.4465349064576962,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 24.423478066821993,
+        "ganho_sequencial_modelo_contra_modelo_pct": 7.075482475651906,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9900769516245072,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 6.012967283216786
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.7975945416902865,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.4466791583138572,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 42.48761696306913,
+        "ganho_sequencial_modelo_contra_modelo_pct": 33.997615994346475,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9687972186952079,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 29.816517687111354
+      },
+      "defasagem_lag1_agregada": 0.5407189500419435,
+      "defasagem_lag1_propria_mediana": 0.17803914182985292,
+      "defasagem_lag2_agregada": -0.1823043781406684,
+      "defasagem_lag2_propria_mediana": 0.0034293960544203718,
+      "defasagem_sustentada": 0.35841457190127507,
+      "wmape_teste": 47.99459350648683,
+      "vies_de_nivel_teste": 0.9402905878769419,
+      "semente": 27,
+      "tempo_s": 109.70902220800053
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 1.0118713265142132,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.8062720289063083,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.579517937499748,
+        "ganho_sequencial_modelo_contra_modelo_pct": 19.159655999989656,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9382445820979837,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 11.800901646649775
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -3.537012890082203,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.8483972350638478,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 43.001019600221625,
+        "ganho_sequencial_modelo_contra_modelo_pct": 45.50429850143756,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9241386906231656,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 34.466151897160735
+      },
+      "defasagem_lag1_agregada": 0.3098320127535874,
+      "defasagem_lag1_propria_mediana": 0.16731373902237767,
+      "defasagem_lag2_agregada": -0.32577974450877606,
+      "defasagem_lag2_propria_mediana": 0.028266131958788146,
+      "defasagem_sustentada": -0.015947731755188654,
+      "wmape_teste": 48.858901519053525,
+      "vies_de_nivel_teste": 0.9193389430399025,
+      "semente": 28,
+      "tempo_s": 110.29297491599937
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 13.448030154912782,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.011722711998274349,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.21520230830045,
+        "ganho_sequencial_modelo_contra_modelo_pct": 7.715290609498449,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0470111838445784,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 12.779113939213783
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 3.371197889797628,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.558825678747743,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 39.89150039392149,
+        "ganho_sequencial_modelo_contra_modelo_pct": 34.57302769736441,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0271742098383276,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 38.22994339059169
+      },
+      "defasagem_lag1_agregada": 0.2342897853036197,
+      "defasagem_lag1_propria_mediana": 0.16845308647677254,
+      "defasagem_lag2_agregada": 0.03339567231526562,
+      "defasagem_lag2_propria_mediana": 0.012976238233447304,
+      "defasagem_sustentada": 0.26768545761888535,
+      "wmape_teste": 48.637659785996625,
+      "vies_de_nivel_teste": 1.0302680475175146,
+      "semente": 29,
+      "tempo_s": 123.48885183299717
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.161770686606658,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.5632501699058832,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.023488334923382,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.261774973910747,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9592407654169834,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 11.523034014711243
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -3.753398639627903,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.448686830259771,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.653534567645465,
+        "ganho_sequencial_modelo_contra_modelo_pct": 44.0216105055548,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9317399971573368,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 34.1906949630407
+      },
+      "defasagem_lag1_agregada": 0.6616351958009805,
+      "defasagem_lag1_propria_mediana": 0.1793680517001534,
+      "defasagem_lag2_agregada": 0.1713033711637921,
+      "defasagem_lag2_propria_mediana": 0.0464741258888346,
+      "defasagem_sustentada": 0.8329385669647726,
+      "wmape_teste": 49.13274770154119,
+      "vies_de_nivel_teste": 0.9702339323789217,
+      "semente": 30,
+      "tempo_s": 102.98424020899984
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.641504812851707,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.8992412980467712,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 20.808208335738023,
+        "ganho_sequencial_modelo_contra_modelo_pct": 12.198892906078251,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0414405561066964,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 16.848477422661823
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -0.8107092865920151,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 3.2086678016497894,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.311747779220596,
+        "ganho_sequencial_modelo_contra_modelo_pct": 45.99750095054282,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0231831840303323,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 49.38218788304787
+      },
+      "defasagem_lag1_agregada": -0.017673837058256515,
+      "defasagem_lag1_propria_mediana": 0.12547800738910408,
+      "defasagem_lag2_agregada": 0.055874663029719836,
+      "defasagem_lag2_propria_mediana": 0.046459483129642015,
+      "defasagem_sustentada": 0.03820082597146332,
+      "wmape_teste": 49.416807039634435,
+      "vies_de_nivel_teste": 1.0151959335973195,
+      "semente": 31,
+      "tempo_s": 104.65252920800049
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.360796392786105,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.3292942340350491,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.95963275994506,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.135453591590142,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0791784650415746,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 25.330880543879264
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 2.445693177493835,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.17095339431992818,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.900285085105814,
+        "ganho_sequencial_modelo_contra_modelo_pct": 38.27589753897409,
+        "calibracao_do_objetivo_no_ponto_historico": 1.059174212487799,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 46.45826488188647
+      },
+      "defasagem_lag1_agregada": 0.2580983697929848,
+      "defasagem_lag1_propria_mediana": 0.17881332326891822,
+      "defasagem_lag2_agregada": 0.04347136596116849,
+      "defasagem_lag2_propria_mediana": 0.038060818747832265,
+      "defasagem_sustentada": 0.30156973575415325,
+      "wmape_teste": 49.58422795209876,
+      "vies_de_nivel_teste": 1.0188314042034725,
+      "semente": 32,
+      "tempo_s": 117.70064524999907
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 10.728820948619866,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.177937213360325,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.397057656771114,
+        "ganho_sequencial_modelo_contra_modelo_pct": 11.839733400964981,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9819666238997617,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 9.822885425594997
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.2135785403457655,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.1509412805064345,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.957732495799746,
+        "ganho_sequencial_modelo_contra_modelo_pct": 35.19136123016586,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9674859216155656,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 30.79573871422987
+      },
+      "defasagem_lag1_agregada": 0.15502282692437933,
+      "defasagem_lag1_propria_mediana": 0.14781852648071203,
+      "defasagem_lag2_agregada": 0.019266855527995525,
+      "defasagem_lag2_propria_mediana": 0.005640006588399105,
+      "defasagem_sustentada": 0.17428968245237486,
+      "wmape_teste": 49.16592842799805,
+      "vies_de_nivel_teste": 0.9549908620164483,
+      "semente": 33,
+      "tempo_s": 112.18662279099954
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 1.6950044105649154,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.418209153526262,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 20.961469200774197,
+        "ganho_sequencial_modelo_contra_modelo_pct": 17.25844672852064,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0176182321619998,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 19.324333265939188
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -1.1441124908140088,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.069411196864578,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.42037013182214,
+        "ganho_sequencial_modelo_contra_modelo_pct": 41.52723563984433,
+        "calibracao_do_objetivo_no_ponto_historico": 1.002484830201548,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 41.87890678930384
+      },
+      "defasagem_lag1_agregada": 0.3749713568610028,
+      "defasagem_lag1_propria_mediana": 0.15669235585106184,
+      "defasagem_lag2_agregada": 0.3876895947297462,
+      "defasagem_lag2_propria_mediana": 0.054114335774400175,
+      "defasagem_sustentada": 0.762660951590749,
+      "wmape_teste": 49.057881801737686,
+      "vies_de_nivel_teste": 0.9901171184891867,
+      "semente": 34,
+      "tempo_s": 117.50875366699984
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 9.006623382030776,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.12124092306018408,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.87405458803984,
+        "ganho_sequencial_modelo_contra_modelo_pct": 12.85830567824342,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0649562972033433,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 20.189163323745163
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -1.309596736578389,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.3112109515746706,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 42.49148921458483,
+        "ganho_sequencial_modelo_contra_modelo_pct": 46.27547203440552,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0475644966673088,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 53.23299123649501
+      },
+      "defasagem_lag1_agregada": 0.2096522992368834,
+      "defasagem_lag1_propria_mediana": 0.14619284817454808,
+      "defasagem_lag2_agregada": -0.2791757380608299,
+      "defasagem_lag2_propria_mediana": 0.011446153894816425,
+      "defasagem_sustentada": -0.06952343882394652,
+      "wmape_teste": 49.11408904126022,
+      "vies_de_nivel_teste": 1.0038802924154737,
+      "semente": 35,
+      "tempo_s": 105.76287333399887
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 11.689075690433892,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.23320906626325133,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.917161685807443,
+        "ganho_sequencial_modelo_contra_modelo_pct": 11.20706924442121,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9519850902666475,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 5.867471852939632
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.114334241298789,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.01810221624373165,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.711172941292006,
+        "ganho_sequencial_modelo_contra_modelo_pct": 36.086467930486535,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9248485121568618,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 25.859367390192965
+      },
+      "defasagem_lag1_agregada": 0.5945396649266718,
+      "defasagem_lag1_propria_mediana": 0.1254067494974262,
+      "defasagem_lag2_agregada": 0.040184236710484836,
+      "defasagem_lag2_propria_mediana": 0.009925179239742201,
+      "defasagem_sustentada": 0.6347239016371566,
+      "wmape_teste": 47.15276174286753,
+      "vies_de_nivel_teste": 0.9285147730734085,
+      "semente": 36,
+      "tempo_s": 90.08355879100054
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.12789016364914,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.1363619753470444,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.928777657032096,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.544237652350446,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0324885271965312,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 20.330588286917827
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 1.7403193783943838,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.5992012710186234,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.62985421900154,
+        "ganho_sequencial_modelo_contra_modelo_pct": 37.39606794941408,
+        "calibracao_do_objetivo_no_ponto_historico": 1.006083907316194,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 38.23197289242779
+      },
+      "defasagem_lag1_agregada": 0.30687551249917827,
+      "defasagem_lag1_propria_mediana": 0.11047558189679228,
+      "defasagem_lag2_agregada": -0.043997214516427165,
+      "defasagem_lag2_propria_mediana": 0.03089650965954814,
+      "defasagem_sustentada": 0.2628782979827511,
+      "wmape_teste": 48.512083831372294,
+      "vies_de_nivel_teste": 0.9847199969540055,
+      "semente": 37,
+      "tempo_s": 119.74618979099978
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 10.498506690970654,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.4238820096400753,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 21.834098911096245,
+        "ganho_sequencial_modelo_contra_modelo_pct": 10.72595947397117,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0343058220833423,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 14.524504539692607
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.017419672433298,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.6211568975610269,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.91159733364296,
+        "ganho_sequencial_modelo_contra_modelo_pct": 34.21885307738437,
+        "calibracao_do_objetivo_no_ponto_historico": 1.018646122147991,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 36.72151420642853
+      },
+      "defasagem_lag1_agregada": 0.5675245097741995,
+      "defasagem_lag1_propria_mediana": 0.16323642261413915,
+      "defasagem_lag2_agregada": 0.210194469869698,
+      "defasagem_lag2_propria_mediana": 0.05637989363855273,
+      "defasagem_sustentada": 0.7777189796438976,
+      "wmape_teste": 50.16790113319103,
+      "vies_de_nivel_teste": 1.002795918367347,
+      "semente": 38,
+      "tempo_s": 109.60229608299778
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": -0.086209789165137,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.7844942424596444,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.961008584434328,
+        "ganho_sequencial_modelo_contra_modelo_pct": 20.870979082003217,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9536201000668766,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 15.264995167361262
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -4.87602584171094,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.201200069303232,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.491183368375786,
+        "ganho_sequencial_modelo_contra_modelo_pct": 46.95726541353247,
+        "calibracao_do_objetivo_no_ponto_historico": 0.93410165643438,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 37.27302504784751
+      },
+      "defasagem_lag1_agregada": 0.3831656329624351,
+      "defasagem_lag1_propria_mediana": 0.16378727173670676,
+      "defasagem_lag2_agregada": -0.21175992560264292,
+      "defasagem_lag2_propria_mediana": 0.02973277390233129,
+      "defasagem_sustentada": 0.1714057073597922,
+      "wmape_teste": 47.45049884009935,
+      "vies_de_nivel_teste": 0.9312666768199818,
+      "semente": 39,
+      "tempo_s": 123.97837483299736
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.021438984291527,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.7351043435037896,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.180480482204914,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.088439923343344,
+        "calibracao_do_objetivo_no_ponto_historico": 1.037723073823199,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 20.467652712591633
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -4.89896221861037,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.10111490517694666,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.02932272469304,
+        "ganho_sequencial_modelo_contra_modelo_pct": 48.444147071404316,
+        "calibracao_do_objetivo_no_ponto_historico": 1.0197920329975203,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 51.38215852853032
+      },
+      "defasagem_lag1_agregada": 0.6706291439074847,
+      "defasagem_lag1_propria_mediana": 0.18066055300954867,
+      "defasagem_lag2_agregada": -0.02286604964383944,
+      "defasagem_lag2_propria_mediana": 0.026749946140380208,
+      "defasagem_sustentada": 0.6477630942636453,
+      "wmape_teste": 48.68364008900018,
+      "vies_de_nivel_teste": 0.9992308863844045,
+      "semente": 40,
+      "tempo_s": 117.98949933300173
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 12.573126010410496,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.6696806556125265,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.115326596839548,
+        "ganho_sequencial_modelo_contra_modelo_pct": 7.538715584181799,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9405114347843808,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 1.1413916889482678
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 6.919654486611959,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.038446131026237396,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.094001149434355,
+        "ganho_sequencial_modelo_contra_modelo_pct": 32.01337678439693,
+        "calibracao_do_objetivo_no_ponto_historico": 0.922479849235734,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 21.779679913170625
+      },
+      "defasagem_lag1_agregada": 0.7493332713501338,
+      "defasagem_lag1_propria_mediana": 0.20684691611962458,
+      "defasagem_lag2_agregada": 0.08521312473560413,
+      "defasagem_lag2_propria_mediana": 0.021872151883703096,
+      "defasagem_sustentada": 0.834546396085738,
+      "wmape_teste": 47.15350474577795,
+      "vies_de_nivel_teste": 0.9198518123667377,
+      "semente": 41,
+      "tempo_s": 96.46540187500068
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 10.14756799074843,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.838291635371525,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.87775389108202,
+        "ganho_sequencial_modelo_contra_modelo_pct": 13.608141918398697,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9405058732688163,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 6.849124725411171
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 9.638882870838849,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 2.247363040564876,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.0240377863927,
+        "ganho_sequencial_modelo_contra_modelo_pct": 31.516626322966744,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9228858156038175,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 21.374828949533665
+      },
+      "defasagem_lag1_agregada": 0.31737999368952724,
+      "defasagem_lag1_propria_mediana": 0.17407615209219546,
+      "defasagem_lag2_agregada": -0.1343894558693235,
+      "defasagem_lag2_propria_mediana": 0.031023037906352524,
+      "defasagem_sustentada": 0.18299053782020375,
+      "wmape_teste": 47.179920632157284,
+      "vies_de_nivel_teste": 0.9264896436186415,
+      "semente": 42,
+      "tempo_s": 99.71939566700166
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 5.1980620279998835,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.11000166845526183,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.69228140037547,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.50149772830316,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9962575178104582,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 16.06549294800004
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -4.308129120564663,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.0602893960133466,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.604394101811735,
+        "ganho_sequencial_modelo_contra_modelo_pct": 47.89032795291763,
+        "calibracao_do_objetivo_no_ponto_historico": 0.977280702175638,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 44.53036354681272
+      },
+      "defasagem_lag1_agregada": 0.5617738172047375,
+      "defasagem_lag1_propria_mediana": 0.10788776746024607,
+      "defasagem_lag2_agregada": -0.19277120379985072,
+      "defasagem_lag2_propria_mediana": 0.0006408335204425297,
+      "defasagem_sustentada": 0.3690026134048868,
+      "wmape_teste": 47.448024499260214,
+      "vies_de_nivel_teste": 0.9529761650929028,
+      "semente": 43,
+      "tempo_s": 98.10223808400042
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 9.105926252169727,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.4445761514080502,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.97159697161193,
+        "ganho_sequencial_modelo_contra_modelo_pct": 14.33660811984414,
+        "calibracao_do_objetivo_no_ponto_historico": 0.966955650701572,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 10.558429303534522
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -3.67567984791628,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 1.282494804673151,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.259808353873396,
+        "ganho_sequencial_modelo_contra_modelo_pct": 48.53098140865322,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9499545106148204,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 41.097675755196136
+      },
+      "defasagem_lag1_agregada": 0.394292844368625,
+      "defasagem_lag1_propria_mediana": 0.11015769035040221,
+      "defasagem_lag2_agregada": 0.0024167572141600537,
+      "defasagem_lag2_propria_mediana": 0.0452030076600255,
+      "defasagem_sustentada": 0.39670960158278507,
+      "wmape_teste": 48.49081315582495,
+      "vies_de_nivel_teste": 0.9656393542491624,
+      "semente": 44,
+      "tempo_s": 109.76534970799912
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.333846165458555,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.4580136972026083,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.431702796184496,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.808641976439475,
+        "calibracao_do_objetivo_no_ponto_historico": 1.00015090926601,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 16.826269482863744
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 4.067241948041844,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 3.1013371619414754,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.73467390761163,
+        "ganho_sequencial_modelo_contra_modelo_pct": 40.41915715785392,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9744290525245829,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 36.8285062656281
+      },
+      "defasagem_lag1_agregada": 0.5355836423727566,
+      "defasagem_lag1_propria_mediana": 0.16513249645374153,
+      "defasagem_lag2_agregada": 0.23742728043658168,
+      "defasagem_lag2_propria_mediana": 0.07502867517107548,
+      "defasagem_sustentada": 0.7730109228093383,
+      "wmape_teste": 48.98019363323145,
+      "vies_de_nivel_teste": 0.9763516600670119,
+      "semente": 45,
+      "tempo_s": 119.18835441700139
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 13.793892279034559,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -0.14318570171912848,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.59198061981058,
+        "ganho_sequencial_modelo_contra_modelo_pct": 7.577343546638482,
+        "calibracao_do_objetivo_no_ponto_historico": 1.06239067293978,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 14.28916640358715
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.161261799613317,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.2774665009678499,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 43.219399202213474,
+        "ganho_sequencial_modelo_contra_modelo_pct": 30.72131094075612,
+        "calibracao_do_objetivo_no_ponto_historico": 1.042052469014458,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 36.218464818621584
+      },
+      "defasagem_lag1_agregada": 0.2821872516419522,
+      "defasagem_lag1_propria_mediana": 0.1301896164519581,
+      "defasagem_lag2_agregada": 0.05245559823119689,
+      "defasagem_lag2_propria_mediana": 0.01937885115963514,
+      "defasagem_sustentada": 0.3346428498731491,
+      "wmape_teste": 48.154492183149934,
+      "vies_de_nivel_teste": 1.0036781906792567,
+      "semente": 46,
+      "tempo_s": 99.87477704200137
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 8.421570326280614,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 2.5318045670824185,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.062275048335867,
+        "ganho_sequencial_modelo_contra_modelo_pct": 16.37718487995421,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9235048331453349,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 7.474892704485914
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -0.4665718540430408,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 2.029446167663962,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 42.48492455978321,
+        "ganho_sequencial_modelo_contra_modelo_pct": 46.05804512990221,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9072743205789975,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 32.51471366032859
+      },
+      "defasagem_lag1_agregada": 0.21090729588871904,
+      "defasagem_lag1_propria_mediana": 0.18723509403863828,
+      "defasagem_lag2_agregada": 0.38626968841461906,
+      "defasagem_lag2_propria_mediana": 0.07900752588317722,
+      "defasagem_sustentada": 0.5971769843033381,
+      "wmape_teste": 47.02438731043215,
+      "vies_de_nivel_teste": 0.8809981724032897,
+      "semente": 47,
+      "tempo_s": 106.34363137499895
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 9.670100261378378,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -2.088430351783932,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 23.22042723486848,
+        "ganho_sequencial_modelo_contra_modelo_pct": 10.009067325878007,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9963387359443662,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 9.606295081883953
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": 9.207920958894578,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.7706214083698759,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 41.24613222609561,
+        "ganho_sequencial_modelo_contra_modelo_pct": 30.33359110746052,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9781780106766181,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 27.489452873835507
+      },
+      "defasagem_lag1_agregada": 0.06097721470250946,
+      "defasagem_lag1_propria_mediana": 0.19223893698531505,
+      "defasagem_lag2_agregada": 0.26220991604176885,
+      "defasagem_lag2_propria_mediana": 0.04662403348924623,
+      "defasagem_sustentada": 0.3231871307442783,
+      "wmape_teste": 49.17478846242215,
+      "vies_de_nivel_teste": 0.981872220530003,
+      "semente": 48,
+      "tempo_s": 100.63828137499877
+    },
+    {
+      "margem": {
+        "superestimacao_da_avaliacao_ingenua_pct": 1.9994137964272074,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": -1.3136972808105885,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 22.226506490220245,
+        "ganho_sequencial_modelo_contra_modelo_pct": 18.256385707045595,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9319785233049525,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 10.212411722633231
+      },
+      "receita": {
+        "superestimacao_da_avaliacao_ingenua_pct": -2.288469150781647,
+        "ganho_da_decisao_sequencial_sobre_a_ingenua_pct": 0.4132106456987694,
+        "ganho_ingenuo_modelo_contra_modelo_pct": 40.207021177218664,
+        "ganho_sequencial_modelo_contra_modelo_pct": 44.08368213163276,
+        "calibracao_do_objetivo_no_ponto_historico": 0.9155315231973383,
+        "ganho_sequencial_contra_o_OBSERVADO_pct": 31.913152969854863
+      },
+      "defasagem_lag1_agregada": -0.29682689641925397,
+      "defasagem_lag1_propria_mediana": 0.127842289317493,
+      "defasagem_lag2_agregada": 0.0716542039312647,
+      "defasagem_lag2_propria_mediana": 0.025769743693997215,
+      "defasagem_sustentada": -0.22517269248798927,
+      "wmape_teste": 47.771830283088576,
+      "vies_de_nivel_teste": 0.9099671032592141,
+      "semente": 49,
+      "tempo_s": 117.2196660419977
+    }
+  ],
+  "tempo_total_min": 90.91803921041665
+}
