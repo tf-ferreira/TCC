@@ -8788,39 +8788,6 @@
         "ln_custo"
       ]
     },
-    "s21_v1_max_positivas": {
-      "valor": 0.0,
-      "texto": "0",
-      "descricao": "maior número de SKUs com elasticidade própria sustentada positiva, entre as sementes (v1)",
-      "produtor": "sondas_diagnostico/s21_elasticidade_sustentada.py 5",
-      "saida": "sondas_diagnostico/s21_elasticidade_sustentada.json",
-      "campo": [
-        "v1",
-        "max_skus_com_sustentada_positiva"
-      ]
-    },
-    "s21_v1_sustentada_max": {
-      "valor": -0.11787576424143964,
-      "texto": "-0,12",
-      "descricao": "a maior elasticidade própria sustentada, entre SKUs e sementes (v1)",
-      "produtor": "sondas_diagnostico/s21_elasticidade_sustentada.py 5",
-      "saida": "sondas_diagnostico/s21_elasticidade_sustentada.json",
-      "campo": [
-        "v1",
-        "sustentada_maxima"
-      ]
-    },
-    "s21_v1_n_sementes": {
-      "valor": 5.0,
-      "texto": "5",
-      "descricao": "sementes da sonda 21",
-      "produtor": "sondas_diagnostico/s21_elasticidade_sustentada.py 5",
-      "saida": "sondas_diagnostico/s21_elasticidade_sustentada.json",
-      "campo": [
-        "v1",
-        "n_sementes"
-      ]
-    },
     "r3_r_dif_pior": {
       "valor": -0.3972622200132781,
       "texto": "-0,40",

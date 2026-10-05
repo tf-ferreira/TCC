@@ -11,8 +11,8 @@
 #   anatomia_v1         a avaliação de uma semana e a parte do ganho que passa
 #                       pelo canal das defasagens, 50 sementes          Tabelas 3 e 4
 #   anatomia_v1_codigo  a mesma anatomia com o código de promoção, 20 sementes
-#   s01, s22, s21       sondas oficiais: presença contra venda, deriva do código
-#                       de promoção, elasticidade sustentada
+#   s01, s22            sondas oficiais: presença contra venda e deriva do código
+#                       de promoção
 #   anatomia_v1_direcao a anatomia com a direção e o suporte dos preços
 #                       recomendados também nas decisões de uma semana
 #   tabelas             tabelas por política e mundo, critério do código de
@@ -68,7 +68,6 @@ etapa anatomia_v1          "$PY" "$O/anatomia_v1.py" "$CAT" --sementes 50
 etapa anatomia_v1_codigo   "$PY" "$O/anatomia_v1.py" "$CAT" --especificacao v1_codigo --sementes 20
 etapa s01_presenca_vs_venda       bash -c "cd sondas_diagnostico && $PY s01_presenca_vs_venda.py"
 etapa s22_deriva_do_codigo        bash -c "cd sondas_diagnostico && $PY s22_deriva_do_codigo.py"
-etapa s21_elasticidade_sustentada bash -c "cd sondas_diagnostico && $PY s21_elasticidade_sustentada.py 5"
 etapa anatomia_v1_direcao  "$PY" "$O/anatomia_v1.py" "$CAT" --sementes 50 --sufixo _direcao
 
 if [ -z "$SO" ] || [ "$SO" = "tabelas" ]; then

@@ -857,9 +857,6 @@ MAPA = [
     ("s22_com_codigo_fim_min", "s22", ("resumo", "com_codigo_2_ultimos", 0), 3, "fração das linhas com código, menor dos 2 últimos anos"),
     ("s22_com_codigo_fim_max", "s22", ("resumo", "com_codigo_2_ultimos", 1), 3, "a maior"),
     ("d16_var_custo_sku_semana", "alin_d16", ("variancia_sku_semana", "ln_custo"), 3, "fração da variação intra-série do log do custo explicada por SKU × semana"),
-    ("s21_v1_max_positivas", "s21", ("v1", "max_skus_com_sustentada_positiva"), 0, "maior número de SKUs com elasticidade própria sustentada positiva, entre as sementes (v1)"),
-    ("s21_v1_sustentada_max", "s21", ("v1", "sustentada_maxima"), 2, "a maior elasticidade própria sustentada, entre SKUs e sementes (v1)"),
-    ("s21_v1_n_sementes", "s21", ("v1", "n_sementes"), 0, "sementes da sonda 21"),
     ("r3_r_dif_pior", "tab_v1", ("receita", "robusta_menos_rede", "pior_dos_tres", "media"), 2, "robusta − rede pareado, receita, pior_dos_tres (R3)"),
     ("r3_r_dif_pior_z", "tab_v1", ("receita", "robusta_menos_rede", "pior_dos_tres", "z"), 1, "o z pareado dela"),
     ("r3_r_calib", "tab_v1", ("receita", "rede", "mu=1", "calibracao", "media"), 4, "calibração no histórico, receita, igual em todo mundo (R3)"),
@@ -1002,8 +999,6 @@ PRODUTORES = {
                   "sondas_diagnostico/s22_deriva_do_codigo.json"),
     "alin_d16":  ("src/experiments/alinhamento_d16.py {cat}",
                   "reports/alinhamento_d16_{cat}.json"),
-    "s21":       ("sondas_diagnostico/s21_elasticidade_sustentada.py 5",
-                  "sondas_diagnostico/s21_elasticidade_sustentada.json"),
 }
 
 

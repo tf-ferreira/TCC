@@ -51,7 +51,7 @@ Conforme o resumo do trabalho:
 - com isso a categoria ficou inelástica e o ótimo se inverteu: a política recomendada eleva os preços;
 - a margem aumenta entre 9% e 26% e a receita varia entre −4% e 7%, conforme a hipótese sobre as elasticidades cruzadas.
 
-O registro [`reports/numeros_oficiais.json`](reports/numeros_oficiais.json) reúne 824 números produzidos pelos scripts, cada um com o valor, o script que o produz e o arquivo de origem: é a ponte entre os resultados e o texto. O mapa das tabelas para os arquivos está em [Do texto ao código](#do-texto-ao-código) e em [`reports/README.md`](reports/README.md).
+O registro [`reports/numeros_oficiais.json`](reports/numeros_oficiais.json) reúne 821 números produzidos pelos scripts, cada um com o valor, o script que o produz e o arquivo de origem: é a ponte entre os resultados e o texto. O mapa das tabelas para os arquivos está em [Do texto ao código](#do-texto-ao-código) e em [`reports/README.md`](reports/README.md).
 
 ## Estrutura do repositório
 
@@ -67,7 +67,7 @@ O registro [`reports/numeros_oficiais.json`](reports/numeros_oficiais.json) reú
 ├── tests/                 suíte pytest, em dois processos
 ├── reports/               resultados versionados (um JSON por medição) e figuras
 ├── models_artifacts/      a rede canônica treinada e a mesma rede sem restrição de monotonicidade
-├── sondas_diagnostico/    as quatro sondas da rodada oficial da versão final
+├── sondas_diagnostico/    as três sondas da rodada oficial da versão final
 ├── data/                  dados (não versionados): instruções e somas SHA-256
 ├── requirements.txt       versões mínimas das dependências
 └── requirements.lock.txt  o conjunto exato do ambiente em que os resultados foram produzidos
@@ -196,7 +196,7 @@ O `scripts/reproduzir.sh` faz as duas coisas ao final.
 **Verificação deste repositório, fora do ambiente oficial.** A partir de um clone limpo e só dos quatro arquivos brutos, em Linux x86-64 com Python 3.13 e as versões do lock:
 
 - `scripts/reproduzir.sh` rodou inteiro em 11 minutos, e a suíte de testes passou inteira, inclusive os quatro testes de integração com o painel real;
-- dos 824 números do registro, 158 dependem do pipeline base e foram recalculados: 148 voltaram iguais a menos de 1e-9 em termos relativos (92 idênticos), e 10 mudaram até 0,8%. Os 10 vêm de modelos LightGBM (a referência de árvores sem o indicador de promoção e o resíduo usado na correlação intra-célula). No texto, isso só move o tamanho efetivo da amostra, de cerca de 34.900 para cerca de 34.700; a correlação intra-célula continua 0,078;
+- dos 821 números do registro, 158 dependem do pipeline base e foram recalculados: 148 voltaram iguais a menos de 1e-9 em termos relativos (92 idênticos), e 10 mudaram até 0,8%. Os 10 vêm de modelos LightGBM (a referência de árvores sem o indicador de promoção e o resíduo usado na correlação intra-célula). No texto, isso só move o tamanho efetivo da amostra, de cerca de 34.900 para cerca de 34.700; a correlação intra-célula continua 0,078;
 - a referência de variáveis instrumentais (Tabela 2) e a sonda 19 voltaram iguais a menos de 2e-13; as sondas 1 e 22 e a auditoria da hierarquia de marca, idênticas byte a byte;
 - a checagem preditiva da Tabela 1, refeita com 2 das 50 sementes, treinou as redes das quatro especificações e reproduziu os valores por semente do arquivo versionado com diferença relativa máxima de 1,6e-4;
 - o objetivo 5 da versão final, refeito para a semente 0 na avaliação sequencial e na anatomia que dá as Tabelas 3 e 4, ficou a menos de 0,02 ponto percentual do valor oficial na margem, em todos os mundos e nas duas políticas, e a menos de 0,25 ponto na receita, cuja superfície tem várias bacias por célula ([`reports/multipartida_item8_frj_k50_nao_piorar.json`](reports/multipartida_item8_frj_k50_nao_piorar.json)).

@@ -4,7 +4,7 @@ Cada medição do trabalho grava um JSON nesta pasta, com os números e a config
 
 ## O registro de números
 
-[`numeros_oficiais.json`](numeros_oficiais.json) é a ponte entre estes arquivos e o texto: 824 números, cada um com o valor, o texto formatado, uma descrição, o script que o produz e o arquivo e o campo de origem. Ele é montado por [`src/reports/numeros_oficiais.py`](../src/reports/numeros_oficiais.py), que só lê artefatos (nenhum valor é digitado à mão), e comparado contra qualquer commit por [`src/reports/comparar_registro.py`](../src/reports/comparar_registro.py). Parte das entradas do registro vem de diagnósticos do pipeline base gravados em `data/interim/painel/` e `data/processed/`, que não são versionados e são refeitos por `scripts/reproduzir.sh`.
+[`numeros_oficiais.json`](numeros_oficiais.json) é a ponte entre estes arquivos e o texto: 821 números, cada um com o valor, o texto formatado, uma descrição, o script que o produz e o arquivo e o campo de origem. Ele é montado por [`src/reports/numeros_oficiais.py`](../src/reports/numeros_oficiais.py), que só lê artefatos (nenhum valor é digitado à mão), e comparado contra qualquer commit por [`src/reports/comparar_registro.py`](../src/reports/comparar_registro.py). Parte das entradas do registro vem de diagnósticos do pipeline base gravados em `data/interim/painel/` e `data/processed/`, que não são versionados e são refeitos por `scripts/reproduzir.sh`.
 
 ## As tabelas do texto
 
