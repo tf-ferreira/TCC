@@ -8,6 +8,8 @@ O trabalho desenvolve um arcabouço prescritivo de precificação para o varejo 
 
 Este repositório reúne tudo o que é necessário para executar o trabalho e conferir seus números: o código, os testes, os scripts de execução na ordem de dependência, os resultados versionados e a rede treinada. O texto do trabalho e os dados brutos não estão aqui (os dados são baixados da fonte original por um script).
 
+**Versão citada no trabalho:** [`tcc-2027`](https://github.com/tf-ferreira/TCC/releases/tag/tcc-2027). O texto indica este repositório na seção de implementação, e os caminhos de arquivo citados nas notas das figuras são os daqui.
+
 ---
 
 ## Sumário
@@ -70,14 +72,15 @@ O registro [`reports/numeros_oficiais.json`](reports/numeros_oficiais.json) reú
 ├── sondas_diagnostico/    as três sondas da rodada oficial da versão final
 ├── data/                  dados (não versionados): instruções e somas SHA-256
 ├── requirements.txt       versões mínimas das dependências
-└── requirements.lock.txt  o conjunto exato do ambiente em que os resultados foram produzidos
+├── requirements.lock.txt  o conjunto exato do ambiente em que os resultados foram produzidos
+└── CITATION.cff           dados de citação (Citation File Format)
 ```
 
 Cada pasta tem um README próprio: [`src/`](src/README.md), [`data/`](data/README.md), [`reports/`](reports/README.md) e [`sondas_diagnostico/`](sondas_diagnostico/README.md).
 
 ## Do texto ao código
 
-Os caminhos citados no trabalho escrito são os deste repositório. As listagens de código do texto (Figuras 1 a 6) são versões condensadas, para leitura; a nota de cada uma aponta o arquivo e as funções reais, todas presentes nos mesmos caminhos.
+Os caminhos citados no trabalho escrito são os deste repositório, na versão `tcc-2027`. As listagens de código do texto (Figuras 1 a 6) são versões condensadas, para leitura; a nota de cada uma aponta o arquivo e as funções reais, todas presentes nos mesmos caminhos.
 
 **Implementação**
 
@@ -104,7 +107,7 @@ Os caminhos citados no trabalho escrito são os deste repositório. As listagens
 | Tabela 2: referência de variáveis instrumentais da elasticidade própria | `src/experiments/referencia_iv.py` | [`reports/referencia_iv_frj.json`](reports/referencia_iv_frj.json) |
 | Tabela 3: objetivo 5 na avaliação de uma semana, por política e mundo | `src/optimization/anatomia_v1.py` e `src/reports/tabela_anatomia_v1.py` | [`reports/tabela_anatomia_v1_frj_v1_n50.json`](reports/tabela_anatomia_v1_frj_v1_n50.json) |
 | Tabela 4: cenário com o canal das defasagens (avaliação sequencial) | `src/optimization/sementes_v1.py` e `src/reports/tabela_mundos_v1.py`, mais a anatomia | [`reports/tabela_mundos_v1_frj_v1_nao_piorar_n50.json`](reports/tabela_mundos_v1_frj_v1_nao_piorar_n50.json), [`reports/tabela_anatomia_v1_frj_v1_n50.json`](reports/tabela_anatomia_v1_frj_v1_n50.json) |
-| O que a política recomendada faz com os preços | `src/optimization/anatomia_v1.py --sufixo _direcao` | [`reports/anatomia_v1_frj_v1_n50_direcao.json`](reports/anatomia_v1_frj_v1_n50_direcao.json) (campo `resumo`) |
+| O que a política recomendada fez com os preços | `src/optimization/anatomia_v1.py --sufixo _direcao` | [`reports/anatomia_v1_frj_v1_n50_direcao.json`](reports/anatomia_v1_frj_v1_n50_direcao.json) (campo `resumo`) |
 | A especificação inicial e o cenário do código de promoção | `src/optimization/sementes_v1.py`, `src/optimization/anatomia_v1.py`, `src/reports/criterio_d43.py` | [`reports/criterio_d43_frj.json`](reports/criterio_d43_frj.json) |
 | Presença por preço positivo e deriva do código de promoção (em O conjunto de dados) | sondas 1 e 22 | [`sondas_diagnostico/`](sondas_diagnostico/) |
 | Parcela da variação de custo comum aos outros produtos | sonda 19 | [`sondas_diagnostico/s19_independencia_do_custo.json`](sondas_diagnostico/s19_independencia_do_custo.json) |
@@ -221,12 +224,14 @@ A única exceção é um resumo agregado por categoria, que alimenta as figuras 
 
 > Ferreira, T. 2027. Precificação dinâmica no varejo: rede neural identificada pelo custo e otimização não linear. Trabalho de Conclusão de Curso (MBA em Data Science e Analytics), USP/ESALQ. Orientadora: Patrícia Belfiore Fávero.
 
+O código, na versão citada no trabalho, está em <https://github.com/tf-ferreira/TCC/tree/tcc-2027>. O arquivo [`CITATION.cff`](CITATION.cff) traz os mesmos dados no formato que o GitHub usa em "Cite this repository".
+
 ```bibtex
 @misc{ferreira2027precificacao,
   author = {Ferreira, Thiago},
   title  = {Precificação dinâmica no varejo: rede neural identificada pelo custo e otimização não linear},
   year   = {2027},
-  note   = {Trabalho de Conclusão de Curso, MBA em Data Science e Analytics, USP/ESALQ. Orientadora: Patrícia Belfiore Fávero},
+  note   = {Trabalho de Conclusão de Curso, MBA em Data Science e Analytics, USP/ESALQ. Orientadora: Patrícia Belfiore Fávero. Código: versão tcc-2027},
   url    = {https://github.com/tf-ferreira/TCC}
 }
 ```

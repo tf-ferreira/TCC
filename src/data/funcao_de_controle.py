@@ -10,7 +10,7 @@ fica associativa: parte do volume das semanas de promoção é creditada ao pre�
 A função de controle (Petrin e Train, 2010) separa as duas coisas. No primeiro
 estágio, por SKU e só na janela de ajuste,
 
-    ln pᵢ = a_loja,i + πᵢ·ln cᵢ + b_i'·harmônicos + δᵢ·tempo + vᵢ
+    ln pᵢ = a_loja,i + πᵢ·ln kᵢ + b_i'·harmônicos + δᵢ·tempo + vᵢ
 
 o resíduo `v̂ᵢ` é a parte do preço que o custo não explica, e é nela que mora o
 choque de demanda que anda junto com a promoção. Com `v̂ᵢ` no contexto de cada

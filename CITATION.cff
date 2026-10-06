@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Se usar este código, cite o trabalho de conclusão de curso indicado em preferred-citation."
+title: "Precificação dinâmica no varejo: rede neural identificada pelo custo e otimização não linear"
+type: software
+authors:
+  - family-names: Ferreira
+    given-names: Thiago
+version: tcc-2027
+date-released: 2026-10-06
+license: MIT
+repository-code: "https://github.com/tf-ferreira/TCC"
+keywords:
+  - precificação dinâmica
+  - elasticidade-preço
+  - função de controle
+  - rede neural
+  - otimização não linear
+  - Dominick's Finer Foods
+preferred-citation:
+  type: thesis
+  title: "Precificação dinâmica no varejo: rede neural identificada pelo custo e otimização não linear"
+  authors:
+    - family-names: Ferreira
+      given-names: Thiago
+  year: 2027
+  thesis-type: "Trabalho de Conclusão de Curso (MBA em Data Science e Analytics)"
+  institution:
+    name: "USP/ESALQ"
+  url: "https://github.com/tf-ferreira/TCC"
+  notes: "Orientadora: Patrícia Belfiore Fávero. Código: versão tcc-2027."
